@@ -1,0 +1,10 @@
+[04:29:2022 08:38:41 INFO]Running server.
+[04:29:2022 08:38:41 INFO][Server Properties]Server Name: MBAJ
+[04:29:2022 08:38:41 INFO][Server Properties]Port Number: 2000
+[04:29:2022 08:38:41 INFO]Initializing socket handler.
+[04:29:2022 08:38:41 INFO]Opening server socket.
+[04:29:2022 08:38:41 INFO][Socket Information]Descriptor: 4
+[04:29:2022 08:38:41 INFO][Socket Information]Address: 0
+[04:29:2022 08:38:41 INFO][Socket Information]Port: 2000
+[04:29:2022 08:38:41 INFO]Creating signals.
+[04:29:2022 08:38:41 INFO]Getting connection to client.

@@ -1,0 +1,20 @@
+[04:27:2022 15:21:42 INFO]Running server.
+[04:27:2022 15:21:42 INFO][Server Properties]Server Name: MBJA
+[04:27:2022 15:21:42 INFO][Server Properties]Port Number: 2000
+[04:27:2022 15:21:42 INFO]Opening server socket.
+[04:27:2022 15:21:42 INFO]Opening a socket.
+[04:27:2022 15:21:42 INFO][Socket Information]Descriptor: 4
+[04:27:2022 15:21:42 INFO][Socket Information]Address: 0
+[04:27:2022 15:21:42 INFO][Socket Information]Port: 2000
+[04:27:2022 15:21:42 INFO]Creating signals.
+[04:27:2022 15:21:42 INFO]Getting connection to client.
+[04:27:2022 15:21:48 INFO][Client Information]Descriptor: 5
+[04:27:2022 15:21:48 INFO]Getting client message...
+[04:27:2022 15:21:48 INFO]Handling request.
+[04:27:2022 15:21:48 INFO][User Message]Request: GET
+[04:27:2022 15:21:48 INFO][User Message]Url: /dir/
+[04:27:2022 15:21:48 INFO]Sending server directory to client.
+[04:27:2022 15:21:48 INFO]./
+[04:27:2022 15:21:48 INFO]Closing client.
+[04:27:2022 15:21:48 INFO]Closing socket.
+[04:27:2022 15:21:48 ERROR]No such file or directory. Could not collect directory information.

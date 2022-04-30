@@ -1,0 +1,2 @@
+[04:29:2022 08:27:04 ERROR]std::exception. The program ran into a problem.
+[04:29:2022 08:27:04 ERROR]Force exiting the program.

@@ -1,0 +1,77 @@
+[04:28:2022 12:07:58 INFO]Running server.
+[04:28:2022 12:07:58 INFO][Server Properties]Server Name: MBAJ
+[04:28:2022 12:07:58 INFO][Server Properties]Port Number: 2000
+[04:28:2022 12:07:58 INFO]Initializing socket handler.
+[04:28:2022 12:07:58 INFO]Opening server socket.
+[04:28:2022 12:07:58 INFO][Socket Information]Descriptor: 4
+[04:28:2022 12:07:58 INFO][Socket Information]Address: 0
+[04:28:2022 12:07:58 INFO][Socket Information]Port: 2000
+[04:28:2022 12:07:58 INFO]Creating signals.
+[04:28:2022 12:07:58 INFO]Getting connection to client.
+[04:28:2022 12:08:07 INFO][Client Information]Descriptor: 5
+[04:28:2022 12:08:07 INFO]Getting client message...
+[04:28:2022 12:08:07 INFO]Handling request.
+[04:28:2022 12:08:07 INFO][User Message]Request: GET
+[04:28:2022 12:08:07 INFO][User Message]Url: /favicon.ico
+[04:28:2022 12:08:07 INFO]Could not find page requested by client. Sending 404 error to client.
+[04:28:2022 12:08:07 INFO]Sending message to client.
+[04:28:2022 12:08:07 INFO]Closing connection to client.
+[04:28:2022 12:08:07 INFO]Getting connection to client.
+[04:28:2022 12:08:14 INFO][Client Information]Descriptor: 5
+[04:28:2022 12:08:14 INFO]Getting client message...
+[04:28:2022 12:08:16 INFO]Handling request.
+[04:28:2022 12:08:16 INFO][User Message]Request: GET
+[04:28:2022 12:08:16 INFO][User Message]Url: /dir/home/admins1/eclipse-workspace/
+[04:28:2022 12:08:16 INFO]Sending server directory to client.
+[04:28:2022 12:08:16 INFO]/home/admins1/eclipse-workspace/
+[04:28:2022 12:08:16 INFO]Sending message to client.
+[04:28:2022 12:08:16 INFO]Closing connection to client.
+[04:28:2022 12:08:16 INFO]Getting connection to client.
+[04:28:2022 12:08:18 INFO][Client Information]Descriptor: 5
+[04:28:2022 12:08:18 INFO]Getting client message...
+[04:28:2022 12:08:21 INFO]Handling request.
+[04:28:2022 12:08:21 INFO][User Message]Request: GET
+[04:28:2022 12:08:21 INFO][User Message]Url: /dir/home/admins1/Downloads/
+[04:28:2022 12:08:21 INFO]Sending server directory to client.
+[04:28:2022 12:08:21 INFO]/home/admins1/Downloads/
+[04:28:2022 12:08:21 INFO]Sending message to client.
+[04:28:2022 12:08:21 INFO]Closing connection to client.
+[04:28:2022 12:08:21 INFO]Getting connection to client.
+[04:28:2022 12:08:25 INFO][Client Information]Descriptor: 5
+[04:28:2022 12:08:25 INFO]Getting client message...
+[04:28:2022 12:08:27 INFO]Handling request.
+[04:28:2022 12:08:27 INFO][User Message]Request: GET
+[04:28:2022 12:08:27 INFO][User Message]Url: /dir/home/admins1/Pictures/
+[04:28:2022 12:08:27 INFO]Sending server directory to client.
+[04:28:2022 12:08:27 INFO]/home/admins1/Pictures/
+[04:28:2022 12:08:27 INFO]Sending message to client.
+[04:28:2022 12:08:27 INFO]Closing connection to client.
+[04:28:2022 12:08:27 INFO]Getting connection to client.
+[04:28:2022 12:08:29 INFO][Client Information]Descriptor: 5
+[04:28:2022 12:08:29 INFO]Getting client message...
+[04:28:2022 12:08:30 INFO]Handling request.
+[04:28:2022 12:08:30 INFO][User Message]Request: GET
+[04:28:2022 12:08:30 INFO][User Message]Url: /dir/home/admins1/Public/
+[04:28:2022 12:08:30 INFO]Sending server directory to client.
+[04:28:2022 12:08:30 INFO]/home/admins1/Public/
+[04:28:2022 12:08:30 INFO]Sending message to client.
+[04:28:2022 12:08:30 INFO]Closing connection to client.
+[04:28:2022 12:08:30 INFO]Getting connection to client.
+[04:28:2022 12:08:33 INFO][Client Information]Descriptor: 5
+[04:28:2022 12:08:33 INFO]Getting client message...
+[04:28:2022 12:08:36 INFO]Handling request.
+[04:28:2022 12:08:36 INFO][User Message]Request: GET
+[04:28:2022 12:08:36 INFO][User Message]Url: /dir/home/admins1/Videos/
+[04:28:2022 12:08:36 INFO]Sending server directory to client.
+[04:28:2022 12:08:36 INFO]/home/admins1/Videos/
+[04:28:2022 12:08:36 INFO]Sending message to client.
+[04:28:2022 12:08:36 INFO]Closing connection to client.
+[04:28:2022 12:08:36 INFO]Getting connection to client.
+[04:28:2022 12:08:42 INFO][Client Information]Descriptor: 5
+[04:28:2022 12:08:42 INFO]Getting client message...
+[04:28:2022 12:08:42 INFO]Handling request.
+[04:28:2022 12:08:42 INFO][User Message]Request: GET
+[04:28:2022 12:08:42 INFO][User Message]Url: /dir/home/admins1/snap/
+[04:28:2022 12:08:42 INFO]Sending server directory to client.
+[04:28:2022 12:08:42 INFO]/home/admins1/snap/
+[04:28:2022 12:08:42 ERROR]Permission denied. Could not scan directory.

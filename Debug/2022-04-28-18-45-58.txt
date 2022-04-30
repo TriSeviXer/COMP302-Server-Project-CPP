@@ -1,0 +1,117 @@
+[04:28:2022 18:45:58 INFO]Running server.
+[04:28:2022 18:45:58 INFO][Server Properties]Server Name: MBAJ
+[04:28:2022 18:45:58 INFO][Server Properties]Port Number: 2000
+[04:28:2022 18:45:58 INFO]Initializing socket handler.
+[04:28:2022 18:45:58 INFO]Opening server socket.
+[04:28:2022 18:45:58 INFO][Socket Information]Descriptor: 4
+[04:28:2022 18:45:58 INFO][Socket Information]Address: 0
+[04:28:2022 18:45:58 INFO][Socket Information]Port: 2000
+[04:28:2022 18:45:58 INFO]Creating signals.
+[04:28:2022 18:45:58 INFO]Getting connection to client.
+[04:28:2022 18:46:02 INFO][Client Information]Descriptor: 5
+[04:28:2022 18:46:02 INFO]Getting client message...
+[04:28:2022 18:46:02 INFO]Handling request.
+[04:28:2022 18:46:02 INFO][User Message]Request: GET
+[04:28:2022 18:46:02 INFO][User Message]Url: /
+[04:28:2022 18:46:02 INFO]Could not find page requested by client. Sending 404 error to client.
+[04:28:2022 18:46:02 INFO]Sending message to client.
+[04:28:2022 18:46:02 INFO]Closing connection to client.
+[04:28:2022 18:46:02 INFO]Getting connection to client.
+[04:28:2022 18:46:02 INFO][Client Information]Descriptor: 5
+[04:28:2022 18:46:02 INFO]Getting client message...
+[04:28:2022 18:46:02 INFO]Handling request.
+[04:28:2022 18:46:02 INFO][User Message]Request: GET
+[04:28:2022 18:46:02 INFO][User Message]Url: /favicon.ico
+[04:28:2022 18:46:02 INFO]Could not find page requested by client. Sending 404 error to client.
+[04:28:2022 18:46:02 INFO]Sending message to client.
+[04:28:2022 18:46:02 INFO]Closing connection to client.
+[04:28:2022 18:46:02 INFO]Getting connection to client.
+[04:28:2022 18:46:07 INFO][Client Information]Descriptor: 5
+[04:28:2022 18:46:07 INFO]Getting client message...
+[04:28:2022 18:46:07 INFO]Handling request.
+[04:28:2022 18:46:07 INFO][User Message]Request: GET
+[04:28:2022 18:46:07 INFO][User Message]Url: /
+[04:28:2022 18:46:07 INFO]Could not find page requested by client. Sending 404 error to client.
+[04:28:2022 18:46:07 INFO]Sending message to client.
+[04:28:2022 18:46:07 INFO]Closing connection to client.
+[04:28:2022 18:46:07 INFO]Getting connection to client.
+[04:28:2022 18:46:12 INFO][Client Information]Descriptor: 5
+[04:28:2022 18:46:12 INFO]Getting client message...
+[04:28:2022 18:46:12 INFO]Handling request.
+[04:28:2022 18:46:12 INFO][User Message]Request: GET
+[04:28:2022 18:46:12 INFO][User Message]Url: /status
+[04:28:2022 18:46:12 INFO]Sending server status to client.
+[04:28:2022 18:46:12 INFO]Sending message to client.
+[04:28:2022 18:46:12 INFO]Closing connection to client.
+[04:28:2022 18:46:12 INFO]Getting connection to client.
+[04:28:2022 18:46:26 INFO][Client Information]Descriptor: 5
+[04:28:2022 18:46:26 INFO]Getting client message...
+[04:28:2022 18:46:26 INFO]Handling request.
+[04:28:2022 18:46:26 INFO][User Message]Request: GET
+[04:28:2022 18:46:26 INFO][User Message]Url: /status/dir
+[04:28:2022 18:46:26 INFO]Could not find page requested by client. Sending 404 error to client.
+[04:28:2022 18:46:26 INFO]Sending message to client.
+[04:28:2022 18:46:26 INFO]Closing connection to client.
+[04:28:2022 18:46:26 INFO]Getting connection to client.
+[04:28:2022 18:46:32 INFO][Client Information]Descriptor: 5
+[04:28:2022 18:46:32 INFO]Getting client message...
+[04:28:2022 18:46:32 INFO]Handling request.
+[04:28:2022 18:46:32 INFO][User Message]Request: GET
+[04:28:2022 18:46:32 INFO][User Message]Url: /dir/status
+[04:28:2022 18:46:32 INFO]Sending server directory to client.
+[04:28:2022 18:46:32 INFO]/status
+[04:28:2022 18:46:32 WARN]Could not scan directory.
+[04:28:2022 18:46:32 WARN]Unknown problem sending a page. Sending 404 error instead.
+[04:28:2022 18:46:32 INFO]Sending message to client.
+[04:28:2022 18:46:32 INFO]Closing connection to client.
+[04:28:2022 18:46:32 INFO]Getting connection to client.
+[04:28:2022 18:46:37 INFO][Client Information]Descriptor: 5
+[04:28:2022 18:46:37 INFO]Getting client message...
+[04:28:2022 18:46:37 INFO]Handling request.
+[04:28:2022 18:46:37 INFO][User Message]Request: GET
+[04:28:2022 18:46:37 INFO][User Message]Url: /dir
+[04:28:2022 18:46:37 INFO]Sending server directory to client.
+[04:28:2022 18:46:37 INFO]
+[04:28:2022 18:46:37 WARN]Could not scan directory.
+[04:28:2022 18:46:37 WARN]Unknown problem sending a page. Sending 404 error instead.
+[04:28:2022 18:46:37 INFO]Sending message to client.
+[04:28:2022 18:46:37 INFO]Closing connection to client.
+[04:28:2022 18:46:37 INFO]Getting connection to client.
+[04:28:2022 18:46:41 INFO][Client Information]Descriptor: 5
+[04:28:2022 18:46:41 INFO]Getting client message...
+[04:28:2022 18:46:41 INFO]Handling request.
+[04:28:2022 18:46:41 INFO][User Message]Request: GET
+[04:28:2022 18:46:41 INFO][User Message]Url: /dir/
+[04:28:2022 18:46:41 INFO]Sending server directory to client.
+[04:28:2022 18:46:41 INFO]/
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'var'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'usr'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'tmp'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'sys'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'swapfile'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'srv'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'snap'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'sbin'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'run'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'root'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'proc'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'opt'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'mnt'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'media'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'lost+found'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'libx32'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'lib64'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'lib32'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'lib'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'home'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'etc'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'dev'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'data'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'cdrom'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'boot'.
+[04:28:2022 18:46:41 WARN]Unable to collect file information for 'bin'.
+[04:28:2022 18:46:41 INFO]Sending message to client.
+[04:28:2022 18:46:41 INFO]Closing connection to client.
+[04:28:2022 18:46:41 INFO]Getting connection to client.
+[04:28:2022 18:46:43 INFO][Client Information]Descriptor: 5
+[04:28:2022 18:46:43 INFO]Getting client message...

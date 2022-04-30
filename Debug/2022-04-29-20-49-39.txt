@@ -1,0 +1,7 @@
+[04:29:2022 20:49:39 INFO]Running server.
+[04:29:2022 20:49:39 INFO][Server Properties]Server Name: MBAJ
+[04:29:2022 20:49:39 INFO][Server Properties]Port Number: 2000
+[04:29:2022 20:49:39 INFO]Initializing socket handler.
+[04:29:2022 20:49:39 INFO]Opening server socket.
+[04:29:2022 20:49:39 ERROR]Could not bind socket to address.. The program ran into a problem.
+[04:29:2022 20:49:39 ERROR]Force exiting the program.

@@ -1,0 +1,21 @@
+[04:28:2022 18:43:11 INFO]Running server.
+[04:28:2022 18:43:11 INFO][Server Properties]Server Name: MBAJ
+[04:28:2022 18:43:11 INFO][Server Properties]Port Number: 2000
+[04:28:2022 18:43:11 INFO]Initializing socket handler.
+[04:28:2022 18:43:11 INFO]Opening server socket.
+[04:28:2022 18:43:11 INFO][Socket Information]Descriptor: 4
+[04:28:2022 18:43:11 INFO][Socket Information]Address: 0
+[04:28:2022 18:43:11 INFO][Socket Information]Port: 2000
+[04:28:2022 18:43:11 INFO]Creating signals.
+[04:28:2022 18:43:11 INFO]Getting connection to client.
+[04:28:2022 18:43:18 INFO][Client Information]Descriptor: 5
+[04:28:2022 18:43:18 INFO]Getting client message...
+[04:28:2022 18:43:18 INFO]Handling request.
+[04:28:2022 18:43:18 INFO][User Message]Request: GET
+[04:28:2022 18:43:18 INFO][User Message]Url: /favicon.ico
+[04:28:2022 18:43:18 INFO]Could not find page requested by client. Sending 404 error to client.
+[04:28:2022 18:43:18 INFO]Sending message to client.
+[04:28:2022 18:43:18 INFO]Closing connection to client.
+[04:28:2022 18:43:18 INFO]Getting connection to client.
+[04:28:2022 18:43:20 INFO][Client Information]Descriptor: 5
+[04:28:2022 18:43:20 INFO]Getting client message...

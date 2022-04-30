@@ -1,0 +1,610 @@
+[04:29:2022 20:20:57 INFO]Running server.
+[04:29:2022 20:20:57 INFO][Server Properties]Server Name: MBAJ
+[04:29:2022 20:20:57 INFO][Server Properties]Port Number: 2000
+[04:29:2022 20:20:57 INFO]Initializing socket handler.
+[04:29:2022 20:20:57 INFO]Opening server socket.
+[04:29:2022 20:20:57 INFO][Socket Information]Descriptor: 4
+[04:29:2022 20:20:57 INFO][Socket Information]Address: 0
+[04:29:2022 20:20:57 INFO][Socket Information]Port: 2000
+[04:29:2022 20:20:57 INFO]Creating signals.
+[04:29:2022 20:20:57 INFO]Getting connection to client.
+[04:29:2022 20:21:02 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:02 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:02 INFO][Client Information]Port: 24289
+[04:29:2022 20:21:02 INFO]Getting client message...
+[04:29:2022 20:21:02 INFO]Handling request.
+[04:29:2022 20:21:02 INFO][User Message]Request: GET
+[04:29:2022 20:21:02 INFO][User Message]Url: /status
+[04:29:2022 20:21:02 INFO]Sending server status to client.
+[04:29:2022 20:21:02 INFO]Sending message to client.
+[04:29:2022 20:21:02 INFO]Closing connection to client.
+[04:29:2022 20:21:02 INFO]Getting connection to client.
+[04:29:2022 20:21:12 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:12 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:12 INFO][Client Information]Port: 24801
+[04:29:2022 20:21:12 INFO]Getting client message...
+[04:29:2022 20:21:12 INFO]Handling request.
+[04:29:2022 20:21:12 INFO][User Message]Request: GET
+[04:29:2022 20:21:12 INFO][User Message]Url: /status/
+[04:29:2022 20:21:12 INFO]Sending server status to client.
+[04:29:2022 20:21:12 INFO]Sending message to client.
+[04:29:2022 20:21:12 INFO]Closing connection to client.
+[04:29:2022 20:21:12 INFO]Getting connection to client.
+[04:29:2022 20:21:16 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:16 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:16 INFO][Client Information]Port: 25313
+[04:29:2022 20:21:16 INFO]Getting client message...
+[04:29:2022 20:21:16 INFO]Handling request.
+[04:29:2022 20:21:16 INFO][User Message]Request: GET
+[04:29:2022 20:21:16 INFO][User Message]Url: /status/
+[04:29:2022 20:21:16 INFO]Sending server status to client.
+[04:29:2022 20:21:16 INFO]Sending message to client.
+[04:29:2022 20:21:16 INFO]Closing connection to client.
+[04:29:2022 20:21:16 INFO]Getting connection to client.
+[04:29:2022 20:21:17 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:17 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:17 INFO][Client Information]Port: 25825
+[04:29:2022 20:21:17 INFO]Getting client message...
+[04:29:2022 20:21:17 INFO]Handling request.
+[04:29:2022 20:21:17 INFO][User Message]Request: GET
+[04:29:2022 20:21:17 INFO][User Message]Url: /status/
+[04:29:2022 20:21:17 INFO]Sending server status to client.
+[04:29:2022 20:21:17 INFO]Sending message to client.
+[04:29:2022 20:21:17 INFO]Closing connection to client.
+[04:29:2022 20:21:17 INFO]Getting connection to client.
+[04:29:2022 20:21:17 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:17 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:17 INFO][Client Information]Port: 26337
+[04:29:2022 20:21:17 INFO]Getting client message...
+[04:29:2022 20:21:17 INFO]Handling request.
+[04:29:2022 20:21:17 INFO][User Message]Request: GET
+[04:29:2022 20:21:17 INFO][User Message]Url: /status/
+[04:29:2022 20:21:17 INFO]Sending server status to client.
+[04:29:2022 20:21:17 INFO]Sending message to client.
+[04:29:2022 20:21:17 INFO]Closing connection to client.
+[04:29:2022 20:21:17 INFO]Getting connection to client.
+[04:29:2022 20:21:18 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:18 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:18 INFO][Client Information]Port: 27361
+[04:29:2022 20:21:18 INFO]Getting client message...
+[04:29:2022 20:21:18 INFO]Handling request.
+[04:29:2022 20:21:18 INFO][User Message]Request: GET
+[04:29:2022 20:21:18 INFO][User Message]Url: /status/
+[04:29:2022 20:21:18 INFO]Sending server status to client.
+[04:29:2022 20:21:18 INFO]Sending message to client.
+[04:29:2022 20:21:18 INFO]Closing connection to client.
+[04:29:2022 20:21:18 INFO]Getting connection to client.
+[04:29:2022 20:21:18 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:18 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:18 INFO][Client Information]Port: 27873
+[04:29:2022 20:21:18 INFO]Getting client message...
+[04:29:2022 20:21:18 INFO]Handling request.
+[04:29:2022 20:21:18 INFO][User Message]Request: GET
+[04:29:2022 20:21:18 INFO][User Message]Url: /status/
+[04:29:2022 20:21:18 INFO]Sending server status to client.
+[04:29:2022 20:21:18 INFO]Sending message to client.
+[04:29:2022 20:21:18 INFO]Closing connection to client.
+[04:29:2022 20:21:18 INFO]Getting connection to client.
+[04:29:2022 20:21:18 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:18 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:18 INFO][Client Information]Port: 28385
+[04:29:2022 20:21:18 INFO]Getting client message...
+[04:29:2022 20:21:18 INFO]Handling request.
+[04:29:2022 20:21:18 INFO][User Message]Request: GET
+[04:29:2022 20:21:18 INFO][User Message]Url: /status/
+[04:29:2022 20:21:18 INFO]Sending server status to client.
+[04:29:2022 20:21:18 INFO]Sending message to client.
+[04:29:2022 20:21:18 INFO]Closing connection to client.
+[04:29:2022 20:21:18 INFO]Getting connection to client.
+[04:29:2022 20:21:18 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:18 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:18 INFO][Client Information]Port: 28897
+[04:29:2022 20:21:18 INFO]Getting client message...
+[04:29:2022 20:21:18 INFO]Handling request.
+[04:29:2022 20:21:18 INFO][User Message]Request: GET
+[04:29:2022 20:21:18 INFO][User Message]Url: /status/
+[04:29:2022 20:21:18 INFO]Sending server status to client.
+[04:29:2022 20:21:18 INFO]Sending message to client.
+[04:29:2022 20:21:18 INFO]Closing connection to client.
+[04:29:2022 20:21:18 INFO]Getting connection to client.
+[04:29:2022 20:21:19 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:19 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:19 INFO][Client Information]Port: 29409
+[04:29:2022 20:21:19 INFO]Getting client message...
+[04:29:2022 20:21:19 INFO]Handling request.
+[04:29:2022 20:21:19 INFO][User Message]Request: GET
+[04:29:2022 20:21:19 INFO][User Message]Url: /status/
+[04:29:2022 20:21:19 INFO]Sending server status to client.
+[04:29:2022 20:21:19 INFO]Sending message to client.
+[04:29:2022 20:21:19 INFO]Closing connection to client.
+[04:29:2022 20:21:19 INFO]Getting connection to client.
+[04:29:2022 20:21:19 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:19 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:19 INFO][Client Information]Port: 29921
+[04:29:2022 20:21:19 INFO]Getting client message...
+[04:29:2022 20:21:19 INFO]Handling request.
+[04:29:2022 20:21:19 INFO][User Message]Request: GET
+[04:29:2022 20:21:19 INFO][User Message]Url: /status/
+[04:29:2022 20:21:19 INFO]Sending server status to client.
+[04:29:2022 20:21:19 INFO]Sending message to client.
+[04:29:2022 20:21:19 INFO]Closing connection to client.
+[04:29:2022 20:21:19 INFO]Getting connection to client.
+[04:29:2022 20:21:19 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:19 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:19 INFO][Client Information]Port: 30433
+[04:29:2022 20:21:19 INFO]Getting client message...
+[04:29:2022 20:21:19 INFO]Handling request.
+[04:29:2022 20:21:19 INFO][User Message]Request: GET
+[04:29:2022 20:21:19 INFO][User Message]Url: /status/
+[04:29:2022 20:21:19 INFO]Sending server status to client.
+[04:29:2022 20:21:19 INFO]Sending message to client.
+[04:29:2022 20:21:19 INFO]Closing connection to client.
+[04:29:2022 20:21:19 INFO]Getting connection to client.
+[04:29:2022 20:21:19 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:19 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:19 INFO][Client Information]Port: 30945
+[04:29:2022 20:21:19 INFO]Getting client message...
+[04:29:2022 20:21:19 INFO]Handling request.
+[04:29:2022 20:21:19 INFO][User Message]Request: GET
+[04:29:2022 20:21:19 INFO][User Message]Url: /status/
+[04:29:2022 20:21:19 INFO]Sending server status to client.
+[04:29:2022 20:21:19 INFO]Sending message to client.
+[04:29:2022 20:21:19 INFO]Closing connection to client.
+[04:29:2022 20:21:19 INFO]Getting connection to client.
+[04:29:2022 20:21:19 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:19 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:19 INFO][Client Information]Port: 31457
+[04:29:2022 20:21:19 INFO]Getting client message...
+[04:29:2022 20:21:19 INFO]Handling request.
+[04:29:2022 20:21:19 INFO][User Message]Request: GET
+[04:29:2022 20:21:19 INFO][User Message]Url: /status/
+[04:29:2022 20:21:19 INFO]Sending server status to client.
+[04:29:2022 20:21:19 INFO]Sending message to client.
+[04:29:2022 20:21:19 INFO]Closing connection to client.
+[04:29:2022 20:21:19 INFO]Getting connection to client.
+[04:29:2022 20:21:20 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:20 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:20 INFO][Client Information]Port: 31969
+[04:29:2022 20:21:20 INFO]Getting client message...
+[04:29:2022 20:21:20 INFO]Handling request.
+[04:29:2022 20:21:20 INFO][User Message]Request: GET
+[04:29:2022 20:21:20 INFO][User Message]Url: /status/
+[04:29:2022 20:21:20 INFO]Sending server status to client.
+[04:29:2022 20:21:20 INFO]Sending message to client.
+[04:29:2022 20:21:20 INFO]Closing connection to client.
+[04:29:2022 20:21:20 INFO]Getting connection to client.
+[04:29:2022 20:21:20 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:20 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:20 INFO][Client Information]Port: 32481
+[04:29:2022 20:21:20 INFO]Getting client message...
+[04:29:2022 20:21:20 INFO]Handling request.
+[04:29:2022 20:21:20 INFO][User Message]Request: GET
+[04:29:2022 20:21:20 INFO][User Message]Url: /status/
+[04:29:2022 20:21:20 INFO]Sending server status to client.
+[04:29:2022 20:21:20 INFO]Sending message to client.
+[04:29:2022 20:21:20 INFO]Closing connection to client.
+[04:29:2022 20:21:20 INFO]Getting connection to client.
+[04:29:2022 20:21:20 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:20 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:20 INFO][Client Information]Port: 32993
+[04:29:2022 20:21:20 INFO]Getting client message...
+[04:29:2022 20:21:20 INFO]Handling request.
+[04:29:2022 20:21:20 INFO][User Message]Request: GET
+[04:29:2022 20:21:20 INFO][User Message]Url: /status/
+[04:29:2022 20:21:20 INFO]Sending server status to client.
+[04:29:2022 20:21:20 INFO]Sending message to client.
+[04:29:2022 20:21:20 INFO]Closing connection to client.
+[04:29:2022 20:21:20 INFO]Getting connection to client.
+[04:29:2022 20:21:20 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:20 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:20 INFO][Client Information]Port: 33505
+[04:29:2022 20:21:20 INFO]Getting client message...
+[04:29:2022 20:21:20 INFO]Handling request.
+[04:29:2022 20:21:20 INFO][User Message]Request: GET
+[04:29:2022 20:21:20 INFO][User Message]Url: /status/
+[04:29:2022 20:21:20 INFO]Sending server status to client.
+[04:29:2022 20:21:20 INFO]Sending message to client.
+[04:29:2022 20:21:20 INFO]Closing connection to client.
+[04:29:2022 20:21:20 INFO]Getting connection to client.
+[04:29:2022 20:21:20 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:20 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:20 INFO][Client Information]Port: 34017
+[04:29:2022 20:21:20 INFO]Getting client message...
+[04:29:2022 20:21:20 INFO]Handling request.
+[04:29:2022 20:21:20 INFO][User Message]Request: GET
+[04:29:2022 20:21:20 INFO][User Message]Url: /status/
+[04:29:2022 20:21:20 INFO]Sending server status to client.
+[04:29:2022 20:21:20 INFO]Sending message to client.
+[04:29:2022 20:21:20 INFO]Closing connection to client.
+[04:29:2022 20:21:20 INFO]Getting connection to client.
+[04:29:2022 20:21:21 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:21 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:21 INFO][Client Information]Port: 34529
+[04:29:2022 20:21:21 INFO]Getting client message...
+[04:29:2022 20:21:21 INFO]Handling request.
+[04:29:2022 20:21:21 INFO][User Message]Request: GET
+[04:29:2022 20:21:21 INFO][User Message]Url: /status/
+[04:29:2022 20:21:21 INFO]Sending server status to client.
+[04:29:2022 20:21:21 INFO]Sending message to client.
+[04:29:2022 20:21:21 INFO]Closing connection to client.
+[04:29:2022 20:21:21 INFO]Getting connection to client.
+[04:29:2022 20:21:21 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:21 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:21 INFO][Client Information]Port: 35041
+[04:29:2022 20:21:21 INFO]Getting client message...
+[04:29:2022 20:21:21 INFO]Handling request.
+[04:29:2022 20:21:21 INFO][User Message]Request: GET
+[04:29:2022 20:21:21 INFO][User Message]Url: /status/
+[04:29:2022 20:21:21 INFO]Sending server status to client.
+[04:29:2022 20:21:21 INFO]Sending message to client.
+[04:29:2022 20:21:21 INFO]Closing connection to client.
+[04:29:2022 20:21:21 INFO]Getting connection to client.
+[04:29:2022 20:21:21 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:21 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:21 INFO][Client Information]Port: 35553
+[04:29:2022 20:21:21 INFO]Getting client message...
+[04:29:2022 20:21:21 INFO]Handling request.
+[04:29:2022 20:21:21 INFO][User Message]Request: GET
+[04:29:2022 20:21:21 INFO][User Message]Url: /status/
+[04:29:2022 20:21:21 INFO]Sending server status to client.
+[04:29:2022 20:21:21 INFO]Sending message to client.
+[04:29:2022 20:21:21 INFO]Closing connection to client.
+[04:29:2022 20:21:21 INFO]Getting connection to client.
+[04:29:2022 20:21:21 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:21 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:21 INFO][Client Information]Port: 36065
+[04:29:2022 20:21:21 INFO]Getting client message...
+[04:29:2022 20:21:21 INFO]Handling request.
+[04:29:2022 20:21:21 INFO][User Message]Request: GET
+[04:29:2022 20:21:21 INFO][User Message]Url: /status/
+[04:29:2022 20:21:21 INFO]Sending server status to client.
+[04:29:2022 20:21:21 INFO]Sending message to client.
+[04:29:2022 20:21:21 INFO]Closing connection to client.
+[04:29:2022 20:21:21 INFO]Getting connection to client.
+[04:29:2022 20:21:21 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:21 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:21 INFO][Client Information]Port: 36577
+[04:29:2022 20:21:21 INFO]Getting client message...
+[04:29:2022 20:21:21 INFO]Handling request.
+[04:29:2022 20:21:21 INFO][User Message]Request: GET
+[04:29:2022 20:21:21 INFO][User Message]Url: /status/
+[04:29:2022 20:21:21 INFO]Sending server status to client.
+[04:29:2022 20:21:21 INFO]Sending message to client.
+[04:29:2022 20:21:21 INFO]Closing connection to client.
+[04:29:2022 20:21:21 INFO]Getting connection to client.
+[04:29:2022 20:21:21 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:21 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:21 INFO][Client Information]Port: 37089
+[04:29:2022 20:21:21 INFO]Getting client message...
+[04:29:2022 20:21:21 INFO]Handling request.
+[04:29:2022 20:21:21 INFO][User Message]Request: GET
+[04:29:2022 20:21:21 INFO][User Message]Url: /status/
+[04:29:2022 20:21:21 INFO]Sending server status to client.
+[04:29:2022 20:21:21 INFO]Sending message to client.
+[04:29:2022 20:21:21 INFO]Closing connection to client.
+[04:29:2022 20:21:21 INFO]Getting connection to client.
+[04:29:2022 20:21:21 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:21 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:21 INFO][Client Information]Port: 37601
+[04:29:2022 20:21:21 INFO]Getting client message...
+[04:29:2022 20:21:21 INFO]Handling request.
+[04:29:2022 20:21:21 INFO][User Message]Request: GET
+[04:29:2022 20:21:21 INFO][User Message]Url: /status/
+[04:29:2022 20:21:21 INFO]Sending server status to client.
+[04:29:2022 20:21:21 INFO]Sending message to client.
+[04:29:2022 20:21:21 INFO]Closing connection to client.
+[04:29:2022 20:21:21 INFO]Getting connection to client.
+[04:29:2022 20:21:22 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:22 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:22 INFO][Client Information]Port: 38113
+[04:29:2022 20:21:22 INFO]Getting client message...
+[04:29:2022 20:21:22 INFO]Handling request.
+[04:29:2022 20:21:22 INFO][User Message]Request: GET
+[04:29:2022 20:21:22 INFO][User Message]Url: /status/
+[04:29:2022 20:21:22 INFO]Sending server status to client.
+[04:29:2022 20:21:22 INFO]Sending message to client.
+[04:29:2022 20:21:22 INFO]Closing connection to client.
+[04:29:2022 20:21:22 INFO]Getting connection to client.
+[04:29:2022 20:21:22 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:22 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:22 INFO][Client Information]Port: 38625
+[04:29:2022 20:21:22 INFO]Getting client message...
+[04:29:2022 20:21:22 INFO]Handling request.
+[04:29:2022 20:21:22 INFO][User Message]Request: GET
+[04:29:2022 20:21:22 INFO][User Message]Url: /status/
+[04:29:2022 20:21:22 INFO]Sending server status to client.
+[04:29:2022 20:21:22 INFO]Sending message to client.
+[04:29:2022 20:21:22 INFO]Closing connection to client.
+[04:29:2022 20:21:22 INFO]Getting connection to client.
+[04:29:2022 20:21:22 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:22 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:22 INFO][Client Information]Port: 39137
+[04:29:2022 20:21:22 INFO]Getting client message...
+[04:29:2022 20:21:22 INFO]Handling request.
+[04:29:2022 20:21:22 INFO][User Message]Request: GET
+[04:29:2022 20:21:22 INFO][User Message]Url: /status/
+[04:29:2022 20:21:22 INFO]Sending server status to client.
+[04:29:2022 20:21:22 INFO]Sending message to client.
+[04:29:2022 20:21:22 INFO]Closing connection to client.
+[04:29:2022 20:21:22 INFO]Getting connection to client.
+[04:29:2022 20:21:22 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:22 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:22 INFO][Client Information]Port: 39649
+[04:29:2022 20:21:22 INFO]Getting client message...
+[04:29:2022 20:21:22 INFO]Handling request.
+[04:29:2022 20:21:22 INFO][User Message]Request: GET
+[04:29:2022 20:21:22 INFO][User Message]Url: /status/
+[04:29:2022 20:21:22 INFO]Sending server status to client.
+[04:29:2022 20:21:22 INFO]Sending message to client.
+[04:29:2022 20:21:22 INFO]Closing connection to client.
+[04:29:2022 20:21:22 INFO]Getting connection to client.
+[04:29:2022 20:21:23 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:23 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:23 INFO][Client Information]Port: 40673
+[04:29:2022 20:21:23 INFO]Getting client message...
+[04:29:2022 20:21:23 INFO]Handling request.
+[04:29:2022 20:21:23 INFO][User Message]Request: GET
+[04:29:2022 20:21:23 INFO][User Message]Url: /status/
+[04:29:2022 20:21:23 INFO]Sending server status to client.
+[04:29:2022 20:21:23 INFO]Sending message to client.
+[04:29:2022 20:21:23 INFO]Closing connection to client.
+[04:29:2022 20:21:23 INFO]Getting connection to client.
+[04:29:2022 20:21:23 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:23 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:23 INFO][Client Information]Port: 41185
+[04:29:2022 20:21:23 INFO]Getting client message...
+[04:29:2022 20:21:23 INFO]Handling request.
+[04:29:2022 20:21:23 INFO][User Message]Request: GET
+[04:29:2022 20:21:23 INFO][User Message]Url: /status/
+[04:29:2022 20:21:23 INFO]Sending server status to client.
+[04:29:2022 20:21:23 INFO]Sending message to client.
+[04:29:2022 20:21:23 INFO]Closing connection to client.
+[04:29:2022 20:21:23 INFO]Getting connection to client.
+[04:29:2022 20:21:23 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:23 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:23 INFO][Client Information]Port: 41697
+[04:29:2022 20:21:23 INFO]Getting client message...
+[04:29:2022 20:21:23 INFO]Handling request.
+[04:29:2022 20:21:23 INFO][User Message]Request: GET
+[04:29:2022 20:21:23 INFO][User Message]Url: /status/
+[04:29:2022 20:21:23 INFO]Sending server status to client.
+[04:29:2022 20:21:23 INFO]Sending message to client.
+[04:29:2022 20:21:23 INFO]Closing connection to client.
+[04:29:2022 20:21:23 INFO]Getting connection to client.
+[04:29:2022 20:21:23 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:23 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:23 INFO][Client Information]Port: 42209
+[04:29:2022 20:21:23 INFO]Getting client message...
+[04:29:2022 20:21:23 INFO]Handling request.
+[04:29:2022 20:21:23 INFO][User Message]Request: GET
+[04:29:2022 20:21:23 INFO][User Message]Url: /status/
+[04:29:2022 20:21:23 INFO]Sending server status to client.
+[04:29:2022 20:21:23 INFO]Sending message to client.
+[04:29:2022 20:21:23 INFO]Closing connection to client.
+[04:29:2022 20:21:23 INFO]Getting connection to client.
+[04:29:2022 20:21:24 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:24 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:24 INFO][Client Information]Port: 42721
+[04:29:2022 20:21:24 INFO]Getting client message...
+[04:29:2022 20:21:24 INFO]Handling request.
+[04:29:2022 20:21:24 INFO][User Message]Request: GET
+[04:29:2022 20:21:24 INFO][User Message]Url: /status/
+[04:29:2022 20:21:24 INFO]Sending server status to client.
+[04:29:2022 20:21:24 INFO]Sending message to client.
+[04:29:2022 20:21:24 INFO]Closing connection to client.
+[04:29:2022 20:21:24 INFO]Getting connection to client.
+[04:29:2022 20:21:24 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:24 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:24 INFO][Client Information]Port: 43233
+[04:29:2022 20:21:24 INFO]Getting client message...
+[04:29:2022 20:21:24 INFO]Handling request.
+[04:29:2022 20:21:24 INFO][User Message]Request: GET
+[04:29:2022 20:21:24 INFO][User Message]Url: /status/
+[04:29:2022 20:21:24 INFO]Sending server status to client.
+[04:29:2022 20:21:24 INFO]Sending message to client.
+[04:29:2022 20:21:24 INFO]Closing connection to client.
+[04:29:2022 20:21:24 INFO]Getting connection to client.
+[04:29:2022 20:21:24 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:24 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:24 INFO][Client Information]Port: 43745
+[04:29:2022 20:21:24 INFO]Getting client message...
+[04:29:2022 20:21:24 INFO]Handling request.
+[04:29:2022 20:21:24 INFO][User Message]Request: GET
+[04:29:2022 20:21:24 INFO][User Message]Url: /status/
+[04:29:2022 20:21:24 INFO]Sending server status to client.
+[04:29:2022 20:21:24 INFO]Sending message to client.
+[04:29:2022 20:21:24 INFO]Closing connection to client.
+[04:29:2022 20:21:24 INFO]Getting connection to client.
+[04:29:2022 20:21:24 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:24 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:24 INFO][Client Information]Port: 44257
+[04:29:2022 20:21:24 INFO]Getting client message...
+[04:29:2022 20:21:24 INFO]Handling request.
+[04:29:2022 20:21:24 INFO][User Message]Request: GET
+[04:29:2022 20:21:24 INFO][User Message]Url: /status/
+[04:29:2022 20:21:24 INFO]Sending server status to client.
+[04:29:2022 20:21:24 INFO]Sending message to client.
+[04:29:2022 20:21:24 INFO]Closing connection to client.
+[04:29:2022 20:21:24 INFO]Getting connection to client.
+[04:29:2022 20:21:24 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:24 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:24 INFO][Client Information]Port: 44769
+[04:29:2022 20:21:24 INFO]Getting client message...
+[04:29:2022 20:21:24 INFO]Handling request.
+[04:29:2022 20:21:24 INFO][User Message]Request: GET
+[04:29:2022 20:21:24 INFO][User Message]Url: /status/
+[04:29:2022 20:21:24 INFO]Sending server status to client.
+[04:29:2022 20:21:24 INFO]Sending message to client.
+[04:29:2022 20:21:24 INFO]Closing connection to client.
+[04:29:2022 20:21:24 INFO]Getting connection to client.
+[04:29:2022 20:21:24 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:24 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:24 INFO][Client Information]Port: 45281
+[04:29:2022 20:21:24 INFO]Getting client message...
+[04:29:2022 20:21:24 INFO]Handling request.
+[04:29:2022 20:21:24 INFO][User Message]Request: GET
+[04:29:2022 20:21:24 INFO][User Message]Url: /status/
+[04:29:2022 20:21:24 INFO]Sending server status to client.
+[04:29:2022 20:21:24 INFO]Sending message to client.
+[04:29:2022 20:21:24 INFO]Closing connection to client.
+[04:29:2022 20:21:24 INFO]Getting connection to client.
+[04:29:2022 20:21:24 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:24 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:24 INFO][Client Information]Port: 45793
+[04:29:2022 20:21:24 INFO]Getting client message...
+[04:29:2022 20:21:24 INFO]Handling request.
+[04:29:2022 20:21:24 INFO][User Message]Request: GET
+[04:29:2022 20:21:24 INFO][User Message]Url: /status/
+[04:29:2022 20:21:24 INFO]Sending server status to client.
+[04:29:2022 20:21:24 INFO]Sending message to client.
+[04:29:2022 20:21:24 INFO]Closing connection to client.
+[04:29:2022 20:21:24 INFO]Getting connection to client.
+[04:29:2022 20:21:25 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:25 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:25 INFO][Client Information]Port: 46305
+[04:29:2022 20:21:25 INFO]Getting client message...
+[04:29:2022 20:21:25 INFO]Handling request.
+[04:29:2022 20:21:25 INFO][User Message]Request: GET
+[04:29:2022 20:21:25 INFO][User Message]Url: /status/
+[04:29:2022 20:21:25 INFO]Sending server status to client.
+[04:29:2022 20:21:25 INFO]Sending message to client.
+[04:29:2022 20:21:25 INFO]Closing connection to client.
+[04:29:2022 20:21:25 INFO]Getting connection to client.
+[04:29:2022 20:21:25 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:25 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:25 INFO][Client Information]Port: 46817
+[04:29:2022 20:21:25 INFO]Getting client message...
+[04:29:2022 20:21:25 INFO]Handling request.
+[04:29:2022 20:21:25 INFO][User Message]Request: GET
+[04:29:2022 20:21:25 INFO][User Message]Url: /status/
+[04:29:2022 20:21:25 INFO]Sending server status to client.
+[04:29:2022 20:21:25 INFO]Sending message to client.
+[04:29:2022 20:21:25 INFO]Closing connection to client.
+[04:29:2022 20:21:25 INFO]Getting connection to client.
+[04:29:2022 20:21:25 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:25 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:25 INFO][Client Information]Port: 47329
+[04:29:2022 20:21:25 INFO]Getting client message...
+[04:29:2022 20:21:25 INFO]Handling request.
+[04:29:2022 20:21:25 INFO][User Message]Request: GET
+[04:29:2022 20:21:25 INFO][User Message]Url: /status/
+[04:29:2022 20:21:25 INFO]Sending server status to client.
+[04:29:2022 20:21:25 INFO]Sending message to client.
+[04:29:2022 20:21:25 INFO]Closing connection to client.
+[04:29:2022 20:21:25 INFO]Getting connection to client.
+[04:29:2022 20:21:25 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:25 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:25 INFO][Client Information]Port: 47841
+[04:29:2022 20:21:25 INFO]Getting client message...
+[04:29:2022 20:21:25 INFO]Handling request.
+[04:29:2022 20:21:25 INFO][User Message]Request: GET
+[04:29:2022 20:21:25 INFO][User Message]Url: /status/
+[04:29:2022 20:21:25 INFO]Sending server status to client.
+[04:29:2022 20:21:25 INFO]Sending message to client.
+[04:29:2022 20:21:25 INFO]Closing connection to client.
+[04:29:2022 20:21:25 INFO]Getting connection to client.
+[04:29:2022 20:21:25 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:25 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:25 INFO][Client Information]Port: 48353
+[04:29:2022 20:21:25 INFO]Getting client message...
+[04:29:2022 20:21:25 INFO]Handling request.
+[04:29:2022 20:21:25 INFO][User Message]Request: GET
+[04:29:2022 20:21:25 INFO][User Message]Url: /status/
+[04:29:2022 20:21:25 INFO]Sending server status to client.
+[04:29:2022 20:21:25 INFO]Sending message to client.
+[04:29:2022 20:21:25 INFO]Closing connection to client.
+[04:29:2022 20:21:25 INFO]Getting connection to client.
+[04:29:2022 20:21:25 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:25 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:25 INFO][Client Information]Port: 48865
+[04:29:2022 20:21:25 INFO]Getting client message...
+[04:29:2022 20:21:25 INFO]Handling request.
+[04:29:2022 20:21:25 INFO][User Message]Request: GET
+[04:29:2022 20:21:25 INFO][User Message]Url: /status/
+[04:29:2022 20:21:25 INFO]Sending server status to client.
+[04:29:2022 20:21:25 INFO]Sending message to client.
+[04:29:2022 20:21:25 INFO]Closing connection to client.
+[04:29:2022 20:21:25 INFO]Getting connection to client.
+[04:29:2022 20:21:26 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:26 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:26 INFO][Client Information]Port: 49377
+[04:29:2022 20:21:26 INFO]Getting client message...
+[04:29:2022 20:21:26 INFO]Handling request.
+[04:29:2022 20:21:26 INFO][User Message]Request: GET
+[04:29:2022 20:21:26 INFO][User Message]Url: /status/
+[04:29:2022 20:21:26 INFO]Sending server status to client.
+[04:29:2022 20:21:26 INFO]Sending message to client.
+[04:29:2022 20:21:26 INFO]Closing connection to client.
+[04:29:2022 20:21:26 INFO]Getting connection to client.
+[04:29:2022 20:21:26 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:26 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:26 INFO][Client Information]Port: 49889
+[04:29:2022 20:21:26 INFO]Getting client message...
+[04:29:2022 20:21:26 INFO]Handling request.
+[04:29:2022 20:21:26 INFO][User Message]Request: GET
+[04:29:2022 20:21:26 INFO][User Message]Url: /status/
+[04:29:2022 20:21:26 INFO]Sending server status to client.
+[04:29:2022 20:21:26 INFO]Sending message to client.
+[04:29:2022 20:21:26 INFO]Closing connection to client.
+[04:29:2022 20:21:26 INFO]Getting connection to client.
+[04:29:2022 20:21:26 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:26 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:26 INFO][Client Information]Port: 50401
+[04:29:2022 20:21:26 INFO]Getting client message...
+[04:29:2022 20:21:26 INFO]Handling request.
+[04:29:2022 20:21:26 INFO][User Message]Request: GET
+[04:29:2022 20:21:26 INFO][User Message]Url: /status/
+[04:29:2022 20:21:26 INFO]Sending server status to client.
+[04:29:2022 20:21:26 INFO]Sending message to client.
+[04:29:2022 20:21:26 INFO]Closing connection to client.
+[04:29:2022 20:21:26 INFO]Getting connection to client.
+[04:29:2022 20:21:26 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:26 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:26 INFO][Client Information]Port: 50913
+[04:29:2022 20:21:26 INFO]Getting client message...
+[04:29:2022 20:21:26 INFO]Handling request.
+[04:29:2022 20:21:26 INFO][User Message]Request: GET
+[04:29:2022 20:21:26 INFO][User Message]Url: /status/
+[04:29:2022 20:21:26 INFO]Sending server status to client.
+[04:29:2022 20:21:26 INFO]Sending message to client.
+[04:29:2022 20:21:26 INFO]Closing connection to client.
+[04:29:2022 20:21:26 INFO]Getting connection to client.
+[04:29:2022 20:21:31 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:31 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:31 INFO][Client Information]Port: 51425
+[04:29:2022 20:21:31 INFO]Getting client message...
+[04:29:2022 20:21:31 INFO]Handling request.
+[04:29:2022 20:21:31 INFO][User Message]Request: GET
+[04:29:2022 20:21:31 INFO][User Message]Url: /dir
+[04:29:2022 20:21:31 INFO]Could not find page requested by client. Sending 404 error to client.
+[04:29:2022 20:21:31 INFO]Sending message to client.
+[04:29:2022 20:21:31 INFO]Closing connection to client.
+[04:29:2022 20:21:31 INFO]Getting connection to client.
+[04:29:2022 20:21:33 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:33 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:33 INFO][Client Information]Port: 51937
+[04:29:2022 20:21:33 INFO]Getting client message...
+[04:29:2022 20:21:33 INFO]Handling request.
+[04:29:2022 20:21:33 INFO][User Message]Request: GET
+[04:29:2022 20:21:33 INFO][User Message]Url: /dir/
+[04:29:2022 20:21:33 INFO]Sending server directory to client.
+[04:29:2022 20:21:33 INFO]/
+[04:29:2022 20:21:33 INFO]Sending message to client.
+[04:29:2022 20:21:33 INFO]Closing connection to client.
+[04:29:2022 20:21:33 INFO]Getting connection to client.
+[04:29:2022 20:21:36 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:21:36 INFO][Client Information]IP: 16777343
+[04:29:2022 20:21:36 INFO][Client Information]Port: 52449
+[04:29:2022 20:21:36 INFO]Getting client message...
+[04:29:2022 20:21:37 INFO]Handling request.
+[04:29:2022 20:21:37 INFO][User Message]Request: GET
+[04:29:2022 20:21:37 INFO][User Message]Url: /dir/lost+found/
+[04:29:2022 20:21:37 INFO]Sending server directory to client.
+[04:29:2022 20:21:37 INFO]/lost+found/
+[04:29:2022 20:21:37 WARN]Could not scan directory.
+[04:29:2022 20:21:37 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[04:29:2022 20:21:37 INFO]Sending message to client.
+[04:29:2022 20:21:37 INFO]Closing connection to client.
+[04:29:2022 20:21:37 INFO]Getting connection to client.
+[04:29:2022 20:21:53 ERROR]Could not create client descriptor.. The program ran into a problem.
+[04:29:2022 20:21:53 ERROR]Force exiting the program.

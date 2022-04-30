@@ -1,0 +1,88 @@
+[04:29:2022 08:42:22 INFO]Running server.
+[04:29:2022 08:42:22 INFO][Server Properties]Server Name: MBAJ
+[04:29:2022 08:42:22 INFO][Server Properties]Port Number: 2000
+[04:29:2022 08:42:22 INFO]Initializing socket handler.
+[04:29:2022 08:42:22 INFO]Opening server socket.
+[04:29:2022 08:42:22 INFO][Socket Information]Descriptor: 4
+[04:29:2022 08:42:22 INFO][Socket Information]Address: 0
+[04:29:2022 08:42:22 INFO][Socket Information]Port: 2000
+[04:29:2022 08:42:22 INFO]Creating signals.
+[04:29:2022 08:42:22 INFO]Getting connection to client.
+[04:29:2022 08:42:27 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:42:27 INFO]Getting client message...
+[04:29:2022 08:42:28 INFO]Handling request.
+[04:29:2022 08:42:28 INFO][User Message]Request: GET
+[04:29:2022 08:42:28 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/WordNumbers/
+[04:29:2022 08:42:28 INFO]Sending server directory to client.
+[04:29:2022 08:42:28 INFO]/data/home/mrb3271/eclipse-workspace/WordNumbers/
+[04:29:2022 08:42:28 INFO]Sending message to client.
+[04:29:2022 08:42:28 INFO]Closing connection to client.
+[04:29:2022 08:42:28 INFO]Getting connection to client.
+[04:29:2022 08:42:29 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:42:29 INFO]Getting client message...
+[04:29:2022 08:42:32 INFO]Handling request.
+[04:29:2022 08:42:32 INFO][User Message]Request: GET
+[04:29:2022 08:42:32 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/Sorting/
+[04:29:2022 08:42:32 INFO]Sending server directory to client.
+[04:29:2022 08:42:32 INFO]/data/home/mrb3271/eclipse-workspace/Sorting/
+[04:29:2022 08:42:32 INFO]Sending message to client.
+[04:29:2022 08:42:32 INFO]Closing connection to client.
+[04:29:2022 08:42:32 INFO]Getting connection to client.
+[04:29:2022 08:42:33 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:42:33 INFO]Getting client message...
+[04:29:2022 08:42:35 INFO]Handling request.
+[04:29:2022 08:42:35 INFO][User Message]Request: GET
+[04:29:2022 08:42:35 INFO][User Message]Url: /dir/data/home/mrb3271/Videos/
+[04:29:2022 08:42:35 INFO]Sending server directory to client.
+[04:29:2022 08:42:35 INFO]/data/home/mrb3271/Videos/
+[04:29:2022 08:42:35 INFO]Sending message to client.
+[04:29:2022 08:42:35 INFO]Closing connection to client.
+[04:29:2022 08:42:35 INFO]Getting connection to client.
+[04:29:2022 08:42:36 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:42:36 INFO]Getting client message...
+[04:29:2022 08:42:37 INFO]Handling request.
+[04:29:2022 08:42:37 INFO][User Message]Request: GET
+[04:29:2022 08:42:37 INFO][User Message]Url: /dir/data/home/mrb3271/Pictures/
+[04:29:2022 08:42:37 INFO]Sending server directory to client.
+[04:29:2022 08:42:37 INFO]/data/home/mrb3271/Pictures/
+[04:29:2022 08:42:37 INFO]Sending message to client.
+[04:29:2022 08:42:37 INFO]Closing connection to client.
+[04:29:2022 08:42:37 INFO]Getting connection to client.
+[04:29:2022 08:42:40 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:42:40 INFO]Getting client message...
+[04:29:2022 08:42:42 INFO]Handling request.
+[04:29:2022 08:42:42 INFO][User Message]Request: GET
+[04:29:2022 08:42:42 INFO][User Message]Url: /dir/data/home/mrb3271/tsclient/
+[04:29:2022 08:42:42 INFO]Sending server directory to client.
+[04:29:2022 08:42:42 INFO]/data/home/mrb3271/tsclient/
+[04:29:2022 08:42:42 INFO]Sending message to client.
+[04:29:2022 08:42:42 INFO]Closing connection to client.
+[04:29:2022 08:42:42 INFO]Getting connection to client.
+[04:29:2022 08:42:43 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:42:43 INFO]Getting client message...
+[04:29:2022 08:42:44 INFO]Handling request.
+[04:29:2022 08:42:44 INFO][User Message]Request: GET
+[04:29:2022 08:42:44 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/
+[04:29:2022 08:42:44 INFO]Sending server directory to client.
+[04:29:2022 08:42:44 INFO]/data/home/mrb3271/eclipse-workspace/
+[04:29:2022 08:42:44 INFO]Sending message to client.
+[04:29:2022 08:42:44 INFO]Closing connection to client.
+[04:29:2022 08:42:44 INFO]Getting connection to client.
+[04:29:2022 08:42:44 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:42:44 INFO]Getting client message...
+[04:29:2022 08:42:47 INFO]Handling request.
+[04:29:2022 08:42:47 INFO][User Message]Request: GET
+[04:29:2022 08:42:47 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/ErrorProcessing/
+[04:29:2022 08:42:47 INFO]Sending server directory to client.
+[04:29:2022 08:42:47 INFO]/data/home/mrb3271/eclipse-workspace/ErrorProcessing/
+[04:29:2022 08:42:47 INFO]Sending message to client.
+[04:29:2022 08:42:47 INFO]Closing connection to client.
+[04:29:2022 08:42:47 INFO]Getting connection to client.
+[04:29:2022 08:42:52 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:42:52 INFO]Getting client message...
+[04:29:2022 08:42:57 INFO]Handling request.
+[04:29:2022 08:42:57 INFO][User Message]Request: 
+[04:29:2022 08:42:57 INFO][User Message]Url: 
+[04:29:2022 08:42:57 INFO]Sending message to client.
+[04:29:2022 08:42:57 INFO]Closing connection to client.
+[04:29:2022 08:42:57 INFO]Getting connection to client.

@@ -1,0 +1,23 @@
+[04:29:2022 20:02:24 INFO]Running server.
+[04:29:2022 20:02:24 INFO][Server Properties]Server Name: MBAJ
+[04:29:2022 20:02:24 INFO][Server Properties]Port Number: 2000
+[04:29:2022 20:02:24 INFO]Initializing socket handler.
+[04:29:2022 20:02:24 INFO]Opening server socket.
+[04:29:2022 20:02:24 INFO][Socket Information]Descriptor: 4
+[04:29:2022 20:02:24 INFO][Socket Information]Address: 0
+[04:29:2022 20:02:24 INFO][Socket Information]Port: 2000
+[04:29:2022 20:02:24 INFO]Creating signals.
+[04:29:2022 20:02:24 INFO]Getting connection to client.
+[04:29:2022 20:02:52 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:02:52 INFO][Client Information]IP: 16777343
+[04:29:2022 20:02:52 INFO][Client Information]Port: 22241
+[04:29:2022 20:02:52 INFO]Getting client message...
+[04:29:2022 20:02:52 INFO]Handling request.
+[04:29:2022 20:02:52 INFO][User Message]Request: GET
+[04:29:2022 20:02:52 INFO][User Message]Url: /status
+[04:29:2022 20:02:52 INFO]Sending server status to client.
+[04:29:2022 20:02:52 INFO]Sending message to client.
+[04:29:2022 20:02:52 INFO]Closing connection to client.
+[04:29:2022 20:02:52 INFO]Getting connection to client.
+[04:29:2022 20:03:21 ERROR]Could not create client descriptor.. The program ran into a problem.
+[04:29:2022 20:03:21 ERROR]Force exiting the program.

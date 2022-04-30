@@ -1,0 +1,35 @@
+[04:29:2022 20:48:56 INFO]Running server.
+[04:29:2022 20:48:56 INFO][Server Properties]Server Name: MBAJ
+[04:29:2022 20:48:56 INFO][Server Properties]Port Number: 2000
+[04:29:2022 20:48:56 INFO]Initializing socket handler.
+[04:29:2022 20:48:56 INFO]Opening server socket.
+[04:29:2022 20:48:56 INFO][Socket Information]Descriptor: 4
+[04:29:2022 20:48:56 INFO][Socket Information]Address: 0
+[04:29:2022 20:48:56 INFO][Socket Information]Port: 2000
+[04:29:2022 20:48:56 INFO]Creating signals.
+[04:29:2022 20:48:56 INFO]Getting connection to client.
+[04:29:2022 20:49:00 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:49:00 INFO][Client Information]IP: 16777343
+[04:29:2022 20:49:00 INFO][Client Information]Port: 52961
+[04:29:2022 20:49:00 INFO]Getting client message...
+[04:29:2022 20:49:04 INFO]Handling request.
+[04:29:2022 20:49:04 INFO][User Message]Request: GET
+[04:29:2022 20:49:04 INFO][User Message]Url: /dir/root/
+[04:29:2022 20:49:04 INFO]Sending server directory to client.
+[04:29:2022 20:49:04 INFO]/root/
+[04:29:2022 20:49:04 WARN]Could not scan directory.
+[04:29:2022 20:49:04 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[04:29:2022 20:49:04 INFO]Sending message to client.
+[04:29:2022 20:49:04 INFO]Closing connection to client.
+[04:29:2022 20:49:04 INFO]Getting connection to client.
+[04:29:2022 20:49:08 INFO][Client Information]Descriptor: 5
+[04:29:2022 20:49:08 INFO][Client Information]IP: 16777343
+[04:29:2022 20:49:08 INFO][Client Information]Port: 53473
+[04:29:2022 20:49:08 INFO]Getting client message...
+[04:29:2022 20:49:08 INFO]Handling request.
+[04:29:2022 20:49:08 INFO][User Message]Request: GET
+[04:29:2022 20:49:08 INFO][User Message]Url: /dir/usr/
+[04:29:2022 20:49:08 INFO]Sending server directory to client.
+[04:29:2022 20:49:08 INFO]/usr/
+[04:29:2022 20:49:08 ERROR]basic_string::_M_construct null not valid. The program ran into a problem.
+[04:29:2022 20:49:08 ERROR]Force exiting the program.

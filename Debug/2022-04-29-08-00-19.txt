@@ -1,0 +1,1082 @@
+[04:29:2022 08:00:19 INFO]Running server.
+[04:29:2022 08:00:19 INFO][Server Properties]Server Name: MBAJ
+[04:29:2022 08:00:19 INFO][Server Properties]Port Number: 2000
+[04:29:2022 08:00:19 INFO]Initializing socket handler.
+[04:29:2022 08:00:19 INFO]Opening server socket.
+[04:29:2022 08:00:19 INFO][Socket Information]Descriptor: 4
+[04:29:2022 08:00:19 INFO][Socket Information]Address: 0
+[04:29:2022 08:00:19 INFO][Socket Information]Port: 2000
+[04:29:2022 08:00:19 INFO]Creating signals.
+[04:29:2022 08:00:19 INFO]Getting connection to client.
+[04:29:2022 08:00:32 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:00:32 INFO]Getting client message...
+[04:29:2022 08:00:32 INFO]Handling request.
+[04:29:2022 08:00:32 INFO][User Message]Request: GET
+[04:29:2022 08:00:32 INFO][User Message]Url: /dir/status
+[04:29:2022 08:00:32 INFO]Sending server directory to client.
+[04:29:2022 08:00:32 INFO]/status
+[04:29:2022 08:00:32 WARN]Could not scan directory.
+[04:29:2022 08:00:32 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[04:29:2022 08:00:32 INFO]Sending message to client.
+[04:29:2022 08:00:32 INFO]Closing connection to client.
+[04:29:2022 08:00:32 INFO]Getting connection to client.
+[04:29:2022 08:00:37 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:00:37 INFO]Getting client message...
+[04:29:2022 08:00:37 INFO]Handling request.
+[04:29:2022 08:00:37 INFO][User Message]Request: GET
+[04:29:2022 08:00:37 INFO][User Message]Url: /dir/
+[04:29:2022 08:00:37 INFO]Sending server directory to client.
+[04:29:2022 08:00:37 INFO]/
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'var'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'usr'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'tmp'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'sys'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'swapfile'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'srv'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'snap'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'sbin'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'run'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'root'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'proc'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'opt'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'mnt'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'media'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'lost+found'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'libx32'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'lib64'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'lib32'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'lib'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'home'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'etc'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'dev'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'data'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'cdrom'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'boot'.
+[04:29:2022 08:00:37 WARN]Unable to collect file information for 'bin'.
+[04:29:2022 08:00:37 INFO]Sending message to client.
+[04:29:2022 08:00:37 INFO]Closing connection to client.
+[04:29:2022 08:00:37 INFO]Getting connection to client.
+[04:29:2022 08:00:39 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:00:39 INFO]Getting client message...
+[04:29:2022 08:00:39 INFO]Handling request.
+[04:29:2022 08:00:39 INFO][User Message]Request: GET
+[04:29:2022 08:00:39 INFO][User Message]Url: /dir/srv/
+[04:29:2022 08:00:39 INFO]Sending server directory to client.
+[04:29:2022 08:00:39 INFO]/srv/
+[04:29:2022 08:00:39 INFO]Sending message to client.
+[04:29:2022 08:00:39 INFO]Closing connection to client.
+[04:29:2022 08:00:39 INFO]Getting connection to client.
+[04:29:2022 08:00:41 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:00:41 INFO]Getting client message...
+[04:29:2022 08:00:43 INFO]Handling request.
+[04:29:2022 08:00:43 INFO][User Message]Request: GET
+[04:29:2022 08:00:43 INFO][User Message]Url: /dir/boot/
+[04:29:2022 08:00:43 INFO]Sending server directory to client.
+[04:29:2022 08:00:43 INFO]/boot/
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'vmlinuz.old'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'vmlinuz-5.13.0-35-generic'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'vmlinuz-5.13.0-28-generic'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'vmlinuz'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'memtest86+_multiboot.bin'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'memtest86+.elf'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'memtest86+.bin'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'initrd.img.old'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'initrd.img-5.13.0-35-generic'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'initrd.img-5.13.0-28-generic'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'initrd.img'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'grub'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'efi'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'config-5.13.0-35-generic'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'config-5.13.0-28-generic'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'System.map-5.13.0-35-generic'.
+[04:29:2022 08:00:43 WARN]Unable to collect file information for 'System.map-5.13.0-28-generic'.
+[04:29:2022 08:00:43 INFO]Sending message to client.
+[04:29:2022 08:00:43 INFO]Closing connection to client.
+[04:29:2022 08:00:43 INFO]Getting connection to client.
+[04:29:2022 08:00:44 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:00:44 INFO]Getting client message...
+[04:29:2022 08:00:44 INFO]Handling request.
+[04:29:2022 08:00:44 INFO][User Message]Request: GET
+[04:29:2022 08:00:44 INFO][User Message]Url: /dir/boot/efi/
+[04:29:2022 08:00:44 INFO]Sending server directory to client.
+[04:29:2022 08:00:44 INFO]/boot/efi/
+[04:29:2022 08:00:44 WARN]Could not scan directory.
+[04:29:2022 08:00:44 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[04:29:2022 08:00:44 INFO]Sending message to client.
+[04:29:2022 08:00:44 INFO]Closing connection to client.
+[04:29:2022 08:00:44 INFO]Getting connection to client.
+[04:29:2022 08:00:47 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:00:47 INFO]Getting client message...
+[04:29:2022 08:00:52 INFO]Handling request.
+[04:29:2022 08:00:52 INFO][User Message]Request: 
+[04:29:2022 08:00:52 INFO][User Message]Url: 
+[04:29:2022 08:00:52 INFO]Sending message to client.
+[04:29:2022 08:00:52 INFO]Closing connection to client.
+[04:29:2022 08:00:52 INFO]Getting connection to client.
+[04:29:2022 08:01:15 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:01:15 INFO]Getting client message...
+[04:29:2022 08:01:17 INFO]Handling request.
+[04:29:2022 08:01:17 INFO][User Message]Request: GET
+[04:29:2022 08:01:17 INFO][User Message]Url: /dir/data/
+[04:29:2022 08:01:17 INFO]Sending server directory to client.
+[04:29:2022 08:01:17 INFO]/data/
+[04:29:2022 08:01:17 WARN]Unable to collect file information for 'www'.
+[04:29:2022 08:01:17 WARN]Unable to collect file information for 'home'.
+[04:29:2022 08:01:17 INFO]Sending message to client.
+[04:29:2022 08:01:17 INFO]Closing connection to client.
+[04:29:2022 08:01:17 INFO]Getting connection to client.
+[04:29:2022 08:01:18 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:01:18 INFO]Getting client message...
+[04:29:2022 08:01:18 INFO]Handling request.
+[04:29:2022 08:01:18 INFO][User Message]Request: GET
+[04:29:2022 08:01:18 INFO][User Message]Url: /dir/data/www/
+[04:29:2022 08:01:18 INFO]Sending server directory to client.
+[04:29:2022 08:01:18 INFO]/data/www/
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'znb34'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'vsc5444'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'txh8839'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'stw8194'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'srw9062'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'rxd2458'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'rod885'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'rbt2310'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'phuegler'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'pdj1404'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'pac7985'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'nxc2677'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'nlp1986'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'njf1564'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'mxm9700'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'mrb3271'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'mnk5736'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'mjones5'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'mcd2949'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'ljp1590'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'kxf4131'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'krn832'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'kgw9715'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'kew1435'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'kce6286'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'jtk1913'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'jrp4435'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'jel6044'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'idr3847'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'hdm7869'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'frh1400'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'fog1659'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'erd2094'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'eag4238'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'djf7639'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'djc7941'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'djb7710'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'dcf5607'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'das1857'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'crl569'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'ckw1329'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'cjk7623'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'can3654'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'bma2857'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'bas1280'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'bam6662'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'awg9276'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'arl2254'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'amo2726'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'amn2098'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'amh359'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'alm2696'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'alj7204'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'ajs2647'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'ajh3489'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'ajd3787'.
+[04:29:2022 08:01:18 WARN]Unable to collect file information for 'aac6959'.
+[04:29:2022 08:01:18 INFO]Sending message to client.
+[04:29:2022 08:01:18 INFO]Closing connection to client.
+[04:29:2022 08:01:18 INFO]Getting connection to client.
+[04:29:2022 08:01:18 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:01:18 INFO]Getting client message...
+[04:29:2022 08:01:19 INFO]Handling request.
+[04:29:2022 08:01:19 INFO][User Message]Request: GET
+[04:29:2022 08:01:19 INFO][User Message]Url: /dir/data/www/rxd2458/
+[04:29:2022 08:01:19 INFO]Sending server directory to client.
+[04:29:2022 08:01:19 INFO]/data/www/rxd2458/
+[04:29:2022 08:01:19 INFO]Sending message to client.
+[04:29:2022 08:01:19 INFO]Closing connection to client.
+[04:29:2022 08:01:19 INFO]Getting connection to client.
+[04:29:2022 08:01:28 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:01:28 INFO]Getting client message...
+[04:29:2022 08:01:29 INFO]Handling request.
+[04:29:2022 08:01:29 INFO][User Message]Request: GET
+[04:29:2022 08:01:29 INFO][User Message]Url: /dir/data/home/
+[04:29:2022 08:01:29 INFO]Sending server directory to client.
+[04:29:2022 08:01:29 INFO]/data/home/
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'znb34'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'vsc5444'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'txh8839'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'stw8194'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'srw9062'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'rxd2458'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'rod885'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'rbt2310'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'phuegler'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'pdj1404'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'pac7985'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'nxc2677'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'nlp1986'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'njf1564'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'mxm9700'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'mrb3271'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'mnk5736'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'mjones5'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'mcd2949'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'ljp1590'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'kxf4131'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'krn832'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'kgw9715'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'kew1435'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'kce6286'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'jtk1913'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'jrp4435'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'jel6044'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'idr3847'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'hdm7869'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'frh1400'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'fog1659'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'erd2094'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'eag4238'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'djf7639'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'djc7941'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'djb7710'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'dcf5607'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'das1857'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'crl569'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'ckw1329'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'cjk7623'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'can3654'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'bma2857'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'bas1280'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'bam6662'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'awg9276'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'arl2254'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'amo2726'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'amn2098'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'amh359'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'alm2696'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'alj7204'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'ajs2647'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'ajh3489'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'ajd3787'.
+[04:29:2022 08:01:29 WARN]Unable to collect file information for 'aac6959'.
+[04:29:2022 08:01:29 INFO]Sending message to client.
+[04:29:2022 08:01:29 INFO]Closing connection to client.
+[04:29:2022 08:01:29 INFO]Getting connection to client.
+[04:29:2022 08:01:29 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:01:29 INFO]Getting client message...
+[04:29:2022 08:01:34 INFO]Handling request.
+[04:29:2022 08:01:34 INFO][User Message]Request: GET
+[04:29:2022 08:01:34 INFO][User Message]Url: /dir/data/home/mrb3271/
+[04:29:2022 08:01:34 INFO]Sending server directory to client.
+[04:29:2022 08:01:34 INFO]/data/home/mrb3271/
+[04:29:2022 08:01:34 WARN]Unable to collect file information for 'tsclient'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for 'public_html'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for 'eclipse-workspace'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for 'Videos'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for 'Templates'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for 'Public'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for 'Pictures'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for 'Music'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for 'Downloads'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for 'Documents'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for 'Desktop'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.viminfo'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.swt'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.ssh'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.profile'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.mozilla'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.local'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.gnupg'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.eclipse'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.dbus'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.config'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.cache'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.bashrc'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.bash_logout'.
+[04:29:2022 08:01:34 WARN]Unable to collect file information for '.bash_history'.
+[04:29:2022 08:01:34 INFO]Sending message to client.
+[04:29:2022 08:01:34 INFO]Closing connection to client.
+[04:29:2022 08:01:34 INFO]Getting connection to client.
+[04:29:2022 08:01:34 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:01:34 INFO]Getting client message...
+[04:29:2022 08:01:36 INFO]Handling request.
+[04:29:2022 08:01:36 INFO][User Message]Request: GET
+[04:29:2022 08:01:36 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/
+[04:29:2022 08:01:36 INFO]Sending server directory to client.
+[04:29:2022 08:01:36 INFO]/data/home/mrb3271/eclipse-workspace/
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'WordNumbers.zip'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'WordNumbers'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'StringsProgram'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Sorting'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'RunTimeVariables'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Preporcessor'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Pointers'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'PROJECT'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Numbers.tar.xz'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Numbers'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab_11.zip'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab_10.zip'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab_09.zip'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab_08.zip'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab_07.zip'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab_06.zip'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab19.tar.xz'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab19-Polymorphism'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab18.tar.xz'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab18-Inheritance'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab17-Overloading.tar.xz'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab17-Overloading'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab16-STL.tar.xz'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab16-STL'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab15.tar.xz'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab15-Error-Handling'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab14.tar.xz'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab14-Strings'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab13.tar.xz'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab13-IO'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Lab12.tar.xz'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'IntroCPP'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Fibonacci.zip'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Fibonacci'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Experimental'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'ErrorProcessing'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'COMP302-Group-Project.zip'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'COMP302-Group-Project-CPP.tar.xz'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'COMP302-Group-Project'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'ArgumentsProgram'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Amortization.tar.xz'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for 'Amortization'.
+[04:29:2022 08:01:36 WARN]Unable to collect file information for '.metadata'.
+[04:29:2022 08:01:36 INFO]Sending message to client.
+[04:29:2022 08:01:36 INFO]Closing connection to client.
+[04:29:2022 08:01:36 INFO]Getting connection to client.
+[04:29:2022 08:01:37 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:01:37 INFO]Getting client message...
+[04:29:2022 08:01:38 INFO]Handling request.
+[04:29:2022 08:01:38 INFO][User Message]Request: GET
+[04:29:2022 08:01:38 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/WordNumbers/
+[04:29:2022 08:01:38 INFO]Sending server directory to client.
+[04:29:2022 08:01:38 INFO]/data/home/mrb3271/eclipse-workspace/WordNumbers/
+[04:29:2022 08:01:38 WARN]Unable to collect file information for 'output.txt'.
+[04:29:2022 08:01:38 WARN]Unable to collect file information for 'WordNumbers.c'.
+[04:29:2022 08:01:38 WARN]Unable to collect file information for 'Debug'.
+[04:29:2022 08:01:38 WARN]Unable to collect file information for '.settings'.
+[04:29:2022 08:01:38 WARN]Unable to collect file information for '.project'.
+[04:29:2022 08:01:38 WARN]Unable to collect file information for '.cproject'.
+[04:29:2022 08:01:38 INFO]Sending message to client.
+[04:29:2022 08:01:38 INFO]Closing connection to client.
+[04:29:2022 08:01:38 INFO]Getting connection to client.
+[04:29:2022 08:01:39 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:01:39 INFO]Getting client message...
+[04:29:2022 08:01:40 INFO]Handling request.
+[04:29:2022 08:01:40 INFO][User Message]Request: GET
+[04:29:2022 08:01:40 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/WordNumbers/.settings/
+[04:29:2022 08:01:40 INFO]Sending server directory to client.
+[04:29:2022 08:01:40 INFO]/data/home/mrb3271/eclipse-workspace/WordNumbers/.settings/
+[04:29:2022 08:01:40 WARN]Unable to collect file information for 'language.settings.xml'.
+[04:29:2022 08:01:40 INFO]Sending message to client.
+[04:29:2022 08:01:40 INFO]Closing connection to client.
+[04:29:2022 08:01:40 INFO]Getting connection to client.
+[04:29:2022 08:01:42 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:01:42 INFO]Getting client message...
+[04:29:2022 08:01:48 INFO]Handling request.
+[04:29:2022 08:01:48 INFO][User Message]Request: 
+[04:29:2022 08:01:48 INFO][User Message]Url: 
+[04:29:2022 08:01:48 INFO]Sending message to client.
+[04:29:2022 08:01:48 INFO]Closing connection to client.
+[04:29:2022 08:01:48 INFO]Getting connection to client.
+[04:29:2022 08:01:51 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:01:51 INFO]Getting client message...
+[04:29:2022 08:01:56 INFO]Handling request.
+[04:29:2022 08:01:56 INFO][User Message]Request: 
+[04:29:2022 08:01:56 INFO][User Message]Url: 
+[04:29:2022 08:01:56 INFO]Sending message to client.
+[04:29:2022 08:01:56 INFO]Closing connection to client.
+[04:29:2022 08:01:56 INFO]Getting connection to client.
+[04:29:2022 08:01:59 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:01:59 INFO]Getting client message...
+[04:29:2022 08:02:03 INFO]Handling request.
+[04:29:2022 08:02:03 INFO][User Message]Request: GET
+[04:29:2022 08:02:03 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/
+[04:29:2022 08:02:03 INFO]Sending server directory to client.
+[04:29:2022 08:02:03 INFO]/data/home/mrb3271/eclipse-workspace/
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'WordNumbers.zip'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'WordNumbers'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'StringsProgram'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Sorting'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'RunTimeVariables'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Preporcessor'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Pointers'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'PROJECT'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Numbers.tar.xz'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Numbers'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab_11.zip'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab_10.zip'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab_09.zip'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab_08.zip'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab_07.zip'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab_06.zip'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab19.tar.xz'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab19-Polymorphism'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab18.tar.xz'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab18-Inheritance'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab17-Overloading.tar.xz'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab17-Overloading'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab16-STL.tar.xz'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab16-STL'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab15.tar.xz'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab15-Error-Handling'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab14.tar.xz'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab14-Strings'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab13.tar.xz'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab13-IO'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Lab12.tar.xz'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'IntroCPP'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Fibonacci.zip'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Fibonacci'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Experimental'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'ErrorProcessing'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'COMP302-Group-Project.zip'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'COMP302-Group-Project-CPP.tar.xz'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'COMP302-Group-Project'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'ArgumentsProgram'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Amortization.tar.xz'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for 'Amortization'.
+[04:29:2022 08:02:03 WARN]Unable to collect file information for '.metadata'.
+[04:29:2022 08:02:03 INFO]Sending message to client.
+[04:29:2022 08:02:03 INFO]Closing connection to client.
+[04:29:2022 08:02:03 INFO]Getting connection to client.
+[04:29:2022 08:02:03 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:03 INFO]Getting client message...
+[04:29:2022 08:02:08 INFO]Handling request.
+[04:29:2022 08:02:08 INFO][User Message]Request: 
+[04:29:2022 08:02:08 INFO][User Message]Url: 
+[04:29:2022 08:02:08 INFO]Sending message to client.
+[04:29:2022 08:02:08 INFO]Closing connection to client.
+[04:29:2022 08:02:08 INFO]Getting connection to client.
+[04:29:2022 08:02:08 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:08 INFO]Getting client message...
+[04:29:2022 08:02:09 INFO]Handling request.
+[04:29:2022 08:02:09 INFO][User Message]Request: GET
+[04:29:2022 08:02:09 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/
+[04:29:2022 08:02:09 INFO]Sending server directory to client.
+[04:29:2022 08:02:09 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/
+[04:29:2022 08:02:09 WARN]Unable to collect file information for 'logs'.
+[04:29:2022 08:02:09 WARN]Unable to collect file information for 'Debug'.
+[04:29:2022 08:02:09 WARN]Unable to collect file information for '2022-04-29-07-59-59.txt'.
+[04:29:2022 08:02:09 WARN]Unable to collect file information for '2022-04-28-19-41-47.txt'.
+[04:29:2022 08:02:09 WARN]Unable to collect file information for '.settings'.
+[04:29:2022 08:02:09 WARN]Unable to collect file information for '.project'.
+[04:29:2022 08:02:09 WARN]Unable to collect file information for '.cproject'.
+[04:29:2022 08:02:09 INFO]Sending message to client.
+[04:29:2022 08:02:09 INFO]Closing connection to client.
+[04:29:2022 08:02:09 INFO]Getting connection to client.
+[04:29:2022 08:02:12 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:12 INFO]Getting client message...
+[04:29:2022 08:02:13 INFO]Handling request.
+[04:29:2022 08:02:13 INFO][User Message]Request: GET
+[04:29:2022 08:02:13 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/network/
+[04:29:2022 08:02:13 INFO]Sending server directory to client.
+[04:29:2022 08:02:13 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/network/
+[04:29:2022 08:02:13 WARN]Unable to collect file information for 'web'.
+[04:29:2022 08:02:13 WARN]Unable to collect file information for 'utilities'.
+[04:29:2022 08:02:13 WARN]Unable to collect file information for 'server'.
+[04:29:2022 08:02:13 INFO]Sending message to client.
+[04:29:2022 08:02:13 INFO]Closing connection to client.
+[04:29:2022 08:02:13 INFO]Getting connection to client.
+[04:29:2022 08:02:14 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:14 INFO]Getting client message...
+[04:29:2022 08:02:19 INFO]Handling request.
+[04:29:2022 08:02:19 INFO][User Message]Request: 
+[04:29:2022 08:02:19 INFO][User Message]Url: 
+[04:29:2022 08:02:19 INFO]Sending message to client.
+[04:29:2022 08:02:19 INFO]Closing connection to client.
+[04:29:2022 08:02:19 INFO]Getting connection to client.
+[04:29:2022 08:02:19 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:19 INFO]Getting client message...
+[04:29:2022 08:02:19 INFO]Handling request.
+[04:29:2022 08:02:19 INFO][User Message]Request: GET
+[04:29:2022 08:02:19 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/main/
+[04:29:2022 08:02:19 INFO]Sending server directory to client.
+[04:29:2022 08:02:19 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/main/
+[04:29:2022 08:02:19 WARN]Unable to collect file information for 'Main.cpp'.
+[04:29:2022 08:02:19 INFO]Sending message to client.
+[04:29:2022 08:02:19 INFO]Closing connection to client.
+[04:29:2022 08:02:19 INFO]Getting connection to client.
+[04:29:2022 08:02:21 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:21 INFO]Getting client message...
+[04:29:2022 08:02:22 INFO]Handling request.
+[04:29:2022 08:02:22 INFO][User Message]Request: GET
+[04:29:2022 08:02:22 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/
+[04:29:2022 08:02:22 INFO]Sending server directory to client.
+[04:29:2022 08:02:22 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/
+[04:29:2022 08:02:22 INFO]Sending message to client.
+[04:29:2022 08:02:22 INFO]Closing connection to client.
+[04:29:2022 08:02:22 INFO]Getting connection to client.
+[04:29:2022 08:02:24 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:24 INFO]Getting client message...
+[04:29:2022 08:02:24 INFO]Handling request.
+[04:29:2022 08:02:24 INFO][User Message]Request: GET
+[04:29:2022 08:02:24 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/network/
+[04:29:2022 08:02:24 INFO]Sending server directory to client.
+[04:29:2022 08:02:24 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/network/
+[04:29:2022 08:02:24 WARN]Unable to collect file information for 'web'.
+[04:29:2022 08:02:24 WARN]Unable to collect file information for 'utilities'.
+[04:29:2022 08:02:24 WARN]Unable to collect file information for 'server'.
+[04:29:2022 08:02:24 INFO]Sending message to client.
+[04:29:2022 08:02:24 INFO]Closing connection to client.
+[04:29:2022 08:02:24 INFO]Getting connection to client.
+[04:29:2022 08:02:24 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:24 INFO]Getting client message...
+[04:29:2022 08:02:27 INFO]Handling request.
+[04:29:2022 08:02:27 INFO][User Message]Request: GET
+[04:29:2022 08:02:27 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/main/
+[04:29:2022 08:02:27 INFO]Sending server directory to client.
+[04:29:2022 08:02:27 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/main/
+[04:29:2022 08:02:27 WARN]Unable to collect file information for 'subdir.mk'.
+[04:29:2022 08:02:27 WARN]Unable to collect file information for 'Main.o'.
+[04:29:2022 08:02:27 WARN]Unable to collect file information for 'Main.d'.
+[04:29:2022 08:02:27 INFO]Sending message to client.
+[04:29:2022 08:02:27 INFO]Closing connection to client.
+[04:29:2022 08:02:27 INFO]Getting connection to client.
+[04:29:2022 08:02:34 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:34 INFO]Getting client message...
+[04:29:2022 08:02:34 INFO]Handling request.
+[04:29:2022 08:02:34 INFO][User Message]Request: GET
+[04:29:2022 08:02:34 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/network/
+[04:29:2022 08:02:34 INFO]Sending server directory to client.
+[04:29:2022 08:02:34 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/network/
+[04:29:2022 08:02:34 WARN]Unable to collect file information for 'web'.
+[04:29:2022 08:02:34 WARN]Unable to collect file information for 'utilities'.
+[04:29:2022 08:02:34 WARN]Unable to collect file information for 'server'.
+[04:29:2022 08:02:34 INFO]Sending message to client.
+[04:29:2022 08:02:34 INFO]Closing connection to client.
+[04:29:2022 08:02:34 INFO]Getting connection to client.
+[04:29:2022 08:02:34 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:34 INFO]Getting client message...
+[04:29:2022 08:02:35 INFO]Handling request.
+[04:29:2022 08:02:35 INFO][User Message]Request: GET
+[04:29:2022 08:02:35 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/network/server/
+[04:29:2022 08:02:35 INFO]Sending server directory to client.
+[04:29:2022 08:02:35 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/network/server/
+[04:29:2022 08:02:35 WARN]Unable to collect file information for 'subdir.mk'.
+[04:29:2022 08:02:35 WARN]Unable to collect file information for 'SocketHandler.o'.
+[04:29:2022 08:02:35 WARN]Unable to collect file information for 'SocketHandler.d'.
+[04:29:2022 08:02:35 WARN]Unable to collect file information for 'Signal.o'.
+[04:29:2022 08:02:35 WARN]Unable to collect file information for 'Signal.d'.
+[04:29:2022 08:02:35 WARN]Unable to collect file information for 'Server.o'.
+[04:29:2022 08:02:35 WARN]Unable to collect file information for 'Server.d'.
+[04:29:2022 08:02:35 INFO]Sending message to client.
+[04:29:2022 08:02:35 INFO]Closing connection to client.
+[04:29:2022 08:02:35 INFO]Getting connection to client.
+[04:29:2022 08:02:37 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:37 INFO]Getting client message...
+[04:29:2022 08:02:38 INFO]Handling request.
+[04:29:2022 08:02:38 INFO][User Message]Request: GET
+[04:29:2022 08:02:38 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/network/utilities/
+[04:29:2022 08:02:38 INFO]Sending server directory to client.
+[04:29:2022 08:02:38 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/network/utilities/
+[04:29:2022 08:02:38 WARN]Unable to collect file information for 'subdir.mk'.
+[04:29:2022 08:02:38 WARN]Unable to collect file information for 'TimeHandler.o'.
+[04:29:2022 08:02:38 WARN]Unable to collect file information for 'TimeHandler.d'.
+[04:29:2022 08:02:38 WARN]Unable to collect file information for 'Logger.o'.
+[04:29:2022 08:02:38 WARN]Unable to collect file information for 'Logger.d'.
+[04:29:2022 08:02:38 WARN]Unable to collect file information for 'Buffer.o'.
+[04:29:2022 08:02:38 WARN]Unable to collect file information for 'Buffer.d'.
+[04:29:2022 08:02:38 WARN]Unable to collect file information for 'ArgHandler.o'.
+[04:29:2022 08:02:38 WARN]Unable to collect file information for 'ArgHandler.d'.
+[04:29:2022 08:02:38 INFO]Sending message to client.
+[04:29:2022 08:02:38 INFO]Closing connection to client.
+[04:29:2022 08:02:38 INFO]Getting connection to client.
+[04:29:2022 08:02:39 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:39 INFO]Getting client message...
+[04:29:2022 08:02:40 INFO]Handling request.
+[04:29:2022 08:02:40 INFO][User Message]Request: GET
+[04:29:2022 08:02:40 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/network/web/
+[04:29:2022 08:02:40 INFO]Sending server directory to client.
+[04:29:2022 08:02:40 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/network/web/
+[04:29:2022 08:02:40 WARN]Unable to collect file information for 'subdir.mk'.
+[04:29:2022 08:02:40 WARN]Unable to collect file information for 'WebPage.o'.
+[04:29:2022 08:02:40 WARN]Unable to collect file information for 'WebPage.d'.
+[04:29:2022 08:02:40 WARN]Unable to collect file information for 'StatusPage.o'.
+[04:29:2022 08:02:40 WARN]Unable to collect file information for 'StatusPage.d'.
+[04:29:2022 08:02:40 WARN]Unable to collect file information for 'ErrorPage.o'.
+[04:29:2022 08:02:40 WARN]Unable to collect file information for 'ErrorPage.d'.
+[04:29:2022 08:02:40 WARN]Unable to collect file information for 'DirectoryPage.o'.
+[04:29:2022 08:02:40 WARN]Unable to collect file information for 'DirectoryPage.d'.
+[04:29:2022 08:02:40 INFO]Sending message to client.
+[04:29:2022 08:02:40 INFO]Closing connection to client.
+[04:29:2022 08:02:40 INFO]Getting connection to client.
+[04:29:2022 08:02:42 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:42 INFO]Getting client message...
+[04:29:2022 08:02:47 INFO]Handling request.
+[04:29:2022 08:02:47 INFO][User Message]Request: 
+[04:29:2022 08:02:47 INFO][User Message]Url: 
+[04:29:2022 08:02:47 INFO]Sending message to client.
+[04:29:2022 08:02:47 INFO]Closing connection to client.
+[04:29:2022 08:02:47 INFO]Getting connection to client.
+[04:29:2022 08:02:59 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:02:59 INFO]Getting client message...
+[04:29:2022 08:03:00 INFO]Handling request.
+[04:29:2022 08:03:00 INFO][User Message]Request: GET
+[04:29:2022 08:03:00 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/.settings/
+[04:29:2022 08:03:00 INFO]Sending server directory to client.
+[04:29:2022 08:03:00 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/.settings/
+[04:29:2022 08:03:00 WARN]Unable to collect file information for 'org.eclipse.cdt.core.prefs'.
+[04:29:2022 08:03:00 WARN]Unable to collect file information for 'language.settings.xml'.
+[04:29:2022 08:03:00 INFO]Sending message to client.
+[04:29:2022 08:03:00 INFO]Closing connection to client.
+[04:29:2022 08:03:00 INFO]Getting connection to client.
+[04:29:2022 08:03:02 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:03:02 INFO]Getting client message...
+[04:29:2022 08:03:03 INFO]Handling request.
+[04:29:2022 08:03:03 INFO][User Message]Request: GET
+[04:29:2022 08:03:03 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/logs/
+[04:29:2022 08:03:03 INFO]Sending server directory to client.
+[04:29:2022 08:03:03 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/logs/
+[04:29:2022 08:03:03 WARN]Unable to collect file information for '2022-04-20-13-54-50.txt'.
+[04:29:2022 08:03:03 WARN]Unable to collect file information for '2022-04-20-13-54-34.txt'.
+[04:29:2022 08:03:03 INFO]Sending message to client.
+[04:29:2022 08:03:03 INFO]Closing connection to client.
+[04:29:2022 08:03:03 INFO]Getting connection to client.
+[04:29:2022 08:03:06 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:03:06 INFO]Getting client message...
+[04:29:2022 08:03:11 INFO]Handling request.
+[04:29:2022 08:03:11 INFO][User Message]Request: 
+[04:29:2022 08:03:11 INFO][User Message]Url: 
+[04:29:2022 08:03:11 INFO]Sending message to client.
+[04:29:2022 08:03:11 INFO]Closing connection to client.
+[04:29:2022 08:03:11 INFO]Getting connection to client.
+[04:29:2022 08:03:17 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:03:17 INFO]Getting client message...
+[04:29:2022 08:03:23 INFO]Handling request.
+[04:29:2022 08:03:23 INFO][User Message]Request: 
+[04:29:2022 08:03:23 INFO][User Message]Url: 
+[04:29:2022 08:03:23 INFO]Sending message to client.
+[04:29:2022 08:03:23 INFO]Closing connection to client.
+[04:29:2022 08:03:23 INFO]Getting connection to client.
+[04:29:2022 08:03:25 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:03:25 INFO]Getting client message...
+[04:29:2022 08:03:30 INFO]Handling request.
+[04:29:2022 08:03:30 INFO][User Message]Request: 
+[04:29:2022 08:03:30 INFO][User Message]Url: 
+[04:29:2022 08:03:30 INFO]Sending message to client.
+[04:29:2022 08:03:30 INFO]Closing connection to client.
+[04:29:2022 08:03:30 INFO]Getting connection to client.
+[04:29:2022 08:03:38 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:03:38 INFO]Getting client message...
+[04:29:2022 08:03:44 INFO]Handling request.
+[04:29:2022 08:03:44 INFO][User Message]Request: 
+[04:29:2022 08:03:44 INFO][User Message]Url: 
+[04:29:2022 08:03:44 INFO]Sending message to client.
+[04:29:2022 08:03:44 INFO]Closing connection to client.
+[04:29:2022 08:03:44 INFO]Getting connection to client.
+[04:29:2022 08:03:44 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:03:44 INFO]Getting client message...
+[04:29:2022 08:03:49 INFO]Handling request.
+[04:29:2022 08:03:49 INFO][User Message]Request: 
+[04:29:2022 08:03:49 INFO][User Message]Url: 
+[04:29:2022 08:03:49 INFO]Sending message to client.
+[04:29:2022 08:03:49 INFO]Closing connection to client.
+[04:29:2022 08:03:49 INFO]Getting connection to client.
+[04:29:2022 08:03:49 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:03:49 INFO]Getting client message...
+[04:29:2022 08:03:53 INFO]Handling request.
+[04:29:2022 08:03:53 INFO][User Message]Request: GET
+[04:29:2022 08:03:53 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/main/
+[04:29:2022 08:03:53 INFO]Sending server directory to client.
+[04:29:2022 08:03:53 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/main/
+[04:29:2022 08:03:53 WARN]Unable to collect file information for 'Main.cpp'.
+[04:29:2022 08:03:53 INFO]Sending message to client.
+[04:29:2022 08:03:53 INFO]Closing connection to client.
+[04:29:2022 08:03:53 INFO]Getting connection to client.
+[04:29:2022 08:03:54 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:03:54 INFO]Getting client message...
+[04:29:2022 08:03:54 INFO]Handling request.
+[04:29:2022 08:03:54 INFO][User Message]Request: GET
+[04:29:2022 08:03:54 INFO][User Message]Url: /favicon.ico
+[04:29:2022 08:03:54 INFO]Could not find page requested by client. Sending 404 error to client.
+[04:29:2022 08:03:54 INFO]Sending message to client.
+[04:29:2022 08:03:54 INFO]Closing connection to client.
+[04:29:2022 08:03:54 INFO]Getting connection to client.
+[04:29:2022 08:03:55 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:03:55 INFO]Getting client message...
+[04:29:2022 08:03:55 INFO]Handling request.
+[04:29:2022 08:03:55 INFO][User Message]Request: GET
+[04:29:2022 08:03:55 INFO][User Message]Url: /favicon.ico
+[04:29:2022 08:03:55 INFO]Could not find page requested by client. Sending 404 error to client.
+[04:29:2022 08:03:55 INFO]Sending message to client.
+[04:29:2022 08:03:55 INFO]Closing connection to client.
+[04:29:2022 08:03:55 INFO]Getting connection to client.
+[04:29:2022 08:03:55 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:03:55 INFO]Getting client message...
+[04:29:2022 08:03:56 INFO]Handling request.
+[04:29:2022 08:03:56 INFO][User Message]Request: GET
+[04:29:2022 08:03:56 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/
+[04:29:2022 08:03:56 INFO]Sending server directory to client.
+[04:29:2022 08:03:56 INFO]/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/Debug/
+[04:29:2022 08:03:56 INFO]Sending message to client.
+[04:29:2022 08:03:56 INFO]Closing connection to client.
+[04:29:2022 08:03:56 INFO]Getting connection to client.
+[04:29:2022 08:04:33 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:04:33 INFO]Getting client message...
+[04:29:2022 08:04:33 INFO]Handling request.
+[04:29:2022 08:04:33 INFO][User Message]Request: GET
+[04:29:2022 08:04:33 INFO][User Message]Url: /favicon.ico
+[04:29:2022 08:04:33 INFO]Could not find page requested by client. Sending 404 error to client.
+[04:29:2022 08:04:33 INFO]Sending message to client.
+[04:29:2022 08:04:33 INFO]Closing connection to client.
+[04:29:2022 08:04:33 INFO]Getting connection to client.
+[04:29:2022 08:04:34 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:04:34 INFO]Getting client message...
+[04:29:2022 08:04:39 INFO]Handling request.
+[04:29:2022 08:04:39 INFO][User Message]Request: 
+[04:29:2022 08:04:39 INFO][User Message]Url: 
+[04:29:2022 08:04:39 INFO]Sending message to client.
+[04:29:2022 08:04:39 INFO]Closing connection to client.
+[04:29:2022 08:04:39 INFO]Getting connection to client.
+[04:29:2022 08:04:42 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:04:42 INFO]Getting client message...
+[04:29:2022 08:04:43 INFO]Handling request.
+[04:29:2022 08:04:43 INFO][User Message]Request: GET
+[04:29:2022 08:04:43 INFO][User Message]Url: /dir/data/home/mrb3271/Pictures/
+[04:29:2022 08:04:43 INFO]Sending server directory to client.
+[04:29:2022 08:04:43 INFO]/data/home/mrb3271/Pictures/
+[04:29:2022 08:04:43 WARN]Unable to collect file information for 'Screenshot from 2022-04-17 15-44-29.png'.
+[04:29:2022 08:04:43 WARN]Unable to collect file information for 'Screenshot from 2022-02-08 15-56-15.png'.
+[04:29:2022 08:04:43 WARN]Unable to collect file information for 'Screenshot from 2022-02-08 15-40-20.png'.
+[04:29:2022 08:04:43 WARN]Unable to collect file information for 'Screenshot from 2022-02-05 14-47-10.png'.
+[04:29:2022 08:04:43 WARN]Unable to collect file information for 'Screenshot from 2022-02-02 20-08-48.png'.
+[04:29:2022 08:04:43 INFO]Sending message to client.
+[04:29:2022 08:04:43 INFO]Closing connection to client.
+[04:29:2022 08:04:43 INFO]Getting connection to client.
+[04:29:2022 08:04:46 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:04:46 INFO]Getting client message...
+[04:29:2022 08:04:47 INFO]Handling request.
+[04:29:2022 08:04:47 INFO][User Message]Request: GET
+[04:29:2022 08:04:47 INFO][User Message]Url: /dir/data/home/mrb3271/Public/
+[04:29:2022 08:04:47 INFO]Sending server directory to client.
+[04:29:2022 08:04:47 INFO]/data/home/mrb3271/Public/
+[04:29:2022 08:04:47 INFO]Sending message to client.
+[04:29:2022 08:04:47 INFO]Closing connection to client.
+[04:29:2022 08:04:47 INFO]Getting connection to client.
+[04:29:2022 08:04:49 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:04:49 INFO]Getting client message...
+[04:29:2022 08:04:49 INFO]Handling request.
+[04:29:2022 08:04:49 INFO][User Message]Request: GET
+[04:29:2022 08:04:49 INFO][User Message]Url: /dir/data/home/mrb3271/Templates/
+[04:29:2022 08:04:49 INFO]Sending server directory to client.
+[04:29:2022 08:04:49 INFO]/data/home/mrb3271/Templates/
+[04:29:2022 08:04:49 INFO]Sending message to client.
+[04:29:2022 08:04:49 INFO]Closing connection to client.
+[04:29:2022 08:04:49 INFO]Getting connection to client.
+[04:29:2022 08:04:51 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:04:51 INFO]Getting client message...
+[04:29:2022 08:04:52 INFO]Handling request.
+[04:29:2022 08:04:52 INFO][User Message]Request: GET
+[04:29:2022 08:04:52 INFO][User Message]Url: /dir/data/home/mrb3271/Videos/
+[04:29:2022 08:04:52 INFO]Sending server directory to client.
+[04:29:2022 08:04:52 INFO]/data/home/mrb3271/Videos/
+[04:29:2022 08:04:52 INFO]Sending message to client.
+[04:29:2022 08:04:52 INFO]Closing connection to client.
+[04:29:2022 08:04:52 INFO]Getting connection to client.
+[04:29:2022 08:04:54 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:04:54 INFO]Getting client message...
+[04:29:2022 08:04:55 INFO]Handling request.
+[04:29:2022 08:04:55 INFO][User Message]Request: GET
+[04:29:2022 08:04:55 INFO][User Message]Url: /dir/data/home/mrb3271/Music/
+[04:29:2022 08:04:55 INFO]Sending server directory to client.
+[04:29:2022 08:04:55 INFO]/data/home/mrb3271/Music/
+[04:29:2022 08:04:55 INFO]Sending message to client.
+[04:29:2022 08:04:55 INFO]Closing connection to client.
+[04:29:2022 08:04:55 INFO]Getting connection to client.
+[04:29:2022 08:04:57 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:04:57 INFO]Getting client message...
+[04:29:2022 08:04:57 INFO]Handling request.
+[04:29:2022 08:04:57 INFO][User Message]Request: GET
+[04:29:2022 08:04:57 INFO][User Message]Url: /dir/data/home/mrb3271/Downloads/
+[04:29:2022 08:04:57 INFO]Sending server directory to client.
+[04:29:2022 08:04:57 INFO]/data/home/mrb3271/Downloads/
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'dirent.h'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Vehicle.h'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Vehicle.cpp'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Solutions.html.zip'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Solutions.html(1).zip'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'ListInteger.h'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'ListInteger.cpp'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'ListDouble.h'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'ListDouble.cpp'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Lab_05.zip'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Lab_04.zip'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Lab_02.zip'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Lab12.tar.xz'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Lab.19.Polymorphism.tar'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Lab.18.Inheritance.tar'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Lab.16.STL.tar'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'FirstProgram.zip'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'COMP302-Group-Project.zip'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Boat.h'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Boat.cpp'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Bicycle.h'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Bicycle.cpp'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Automobile.h'.
+[04:29:2022 08:04:57 WARN]Unable to collect file information for 'Automobile.cpp'.
+[04:29:2022 08:04:57 INFO]Sending message to client.
+[04:29:2022 08:04:57 INFO]Closing connection to client.
+[04:29:2022 08:04:57 INFO]Getting connection to client.
+[04:29:2022 08:05:06 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:06 INFO]Getting client message...
+[04:29:2022 08:05:07 INFO]Handling request.
+[04:29:2022 08:05:07 INFO][User Message]Request: GET
+[04:29:2022 08:05:07 INFO][User Message]Url: /dir/data/home/mrb3271/Documents/
+[04:29:2022 08:05:07 INFO]Sending server directory to client.
+[04:29:2022 08:05:07 INFO]/data/home/mrb3271/Documents/
+[04:29:2022 08:05:07 INFO]Sending message to client.
+[04:29:2022 08:05:07 INFO]Closing connection to client.
+[04:29:2022 08:05:07 INFO]Getting connection to client.
+[04:29:2022 08:05:09 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:09 INFO]Getting client message...
+[04:29:2022 08:05:09 INFO]Handling request.
+[04:29:2022 08:05:09 INFO][User Message]Request: GET
+[04:29:2022 08:05:09 INFO][User Message]Url: /favicon.ico
+[04:29:2022 08:05:09 INFO]Could not find page requested by client. Sending 404 error to client.
+[04:29:2022 08:05:09 INFO]Sending message to client.
+[04:29:2022 08:05:09 INFO]Closing connection to client.
+[04:29:2022 08:05:09 INFO]Getting connection to client.
+[04:29:2022 08:05:09 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:09 INFO]Getting client message...
+[04:29:2022 08:05:09 INFO]Handling request.
+[04:29:2022 08:05:09 INFO][User Message]Request: GET
+[04:29:2022 08:05:09 INFO][User Message]Url: /dir/data/home/mrb3271/Desktop/
+[04:29:2022 08:05:09 INFO]Sending server directory to client.
+[04:29:2022 08:05:09 INFO]/data/home/mrb3271/Desktop/
+[04:29:2022 08:05:09 INFO]Sending message to client.
+[04:29:2022 08:05:09 INFO]Closing connection to client.
+[04:29:2022 08:05:09 INFO]Getting connection to client.
+[04:29:2022 08:05:11 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:11 INFO]Getting client message...
+[04:29:2022 08:05:12 INFO]Handling request.
+[04:29:2022 08:05:12 INFO][User Message]Request: GET
+[04:29:2022 08:05:12 INFO][User Message]Url: /dir/data/home/mrb3271/.swt/
+[04:29:2022 08:05:12 INFO]Sending server directory to client.
+[04:29:2022 08:05:12 INFO]/data/home/mrb3271/.swt/
+[04:29:2022 08:05:12 WARN]Unable to collect file information for 'trims.prefs'.
+[04:29:2022 08:05:12 INFO]Sending message to client.
+[04:29:2022 08:05:12 INFO]Closing connection to client.
+[04:29:2022 08:05:12 INFO]Getting connection to client.
+[04:29:2022 08:05:14 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:14 INFO]Getting client message...
+[04:29:2022 08:05:16 INFO]Handling request.
+[04:29:2022 08:05:16 INFO][User Message]Request: GET
+[04:29:2022 08:05:16 INFO][User Message]Url: /dir/data/home/mrb3271/.config/
+[04:29:2022 08:05:16 INFO]Sending server directory to client.
+[04:29:2022 08:05:16 INFO]/data/home/mrb3271/.config/
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'user-dirs.locale'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'user-dirs.dirs'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'update-notifier'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'pulse'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'nautilus'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'mimeapps.list'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'libreoffice'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'ibus'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'gtk-3.0'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'goa-1.0'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'gnome-session'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'gnome-initial-setup-done'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'gnome-games'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'gedit'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'evolution'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'enchant'.
+[04:29:2022 08:05:16 WARN]Unable to collect file information for 'dconf'.
+[04:29:2022 08:05:16 INFO]Sending message to client.
+[04:29:2022 08:05:16 INFO]Closing connection to client.
+[04:29:2022 08:05:16 INFO]Getting connection to client.
+[04:29:2022 08:05:16 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:16 INFO]Getting client message...
+[04:29:2022 08:05:18 INFO]Handling request.
+[04:29:2022 08:05:18 INFO][User Message]Request: GET
+[04:29:2022 08:05:18 INFO][User Message]Url: /dir/data/home/mrb3271/.config/libreoffice/
+[04:29:2022 08:05:18 INFO]Sending server directory to client.
+[04:29:2022 08:05:18 INFO]/data/home/mrb3271/.config/libreoffice/
+[04:29:2022 08:05:18 WARN]Unable to collect file information for '4'.
+[04:29:2022 08:05:18 INFO]Sending message to client.
+[04:29:2022 08:05:18 INFO]Closing connection to client.
+[04:29:2022 08:05:18 INFO]Getting connection to client.
+[04:29:2022 08:05:19 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:19 INFO]Getting client message...
+[04:29:2022 08:05:19 INFO]Handling request.
+[04:29:2022 08:05:19 INFO][User Message]Request: GET
+[04:29:2022 08:05:19 INFO][User Message]Url: /dir/data/home/mrb3271/.config/libreoffice/4/
+[04:29:2022 08:05:19 INFO]Sending server directory to client.
+[04:29:2022 08:05:19 INFO]/data/home/mrb3271/.config/libreoffice/4/
+[04:29:2022 08:05:19 WARN]Unable to collect file information for 'user'.
+[04:29:2022 08:05:19 INFO]Sending message to client.
+[04:29:2022 08:05:19 INFO]Closing connection to client.
+[04:29:2022 08:05:19 INFO]Getting connection to client.
+[04:29:2022 08:05:19 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:19 INFO]Getting client message...
+[04:29:2022 08:05:20 INFO]Handling request.
+[04:29:2022 08:05:20 INFO][User Message]Request: GET
+[04:29:2022 08:05:20 INFO][User Message]Url: /dir/data/home/mrb3271/.config/libreoffice/4/user/
+[04:29:2022 08:05:20 INFO]Sending server directory to client.
+[04:29:2022 08:05:20 INFO]/data/home/mrb3271/.config/libreoffice/4/user/
+[04:29:2022 08:05:20 WARN]Unable to collect file information for 'uno_packages'.
+[04:29:2022 08:05:20 WARN]Unable to collect file information for 'registrymodifications.xcu'.
+[04:29:2022 08:05:20 WARN]Unable to collect file information for 'psprint'.
+[04:29:2022 08:05:20 WARN]Unable to collect file information for 'pack'.
+[04:29:2022 08:05:20 WARN]Unable to collect file information for 'gallery'.
+[04:29:2022 08:05:20 WARN]Unable to collect file information for 'extensions'.
+[04:29:2022 08:05:20 WARN]Unable to collect file information for 'database'.
+[04:29:2022 08:05:20 WARN]Unable to collect file information for 'config'.
+[04:29:2022 08:05:20 WARN]Unable to collect file information for 'basic'.
+[04:29:2022 08:05:20 WARN]Unable to collect file information for 'autotext'.
+[04:29:2022 08:05:20 WARN]Unable to collect file information for 'autocorr'.
+[04:29:2022 08:05:20 INFO]Sending message to client.
+[04:29:2022 08:05:20 INFO]Closing connection to client.
+[04:29:2022 08:05:20 INFO]Getting connection to client.
+[04:29:2022 08:05:20 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:20 INFO]Getting client message...
+[04:29:2022 08:05:21 INFO]Handling request.
+[04:29:2022 08:05:21 INFO][User Message]Request: GET
+[04:29:2022 08:05:21 INFO][User Message]Url: /dir/data/home/mrb3271/.config/libreoffice/4/user/psprint/
+[04:29:2022 08:05:21 INFO]Sending server directory to client.
+[04:29:2022 08:05:21 INFO]/data/home/mrb3271/.config/libreoffice/4/user/psprint/
+[04:29:2022 08:05:21 INFO]Sending message to client.
+[04:29:2022 08:05:21 INFO]Closing connection to client.
+[04:29:2022 08:05:21 INFO]Getting connection to client.
+[04:29:2022 08:05:23 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:23 INFO]Getting client message...
+[04:29:2022 08:05:25 INFO]Handling request.
+[04:29:2022 08:05:25 INFO][User Message]Request: GET
+[04:29:2022 08:05:25 INFO][User Message]Url: /dir/data/home/nlp1986/
+[04:29:2022 08:05:25 INFO]Sending server directory to client.
+[04:29:2022 08:05:25 INFO]/data/home/nlp1986/
+[04:29:2022 08:05:25 WARN]Could not scan directory.
+[04:29:2022 08:05:25 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[04:29:2022 08:05:25 INFO]Sending message to client.
+[04:29:2022 08:05:25 INFO]Closing connection to client.
+[04:29:2022 08:05:25 INFO]Getting connection to client.
+[04:29:2022 08:05:27 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:27 INFO]Getting client message...
+[04:29:2022 08:05:28 INFO]Handling request.
+[04:29:2022 08:05:28 INFO][User Message]Request: GET
+[04:29:2022 08:05:28 INFO][User Message]Url: /dir/data/home/mrb3271/
+[04:29:2022 08:05:28 INFO]Sending server directory to client.
+[04:29:2022 08:05:28 INFO]/data/home/mrb3271/
+[04:29:2022 08:05:28 WARN]Unable to collect file information for 'tsclient'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for 'public_html'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for 'eclipse-workspace'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for 'Videos'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for 'Templates'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for 'Public'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for 'Pictures'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for 'Music'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for 'Downloads'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for 'Documents'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for 'Desktop'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.viminfo'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.swt'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.ssh'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.profile'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.mozilla'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.local'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.gnupg'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.eclipse'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.dbus'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.config'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.cache'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.bashrc'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.bash_logout'.
+[04:29:2022 08:05:28 WARN]Unable to collect file information for '.bash_history'.
+[04:29:2022 08:05:28 INFO]Sending message to client.
+[04:29:2022 08:05:28 INFO]Closing connection to client.
+[04:29:2022 08:05:28 INFO]Getting connection to client.
+[04:29:2022 08:05:28 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:28 INFO]Getting client message...
+[04:29:2022 08:05:29 INFO]Handling request.
+[04:29:2022 08:05:29 INFO][User Message]Request: GET
+[04:29:2022 08:05:29 INFO][User Message]Url: /dir/data/home/mrb3271/tsclient/
+[04:29:2022 08:05:29 INFO]Sending server directory to client.
+[04:29:2022 08:05:29 INFO]/data/home/mrb3271/tsclient/
+[04:29:2022 08:05:29 WARN]Unable to collect file information for 'devshares'.
+[04:29:2022 08:05:29 INFO]Sending message to client.
+[04:29:2022 08:05:29 INFO]Closing connection to client.
+[04:29:2022 08:05:29 INFO]Getting connection to client.
+[04:29:2022 08:05:31 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:31 INFO]Getting client message...
+[04:29:2022 08:05:34 INFO]Handling request.
+[04:29:2022 08:05:34 INFO][User Message]Request: GET
+[04:29:2022 08:05:34 INFO][User Message]Url: /dir/data/home/mrb3271/.local/
+[04:29:2022 08:05:34 INFO]Sending server directory to client.
+[04:29:2022 08:05:34 INFO]/data/home/mrb3271/.local/
+[04:29:2022 08:05:34 WARN]Unable to collect file information for 'share'.
+[04:29:2022 08:05:34 INFO]Sending message to client.
+[04:29:2022 08:05:34 INFO]Closing connection to client.
+[04:29:2022 08:05:34 INFO]Getting connection to client.
+[04:29:2022 08:05:35 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:35 INFO]Getting client message...
+[04:29:2022 08:05:41 INFO]Handling request.
+[04:29:2022 08:05:41 INFO][User Message]Request: 
+[04:29:2022 08:05:41 INFO][User Message]Url: 
+[04:29:2022 08:05:41 INFO]Sending message to client.
+[04:29:2022 08:05:41 INFO]Closing connection to client.
+[04:29:2022 08:05:41 INFO]Getting connection to client.
+[04:29:2022 08:05:41 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:41 INFO]Getting client message...
+[04:29:2022 08:05:45 INFO]Handling request.
+[04:29:2022 08:05:45 INFO][User Message]Request: GET
+[04:29:2022 08:05:45 INFO][User Message]Url: /dir/data/home/mrb3271/
+[04:29:2022 08:05:45 INFO]Sending server directory to client.
+[04:29:2022 08:05:45 INFO]/data/home/mrb3271/
+[04:29:2022 08:05:45 WARN]Unable to collect file information for 'tsclient'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for 'public_html'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for 'eclipse-workspace'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for 'Videos'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for 'Templates'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for 'Public'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for 'Pictures'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for 'Music'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for 'Downloads'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for 'Documents'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for 'Desktop'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.viminfo'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.swt'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.ssh'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.profile'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.mozilla'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.local'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.gnupg'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.eclipse'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.dbus'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.config'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.cache'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.bashrc'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.bash_logout'.
+[04:29:2022 08:05:45 WARN]Unable to collect file information for '.bash_history'.
+[04:29:2022 08:05:45 INFO]Sending message to client.
+[04:29:2022 08:05:45 INFO]Closing connection to client.
+[04:29:2022 08:05:45 INFO]Getting connection to client.
+[04:29:2022 08:05:45 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:45 INFO]Getting client message...
+[04:29:2022 08:05:50 INFO]Handling request.
+[04:29:2022 08:05:50 INFO][User Message]Request: 
+[04:29:2022 08:05:50 INFO][User Message]Url: 
+[04:29:2022 08:05:50 INFO]Sending message to client.
+[04:29:2022 08:05:50 INFO]Closing connection to client.
+[04:29:2022 08:05:50 INFO]Getting connection to client.
+[04:29:2022 08:05:59 INFO][Client Information]Descriptor: 5
+[04:29:2022 08:05:59 INFO]Getting client message...
+[04:29:2022 08:06:04 ERROR]Poll has timed out.
+[04:29:2022 08:06:04 INFO]Handling request.
+[04:29:2022 08:06:04 INFO][User Message]Request: 
+[04:29:2022 08:06:04 INFO][User Message]Url: 
+[04:29:2022 08:06:04 INFO]Sending message to client.
+[04:29:2022 08:06:04 INFO]Closing connection to client.
+[04:29:2022 08:06:04 INFO]Closing server socket.

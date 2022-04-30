@@ -1,0 +1,7 @@
+[04:27:2022 15:19:11 INFO]Running server.
+[04:27:2022 15:19:11 INFO][Server Properties]Server Name: MBJA
+[04:27:2022 15:19:11 INFO][Server Properties]Port Number: 2000
+[04:27:2022 15:19:11 INFO]Opening server socket.
+[04:27:2022 15:19:11 INFO]Opening a socket.
+[04:27:2022 15:19:11 ERROR]Address already in use. Could not bind socket to address.
+[04:27:2022 15:19:11 ERROR]Address already in use. Unable to create server socket.
