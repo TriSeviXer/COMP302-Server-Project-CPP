@@ -1,0 +1,357 @@
+[05:02:2022 19:28:52 INFO]Running server.
+[05:02:2022 19:28:52 INFO][Server Properties]Server Name: MBAJ
+[05:02:2022 19:28:52 INFO][Server Properties]Port Number: 2000
+[05:02:2022 19:28:52 INFO]Initializing socket handler.
+[05:02:2022 19:28:52 INFO]Opening server socket.
+[05:02:2022 19:28:52 INFO][Socket Information]Descriptor: 4
+[05:02:2022 19:28:52 INFO][Socket Information]Address: 0
+[05:02:2022 19:28:52 INFO][Socket Information]Port: 2000
+[05:02:2022 19:28:52 INFO]Creating signals.
+[05:02:2022 19:28:52 INFO]Getting connection to client.
+[05:02:2022 19:28:58 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:28:58 INFO][Client Information]IP: 16777343
+[05:02:2022 19:28:58 INFO][Client Information]Port: 59033
+[05:02:2022 19:28:58 INFO]Getting client message...
+[05:02:2022 19:28:58 INFO]Handling request.
+[05:02:2022 19:28:58 INFO][User Message]Request: 
+[05:02:2022 19:28:58 INFO][User Message]Url: 
+[05:02:2022 19:28:58 INFO]Sending message to client.
+[05:02:2022 19:28:58 INFO]Closing connection to client.
+[05:02:2022 19:28:58 INFO]Getting connection to client.
+[05:02:2022 19:29:04 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:04 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:04 INFO][Client Information]Port: 59545
+[05:02:2022 19:29:04 INFO]Getting client message...
+[05:02:2022 19:29:04 INFO]Handling request.
+[05:02:2022 19:29:04 INFO][User Message]Request: GET
+[05:02:2022 19:29:04 INFO][User Message]Url: /dir/data/home/mrb3271/
+[05:02:2022 19:29:04 INFO]Sending server directory to client.
+[05:02:2022 19:29:04 INFO]/data/home/mrb3271/
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/tsclient/">tsclient</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/">eclipse-workspace</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/Videos/">Videos</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/Templates/">Templates</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/Public/">Public</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/Pictures/">Pictures</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/Music/">Music</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/Downloads/">Downloads</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/Documents/">Documents</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/Desktop/">Desktop</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/.swt/">.swt</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/.ssh/">.ssh</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/.mozilla/">.mozilla</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/.local/">.local</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/.gnupg/">.gnupg</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/.eclipse/">.eclipse</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/.dbus/">.dbus</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/.config/">.config</a>
+[05:02:2022 19:29:04 INFO]<a href="/dir/data/home/mrb3271/.cache/">.cache</a>
+[05:02:2022 19:29:04 INFO]Sending message to client.
+[05:02:2022 19:29:04 INFO]Closing connection to client.
+[05:02:2022 19:29:04 INFO]Getting connection to client.
+[05:02:2022 19:29:05 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:05 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:05 INFO][Client Information]Port: 60569
+[05:02:2022 19:29:05 INFO]Getting client message...
+[05:02:2022 19:29:05 INFO]Handling request.
+[05:02:2022 19:29:05 INFO][User Message]Request: GET
+[05:02:2022 19:29:05 INFO][User Message]Url: /favicon.ico
+[05:02:2022 19:29:05 INFO]Could not find page requested by client. Sending 404 error to client.
+[05:02:2022 19:29:05 INFO]Sending message to client.
+[05:02:2022 19:29:05 INFO]Closing connection to client.
+[05:02:2022 19:29:05 INFO]Getting connection to client.
+[05:02:2022 19:29:10 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:10 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:10 INFO][Client Information]Port: 61081
+[05:02:2022 19:29:10 INFO]Getting client message...
+[05:02:2022 19:29:10 INFO]Handling request.
+[05:02:2022 19:29:10 INFO][User Message]Request: GET
+[05:02:2022 19:29:10 INFO][User Message]Url: /dir/data/home/mrb3271/
+[05:02:2022 19:29:10 INFO]Sending server directory to client.
+[05:02:2022 19:29:10 INFO]/data/home/mrb3271/
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/tsclient/">tsclient</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/">eclipse-workspace</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/Videos/">Videos</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/Templates/">Templates</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/Public/">Public</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/Pictures/">Pictures</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/Music/">Music</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/Downloads/">Downloads</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/Documents/">Documents</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/Desktop/">Desktop</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/.swt/">.swt</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/.ssh/">.ssh</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/.mozilla/">.mozilla</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/.local/">.local</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/.gnupg/">.gnupg</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/.eclipse/">.eclipse</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/.dbus/">.dbus</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/.config/">.config</a>
+[05:02:2022 19:29:10 INFO]<a href="/dir/data/home/mrb3271/.cache/">.cache</a>
+[05:02:2022 19:29:10 INFO]Sending message to client.
+[05:02:2022 19:29:10 INFO]Closing connection to client.
+[05:02:2022 19:29:10 INFO]Getting connection to client.
+[05:02:2022 19:29:11 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:11 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:11 INFO][Client Information]Port: 61593
+[05:02:2022 19:29:11 INFO]Getting client message...
+[05:02:2022 19:29:11 INFO]Handling request.
+[05:02:2022 19:29:11 INFO][User Message]Request: GET
+[05:02:2022 19:29:11 INFO][User Message]Url: /dir/data/home/mrb3271/
+[05:02:2022 19:29:11 INFO]Sending server directory to client.
+[05:02:2022 19:29:11 INFO]/data/home/mrb3271/
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/tsclient/">tsclient</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/">eclipse-workspace</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/Videos/">Videos</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/Templates/">Templates</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/Public/">Public</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/Pictures/">Pictures</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/Music/">Music</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/Downloads/">Downloads</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/Documents/">Documents</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/Desktop/">Desktop</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/.swt/">.swt</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/.ssh/">.ssh</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/.mozilla/">.mozilla</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/.local/">.local</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/.gnupg/">.gnupg</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/.eclipse/">.eclipse</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/.dbus/">.dbus</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/.config/">.config</a>
+[05:02:2022 19:29:11 INFO]<a href="/dir/data/home/mrb3271/.cache/">.cache</a>
+[05:02:2022 19:29:11 INFO]Sending message to client.
+[05:02:2022 19:29:11 INFO]Closing connection to client.
+[05:02:2022 19:29:11 INFO]Getting connection to client.
+[05:02:2022 19:29:12 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:12 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:12 INFO][Client Information]Port: 62105
+[05:02:2022 19:29:12 INFO]Getting client message...
+[05:02:2022 19:29:12 INFO]Handling request.
+[05:02:2022 19:29:12 INFO][User Message]Request: GET
+[05:02:2022 19:29:12 INFO][User Message]Url: /dir/data/home/mrb3271/
+[05:02:2022 19:29:12 INFO]Sending server directory to client.
+[05:02:2022 19:29:12 INFO]/data/home/mrb3271/
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/tsclient/">tsclient</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/">eclipse-workspace</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/Videos/">Videos</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/Templates/">Templates</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/Public/">Public</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/Pictures/">Pictures</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/Music/">Music</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/Downloads/">Downloads</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/Documents/">Documents</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/Desktop/">Desktop</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/.swt/">.swt</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/.ssh/">.ssh</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/.mozilla/">.mozilla</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/.local/">.local</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/.gnupg/">.gnupg</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/.eclipse/">.eclipse</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/.dbus/">.dbus</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/.config/">.config</a>
+[05:02:2022 19:29:12 INFO]<a href="/dir/data/home/mrb3271/.cache/">.cache</a>
+[05:02:2022 19:29:12 INFO]Sending message to client.
+[05:02:2022 19:29:12 INFO]Closing connection to client.
+[05:02:2022 19:29:12 INFO]Getting connection to client.
+[05:02:2022 19:29:13 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:13 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:13 INFO][Client Information]Port: 62617
+[05:02:2022 19:29:13 INFO]Getting client message...
+[05:02:2022 19:29:13 INFO]Handling request.
+[05:02:2022 19:29:13 INFO][User Message]Request: GET
+[05:02:2022 19:29:13 INFO][User Message]Url: /dir/data/home/mrb3271/
+[05:02:2022 19:29:13 INFO]Sending server directory to client.
+[05:02:2022 19:29:13 INFO]/data/home/mrb3271/
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/tsclient/">tsclient</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/">eclipse-workspace</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/Videos/">Videos</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/Templates/">Templates</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/Public/">Public</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/Pictures/">Pictures</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/Music/">Music</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/Downloads/">Downloads</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/Documents/">Documents</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/Desktop/">Desktop</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/.swt/">.swt</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/.ssh/">.ssh</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/.mozilla/">.mozilla</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/.local/">.local</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/.gnupg/">.gnupg</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/.eclipse/">.eclipse</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/.dbus/">.dbus</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/.config/">.config</a>
+[05:02:2022 19:29:13 INFO]<a href="/dir/data/home/mrb3271/.cache/">.cache</a>
+[05:02:2022 19:29:13 INFO]Sending message to client.
+[05:02:2022 19:29:13 INFO]Closing connection to client.
+[05:02:2022 19:29:13 INFO]Getting connection to client.
+[05:02:2022 19:29:14 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:14 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:14 INFO][Client Information]Port: 63129
+[05:02:2022 19:29:14 INFO]Getting client message...
+[05:02:2022 19:29:14 INFO]Handling request.
+[05:02:2022 19:29:14 INFO][User Message]Request: GET
+[05:02:2022 19:29:14 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/
+[05:02:2022 19:29:14 INFO]Sending server directory to client.
+[05:02:2022 19:29:14 INFO]/data/home/mrb3271/eclipse-workspace/
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/WordNumbers/">WordNumbers</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/StringsProgram/">StringsProgram</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Sorting/">Sorting</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/RunTimeVariables/">RunTimeVariables</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Preporcessor/">Preporcessor</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Pointers/">Pointers</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/PROJECT/">PROJECT</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Numbers/">Numbers</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab19-Polymorphism/">Lab19-Polymorphism</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab18-Inheritance/">Lab18-Inheritance</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab17-Overloading/">Lab17-Overloading</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab16-STL/">Lab16-STL</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab15-Error-Handling/">Lab15-Error-Handling</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab14-Strings/">Lab14-Strings</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab13-IO/">Lab13-IO</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/IntroCPP/">IntroCPP</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Fibonacci/">Fibonacci</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Experimental/">Experimental</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/ErrorProcessing/">ErrorProcessing</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/">COMP302-Group-Project-CPP</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project/">COMP302-Group-Project</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/ArgumentsProgram/">ArgumentsProgram</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Amortization/">Amortization</a>
+[05:02:2022 19:29:14 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/.metadata/">.metadata</a>
+[05:02:2022 19:29:14 INFO]Sending message to client.
+[05:02:2022 19:29:14 INFO]Closing connection to client.
+[05:02:2022 19:29:14 INFO]Getting connection to client.
+[05:02:2022 19:29:15 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:15 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:15 INFO][Client Information]Port: 63641
+[05:02:2022 19:29:15 INFO]Getting client message...
+[05:02:2022 19:29:15 INFO]Handling request.
+[05:02:2022 19:29:15 INFO][User Message]Request: GET
+[05:02:2022 19:29:15 INFO][User Message]Url: /dir/data/home/mrb3271/
+[05:02:2022 19:29:15 INFO]Sending server directory to client.
+[05:02:2022 19:29:15 INFO]/data/home/mrb3271/
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/tsclient/">tsclient</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/">eclipse-workspace</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/Videos/">Videos</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/Templates/">Templates</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/Public/">Public</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/Pictures/">Pictures</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/Music/">Music</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/Downloads/">Downloads</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/Documents/">Documents</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/Desktop/">Desktop</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/.swt/">.swt</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/.ssh/">.ssh</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/.mozilla/">.mozilla</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/.local/">.local</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/.gnupg/">.gnupg</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/.eclipse/">.eclipse</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/.dbus/">.dbus</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/.config/">.config</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/.cache/">.cache</a>
+[05:02:2022 19:29:15 INFO]Sending message to client.
+[05:02:2022 19:29:15 INFO]Closing connection to client.
+[05:02:2022 19:29:15 INFO]Getting connection to client.
+[05:02:2022 19:29:15 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:15 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:15 INFO][Client Information]Port: 64153
+[05:02:2022 19:29:15 INFO]Getting client message...
+[05:02:2022 19:29:15 INFO]Handling request.
+[05:02:2022 19:29:15 INFO][User Message]Request: GET
+[05:02:2022 19:29:15 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/
+[05:02:2022 19:29:15 INFO]Sending server directory to client.
+[05:02:2022 19:29:15 INFO]/data/home/mrb3271/eclipse-workspace/
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/WordNumbers/">WordNumbers</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/StringsProgram/">StringsProgram</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Sorting/">Sorting</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/RunTimeVariables/">RunTimeVariables</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Preporcessor/">Preporcessor</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Pointers/">Pointers</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/PROJECT/">PROJECT</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Numbers/">Numbers</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab19-Polymorphism/">Lab19-Polymorphism</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab18-Inheritance/">Lab18-Inheritance</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab17-Overloading/">Lab17-Overloading</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab16-STL/">Lab16-STL</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab15-Error-Handling/">Lab15-Error-Handling</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab14-Strings/">Lab14-Strings</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab13-IO/">Lab13-IO</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/IntroCPP/">IntroCPP</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Fibonacci/">Fibonacci</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Experimental/">Experimental</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/ErrorProcessing/">ErrorProcessing</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/">COMP302-Group-Project-CPP</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project/">COMP302-Group-Project</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/ArgumentsProgram/">ArgumentsProgram</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Amortization/">Amortization</a>
+[05:02:2022 19:29:15 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/.metadata/">.metadata</a>
+[05:02:2022 19:29:15 INFO]Sending message to client.
+[05:02:2022 19:29:15 INFO]Closing connection to client.
+[05:02:2022 19:29:15 INFO]Getting connection to client.
+[05:02:2022 19:29:16 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:16 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:16 INFO][Client Information]Port: 64665
+[05:02:2022 19:29:16 INFO]Getting client message...
+[05:02:2022 19:29:16 INFO]Handling request.
+[05:02:2022 19:29:16 INFO][User Message]Request: GET
+[05:02:2022 19:29:16 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/StringsProgram/
+[05:02:2022 19:29:16 INFO]Sending server directory to client.
+[05:02:2022 19:29:16 INFO]/data/home/mrb3271/eclipse-workspace/StringsProgram/
+[05:02:2022 19:29:16 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/StringsProgram/Debug/">Debug</a>
+[05:02:2022 19:29:16 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/StringsProgram/.settings/">.settings</a>
+[05:02:2022 19:29:16 INFO]Sending message to client.
+[05:02:2022 19:29:16 INFO]Closing connection to client.
+[05:02:2022 19:29:16 INFO]Getting connection to client.
+[05:02:2022 19:29:17 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:17 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:17 INFO][Client Information]Port: 65177
+[05:02:2022 19:29:17 INFO]Getting client message...
+[05:02:2022 19:29:17 INFO]Handling request.
+[05:02:2022 19:29:17 INFO][User Message]Request: GET
+[05:02:2022 19:29:17 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/RunTimeVariables/
+[05:02:2022 19:29:17 INFO]Sending server directory to client.
+[05:02:2022 19:29:17 INFO]/data/home/mrb3271/eclipse-workspace/RunTimeVariables/
+[05:02:2022 19:29:17 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/RunTimeVariables/Debug/">Debug</a>
+[05:02:2022 19:29:17 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/RunTimeVariables/.settings/">.settings</a>
+[05:02:2022 19:29:17 INFO]Sending message to client.
+[05:02:2022 19:29:17 INFO]Closing connection to client.
+[05:02:2022 19:29:17 INFO]Getting connection to client.
+[05:02:2022 19:29:18 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:18 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:18 INFO][Client Information]Port: 154
+[05:02:2022 19:29:18 INFO]Getting client message...
+[05:02:2022 19:29:18 INFO]Handling request.
+[05:02:2022 19:29:18 INFO][User Message]Request: GET
+[05:02:2022 19:29:18 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/RunTimeVariables/
+[05:02:2022 19:29:18 INFO]Sending server directory to client.
+[05:02:2022 19:29:18 INFO]/data/home/mrb3271/eclipse-workspace/RunTimeVariables/
+[05:02:2022 19:29:18 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/RunTimeVariables/Debug/">Debug</a>
+[05:02:2022 19:29:18 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/RunTimeVariables/.settings/">.settings</a>
+[05:02:2022 19:29:18 INFO]Sending message to client.
+[05:02:2022 19:29:18 INFO]Closing connection to client.
+[05:02:2022 19:29:18 INFO]Getting connection to client.
+[05:02:2022 19:29:20 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:20 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:20 INFO][Client Information]Port: 666
+[05:02:2022 19:29:20 INFO]Getting client message...
+[05:02:2022 19:29:20 INFO]Handling request.
+[05:02:2022 19:29:20 INFO][User Message]Request: GET
+[05:02:2022 19:29:20 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/RunTimeVariables/Debug/
+[05:02:2022 19:29:20 INFO]Sending server directory to client.
+[05:02:2022 19:29:20 INFO]/data/home/mrb3271/eclipse-workspace/RunTimeVariables/Debug/
+[05:02:2022 19:29:20 INFO]Sending message to client.
+[05:02:2022 19:29:20 INFO]Closing connection to client.
+[05:02:2022 19:29:20 INFO]Getting connection to client.
+[05:02:2022 19:29:21 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:29:21 INFO][Client Information]IP: 16777343
+[05:02:2022 19:29:21 INFO][Client Information]Port: 1178
+[05:02:2022 19:29:21 INFO]Getting client message...
+[05:02:2022 19:29:21 INFO]Handling request.
+[05:02:2022 19:29:21 INFO][User Message]Request: GET
+[05:02:2022 19:29:21 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/RunTimeVariables/Debug/
+[05:02:2022 19:29:21 INFO]Sending server directory to client.
+[05:02:2022 19:29:21 INFO]/data/home/mrb3271/eclipse-workspace/RunTimeVariables/Debug/
+[05:02:2022 19:29:21 INFO]Sending message to client.
+[05:02:2022 19:29:21 INFO]Closing connection to client.
+[05:02:2022 19:29:21 INFO]Getting connection to client.
+[05:02:2022 19:29:31 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:02:2022 19:29:31 ERROR]Force exiting the program.

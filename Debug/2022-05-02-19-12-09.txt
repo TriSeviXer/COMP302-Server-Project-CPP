@@ -1,0 +1,12 @@
+[05:02:2022 19:12:09 INFO]Running server.
+[05:02:2022 19:12:09 INFO][Server Properties]Server Name: MBAJ
+[05:02:2022 19:12:09 INFO][Server Properties]Port Number: 2000
+[05:02:2022 19:12:09 INFO]Initializing socket handler.
+[05:02:2022 19:12:09 INFO]Opening server socket.
+[05:02:2022 19:12:09 INFO][Socket Information]Descriptor: 4
+[05:02:2022 19:12:09 INFO][Socket Information]Address: 0
+[05:02:2022 19:12:09 INFO][Socket Information]Port: 2000
+[05:02:2022 19:12:09 INFO]Creating signals.
+[05:02:2022 19:12:09 INFO]Getting connection to client.
+[05:02:2022 19:12:09 ERROR]Socket operation on non-socket. Could not create client descriptor.. The program ran into a problem.
+[05:02:2022 19:12:09 ERROR]Force exiting the program.

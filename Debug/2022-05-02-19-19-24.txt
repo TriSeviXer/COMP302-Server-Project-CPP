@@ -1,0 +1,396 @@
+[05:02:2022 19:19:24 INFO]Running server.
+[05:02:2022 19:19:24 INFO][Server Properties]Server Name: MBAJ
+[05:02:2022 19:19:24 INFO][Server Properties]Port Number: 2000
+[05:02:2022 19:19:24 INFO]Initializing socket handler.
+[05:02:2022 19:19:24 INFO]Opening server socket.
+[05:02:2022 19:19:24 INFO][Socket Information]Descriptor: 4
+[05:02:2022 19:19:24 INFO][Socket Information]Address: 0
+[05:02:2022 19:19:24 INFO][Socket Information]Port: 2000
+[05:02:2022 19:19:24 INFO]Creating signals.
+[05:02:2022 19:19:24 INFO]Getting connection to client.
+[05:02:2022 19:19:27 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:19:27 INFO][Client Information]IP: 16777343
+[05:02:2022 19:19:27 INFO][Client Information]Port: 49817
+[05:02:2022 19:19:27 INFO]Getting client message...
+[05:02:2022 19:19:27 INFO]Handling request.
+[05:02:2022 19:19:27 INFO][User Message]Request: GET
+[05:02:2022 19:19:27 INFO][User Message]Url: /dir/lost+found/
+[05:02:2022 19:19:27 INFO]Sending server directory to client.
+[05:02:2022 19:19:27 INFO]/lost+found/
+[05:02:2022 19:19:27 WARN]Could not scan directory.
+[05:02:2022 19:19:27 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:02:2022 19:19:27 INFO]Sending message to client.
+[05:02:2022 19:19:27 INFO]Closing connection to client.
+[05:02:2022 19:19:27 INFO]Getting connection to client.
+[05:02:2022 19:19:31 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:19:31 INFO][Client Information]IP: 16777343
+[05:02:2022 19:19:31 INFO][Client Information]Port: 50329
+[05:02:2022 19:19:31 INFO]Getting client message...
+[05:02:2022 19:19:31 INFO]Handling request.
+[05:02:2022 19:19:31 INFO][User Message]Request: GET
+[05:02:2022 19:19:31 INFO][User Message]Url: /dir/dev/
+[05:02:2022 19:19:31 INFO]Sending server directory to client.
+[05:02:2022 19:19:31 INFO]/dev/
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/vfio/">vfio</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/snd/">snd</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/shm/">shm</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/pts/">pts</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/net/">net</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/mqueue/">mqueue</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/mapper/">mapper</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/lightnvm/">lightnvm</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/input/">input</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/hugepages/">hugepages</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/dri/">dri</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/dma_heap/">dma_heap</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/disk/">disk</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/cpu/">cpu</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/char/">char</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/bsg/">bsg</a>
+[05:02:2022 19:19:31 INFO]<a href="/dir/dev/block/">block</a>
+[05:02:2022 19:19:31 INFO]Sending message to client.
+[05:02:2022 19:19:31 INFO]Closing connection to client.
+[05:02:2022 19:19:31 INFO]Getting connection to client.
+[05:02:2022 19:19:36 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:19:36 INFO][Client Information]IP: 16777343
+[05:02:2022 19:19:36 INFO][Client Information]Port: 50841
+[05:02:2022 19:19:36 INFO]Getting client message...
+[05:02:2022 19:19:36 INFO]Handling request.
+[05:02:2022 19:19:36 INFO][User Message]Request: GET
+[05:02:2022 19:19:36 INFO][User Message]Url: /dir/boot/
+[05:02:2022 19:19:36 INFO]Sending server directory to client.
+[05:02:2022 19:19:36 INFO]/boot/
+[05:02:2022 19:19:36 INFO]<a href="/dir/boot/grub/">grub</a>
+[05:02:2022 19:19:36 INFO]<a href="/dir/boot/efi/">efi</a>
+[05:02:2022 19:19:36 INFO]Sending message to client.
+[05:02:2022 19:19:36 INFO]Closing connection to client.
+[05:02:2022 19:19:36 INFO]Getting connection to client.
+[05:02:2022 19:19:41 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:19:41 INFO][Client Information]IP: 16777343
+[05:02:2022 19:19:41 INFO][Client Information]Port: 51353
+[05:02:2022 19:19:41 INFO]Getting client message...
+[05:02:2022 19:19:41 INFO]Handling request.
+[05:02:2022 19:19:41 INFO][User Message]Request: GET
+[05:02:2022 19:19:41 INFO][User Message]Url: /dir/data/
+[05:02:2022 19:19:41 INFO]Sending server directory to client.
+[05:02:2022 19:19:41 INFO]/data/
+[05:02:2022 19:19:41 INFO]<a href="/dir/data/www/">www</a>
+[05:02:2022 19:19:41 INFO]<a href="/dir/data/home/">home</a>
+[05:02:2022 19:19:41 INFO]Sending message to client.
+[05:02:2022 19:19:41 INFO]Closing connection to client.
+[05:02:2022 19:19:41 INFO]Getting connection to client.
+[05:02:2022 19:19:43 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:19:43 INFO][Client Information]IP: 16777343
+[05:02:2022 19:19:43 INFO][Client Information]Port: 51865
+[05:02:2022 19:19:43 INFO]Getting client message...
+[05:02:2022 19:19:43 INFO]Handling request.
+[05:02:2022 19:19:43 INFO][User Message]Request: GET
+[05:02:2022 19:19:43 INFO][User Message]Url: /dir/data/home/
+[05:02:2022 19:19:43 INFO]Sending server directory to client.
+[05:02:2022 19:19:43 INFO]/data/home/
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/znb34/">znb34</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/vsc5444/">vsc5444</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/txh8839/">txh8839</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/stw8194/">stw8194</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/srw9062/">srw9062</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/rxd2458/">rxd2458</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/rod885/">rod885</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/rbt2310/">rbt2310</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/phuegler/">phuegler</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/pdj1404/">pdj1404</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/pac7985/">pac7985</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/nxc2677/">nxc2677</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/nlp1986/">nlp1986</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/njf1564/">njf1564</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/mxm9700/">mxm9700</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/mrb3271/">mrb3271</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/mnk5736/">mnk5736</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/mjones5/">mjones5</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/mcd2949/">mcd2949</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/ljp1590/">ljp1590</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/kxf4131/">kxf4131</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/krn832/">krn832</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/kgw9715/">kgw9715</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/kew1435/">kew1435</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/kce6286/">kce6286</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/jtk1913/">jtk1913</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/jrp4435/">jrp4435</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/jel6044/">jel6044</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/idr3847/">idr3847</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/hdm7869/">hdm7869</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/frh1400/">frh1400</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/fog1659/">fog1659</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/erd2094/">erd2094</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/eag4238/">eag4238</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/djf7639/">djf7639</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/djc7941/">djc7941</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/djb7710/">djb7710</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/dcf5607/">dcf5607</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/das1857/">das1857</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/crl569/">crl569</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/ckw1329/">ckw1329</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/cjk7623/">cjk7623</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/can3654/">can3654</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/bma2857/">bma2857</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/bas1280/">bas1280</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/bam6662/">bam6662</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/awg9276/">awg9276</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/arl2254/">arl2254</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/amo2726/">amo2726</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/amn2098/">amn2098</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/amh359/">amh359</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/alm2696/">alm2696</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/alj7204/">alj7204</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/ajs2647/">ajs2647</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/ajh3489/">ajh3489</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/ajd3787/">ajd3787</a>
+[05:02:2022 19:19:43 INFO]<a href="/dir/data/home/aac6959/">aac6959</a>
+[05:02:2022 19:19:43 INFO]Sending message to client.
+[05:02:2022 19:19:43 INFO]Closing connection to client.
+[05:02:2022 19:19:43 INFO]Getting connection to client.
+[05:02:2022 19:19:48 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:19:48 INFO][Client Information]IP: 16777343
+[05:02:2022 19:19:48 INFO][Client Information]Port: 52377
+[05:02:2022 19:19:48 INFO]Getting client message...
+[05:02:2022 19:19:48 INFO]Handling request.
+[05:02:2022 19:19:48 INFO][User Message]Request: 
+[05:02:2022 19:19:48 INFO][User Message]Url: 
+[05:02:2022 19:19:48 INFO]Sending message to client.
+[05:02:2022 19:19:48 INFO]Closing connection to client.
+[05:02:2022 19:19:48 INFO]Getting connection to client.
+[05:02:2022 19:20:02 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:20:02 INFO][Client Information]IP: 16777343
+[05:02:2022 19:20:02 INFO][Client Information]Port: 52889
+[05:02:2022 19:20:02 INFO]Getting client message...
+[05:02:2022 19:20:02 INFO]Handling request.
+[05:02:2022 19:20:02 INFO][User Message]Request: 
+[05:02:2022 19:20:02 INFO][User Message]Url: 
+[05:02:2022 19:20:02 INFO]Sending message to client.
+[05:02:2022 19:20:02 INFO]Closing connection to client.
+[05:02:2022 19:20:02 INFO]Getting connection to client.
+[05:02:2022 19:20:04 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:20:04 INFO][Client Information]IP: 16777343
+[05:02:2022 19:20:04 INFO][Client Information]Port: 53401
+[05:02:2022 19:20:04 INFO]Getting client message...
+[05:02:2022 19:20:04 INFO]Handling request.
+[05:02:2022 19:20:04 INFO][User Message]Request: GET
+[05:02:2022 19:20:04 INFO][User Message]Url: /dir/data/home/mrb3271/
+[05:02:2022 19:20:04 INFO]Sending server directory to client.
+[05:02:2022 19:20:04 INFO]/data/home/mrb3271/
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/tsclient/">tsclient</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/">eclipse-workspace</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/Videos/">Videos</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/Templates/">Templates</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/Public/">Public</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/Pictures/">Pictures</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/Music/">Music</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/Downloads/">Downloads</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/Documents/">Documents</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/Desktop/">Desktop</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/.swt/">.swt</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/.ssh/">.ssh</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/.mozilla/">.mozilla</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/.local/">.local</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/.gnupg/">.gnupg</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/.eclipse/">.eclipse</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/.dbus/">.dbus</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/.config/">.config</a>
+[05:02:2022 19:20:04 INFO]<a href="/dir/data/home/mrb3271/.cache/">.cache</a>
+[05:02:2022 19:20:04 INFO]Sending message to client.
+[05:02:2022 19:20:04 INFO]Closing connection to client.
+[05:02:2022 19:20:04 INFO]Getting connection to client.
+[05:02:2022 19:20:13 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:20:13 INFO][Client Information]IP: 16777343
+[05:02:2022 19:20:13 INFO][Client Information]Port: 53913
+[05:02:2022 19:20:13 INFO]Getting client message...
+[05:02:2022 19:20:13 INFO]Handling request.
+[05:02:2022 19:20:13 INFO][User Message]Request: 
+[05:02:2022 19:20:13 INFO][User Message]Url: 
+[05:02:2022 19:20:13 INFO]Sending message to client.
+[05:02:2022 19:20:13 INFO]Closing connection to client.
+[05:02:2022 19:20:13 INFO]Getting connection to client.
+[05:02:2022 19:20:18 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:20:18 INFO][Client Information]IP: 16777343
+[05:02:2022 19:20:18 INFO][Client Information]Port: 54425
+[05:02:2022 19:20:18 INFO]Getting client message...
+[05:02:2022 19:20:18 INFO]Handling request.
+[05:02:2022 19:20:18 INFO][User Message]Request: GET
+[05:02:2022 19:20:18 INFO][User Message]Url: /dir/data/home/alj7204/
+[05:02:2022 19:20:18 INFO]Sending server directory to client.
+[05:02:2022 19:20:18 INFO]/data/home/alj7204/
+[05:02:2022 19:20:18 WARN]Could not scan directory.
+[05:02:2022 19:20:18 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:02:2022 19:20:18 INFO]Sending message to client.
+[05:02:2022 19:20:18 INFO]Closing connection to client.
+[05:02:2022 19:20:18 INFO]Getting connection to client.
+[05:02:2022 19:20:22 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:20:22 INFO][Client Information]IP: 16777343
+[05:02:2022 19:20:22 INFO][Client Information]Port: 54937
+[05:02:2022 19:20:22 INFO]Getting client message...
+[05:02:2022 19:20:22 INFO]Handling request.
+[05:02:2022 19:20:22 INFO][User Message]Request: GET
+[05:02:2022 19:20:22 INFO][User Message]Url: /dir/data/home/mrb3271/
+[05:02:2022 19:20:22 INFO]Sending server directory to client.
+[05:02:2022 19:20:22 INFO]/data/home/mrb3271/
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/tsclient/">tsclient</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/">eclipse-workspace</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/Videos/">Videos</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/Templates/">Templates</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/Public/">Public</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/Pictures/">Pictures</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/Music/">Music</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/Downloads/">Downloads</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/Documents/">Documents</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/Desktop/">Desktop</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/.swt/">.swt</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/.ssh/">.ssh</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/.mozilla/">.mozilla</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/.local/">.local</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/.gnupg/">.gnupg</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/.eclipse/">.eclipse</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/.dbus/">.dbus</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/.config/">.config</a>
+[05:02:2022 19:20:22 INFO]<a href="/dir/data/home/mrb3271/.cache/">.cache</a>
+[05:02:2022 19:20:22 INFO]Sending message to client.
+[05:02:2022 19:20:22 INFO]Closing connection to client.
+[05:02:2022 19:20:22 INFO]Getting connection to client.
+[05:02:2022 19:20:26 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:20:26 INFO][Client Information]IP: 16777343
+[05:02:2022 19:20:26 INFO][Client Information]Port: 55449
+[05:02:2022 19:20:26 INFO]Getting client message...
+[05:02:2022 19:20:26 INFO]Handling request.
+[05:02:2022 19:20:26 INFO][User Message]Request: GET
+[05:02:2022 19:20:26 INFO][User Message]Url: /dir/data/home/mrb3271/.config/
+[05:02:2022 19:20:26 INFO]Sending server directory to client.
+[05:02:2022 19:20:26 INFO]/data/home/mrb3271/.config/
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/update-notifier/">update-notifier</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/pulse/">pulse</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/nautilus/">nautilus</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/libreoffice/">libreoffice</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/ibus/">ibus</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/gtk-3.0/">gtk-3.0</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/goa-1.0/">goa-1.0</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/gnome-session/">gnome-session</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/gnome-games/">gnome-games</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/gedit/">gedit</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/evolution/">evolution</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/enchant/">enchant</a>
+[05:02:2022 19:20:26 INFO]<a href="/dir/data/home/mrb3271/.config/dconf/">dconf</a>
+[05:02:2022 19:20:26 INFO]Sending message to client.
+[05:02:2022 19:20:26 INFO]Closing connection to client.
+[05:02:2022 19:20:26 INFO]Getting connection to client.
+[05:02:2022 19:20:29 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:20:29 INFO][Client Information]IP: 16777343
+[05:02:2022 19:20:29 INFO][Client Information]Port: 55961
+[05:02:2022 19:20:29 INFO]Getting client message...
+[05:02:2022 19:20:29 INFO]Handling request.
+[05:02:2022 19:20:29 INFO][User Message]Request: GET
+[05:02:2022 19:20:29 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/
+[05:02:2022 19:20:29 INFO]Sending server directory to client.
+[05:02:2022 19:20:29 INFO]/data/home/mrb3271/eclipse-workspace/
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/WordNumbers/">WordNumbers</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/StringsProgram/">StringsProgram</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Sorting/">Sorting</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/RunTimeVariables/">RunTimeVariables</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Preporcessor/">Preporcessor</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Pointers/">Pointers</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/PROJECT/">PROJECT</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Numbers/">Numbers</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab19-Polymorphism/">Lab19-Polymorphism</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab18-Inheritance/">Lab18-Inheritance</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab17-Overloading/">Lab17-Overloading</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab16-STL/">Lab16-STL</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab15-Error-Handling/">Lab15-Error-Handling</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab14-Strings/">Lab14-Strings</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab13-IO/">Lab13-IO</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/IntroCPP/">IntroCPP</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Fibonacci/">Fibonacci</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Experimental/">Experimental</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/ErrorProcessing/">ErrorProcessing</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project-CPP/">COMP302-Group-Project-CPP</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/COMP302-Group-Project/">COMP302-Group-Project</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/ArgumentsProgram/">ArgumentsProgram</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Amortization/">Amortization</a>
+[05:02:2022 19:20:29 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/.metadata/">.metadata</a>
+[05:02:2022 19:20:29 INFO]Sending message to client.
+[05:02:2022 19:20:29 INFO]Closing connection to client.
+[05:02:2022 19:20:29 INFO]Getting connection to client.
+[05:02:2022 19:20:31 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:20:31 INFO][Client Information]IP: 16777343
+[05:02:2022 19:20:31 INFO][Client Information]Port: 56473
+[05:02:2022 19:20:31 INFO]Getting client message...
+[05:02:2022 19:20:31 INFO]Handling request.
+[05:02:2022 19:20:31 INFO][User Message]Request: GET
+[05:02:2022 19:20:31 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/Lab19-Polymorphism/
+[05:02:2022 19:20:31 INFO]Sending server directory to client.
+[05:02:2022 19:20:31 INFO]/data/home/mrb3271/eclipse-workspace/Lab19-Polymorphism/
+[05:02:2022 19:20:31 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab19-Polymorphism/Debug/">Debug</a>
+[05:02:2022 19:20:31 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/Lab19-Polymorphism/.settings/">.settings</a>
+[05:02:2022 19:20:31 INFO]Sending message to client.
+[05:02:2022 19:20:31 INFO]Closing connection to client.
+[05:02:2022 19:20:31 INFO]Getting connection to client.
+[05:02:2022 19:20:33 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:20:33 INFO][Client Information]IP: 16777343
+[05:02:2022 19:20:33 INFO][Client Information]Port: 56985
+[05:02:2022 19:20:33 INFO]Getting client message...
+[05:02:2022 19:20:33 INFO]Handling request.
+[05:02:2022 19:20:33 INFO][User Message]Request: GET
+[05:02:2022 19:20:33 INFO][User Message]Url: /dir/data/home/mrb3271/eclipse-workspace/Lab19-Polymorphism/Debug/
+[05:02:2022 19:20:33 INFO]Sending server directory to client.
+[05:02:2022 19:20:33 INFO]/data/home/mrb3271/eclipse-workspace/Lab19-Polymorphism/Debug/
+[05:02:2022 19:20:33 INFO]Sending message to client.
+[05:02:2022 19:20:33 INFO]Closing connection to client.
+[05:02:2022 19:20:33 INFO]Getting connection to client.
+[05:02:2022 19:20:47 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:20:47 INFO][Client Information]IP: 16777343
+[05:02:2022 19:20:47 INFO][Client Information]Port: 57497
+[05:02:2022 19:20:47 INFO]Getting client message...
+[05:02:2022 19:20:47 INFO]Handling request.
+[05:02:2022 19:20:47 INFO][User Message]Request: 
+[05:02:2022 19:20:47 INFO][User Message]Url: 
+[05:02:2022 19:20:47 INFO]Sending message to client.
+[05:02:2022 19:20:47 INFO]Closing connection to client.
+[05:02:2022 19:20:47 INFO]Getting connection to client.
+[05:02:2022 19:20:54 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:20:54 INFO][Client Information]IP: 16777343
+[05:02:2022 19:20:54 INFO][Client Information]Port: 58009
+[05:02:2022 19:20:54 INFO]Getting client message...
+[05:02:2022 19:20:54 INFO]Handling request.
+[05:02:2022 19:20:54 INFO][User Message]Request: 
+[05:02:2022 19:20:54 INFO][User Message]Url: 
+[05:02:2022 19:20:54 INFO]Sending message to client.
+[05:02:2022 19:20:54 INFO]Closing connection to client.
+[05:02:2022 19:20:54 INFO]Getting connection to client.
+[05:02:2022 19:21:30 INFO][Client Information]Descriptor: 5
+[05:02:2022 19:21:30 INFO][Client Information]IP: 16777343
+[05:02:2022 19:21:30 INFO][Client Information]Port: 58521
+[05:02:2022 19:21:30 INFO]Getting client message...
+[05:02:2022 19:21:30 INFO]Handling request.
+[05:02:2022 19:21:30 INFO][User Message]Request: GET
+[05:02:2022 19:21:30 INFO][User Message]Url: /dir/data/home/mrb3271/
+[05:02:2022 19:21:30 INFO]Sending server directory to client.
+[05:02:2022 19:21:30 INFO]/data/home/mrb3271/
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/tsclient/">tsclient</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/eclipse-workspace/">eclipse-workspace</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/Videos/">Videos</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/Templates/">Templates</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/Public/">Public</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/Pictures/">Pictures</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/Music/">Music</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/Downloads/">Downloads</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/Documents/">Documents</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/Desktop/">Desktop</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/.swt/">.swt</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/.ssh/">.ssh</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/.mozilla/">.mozilla</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/.local/">.local</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/.gnupg/">.gnupg</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/.eclipse/">.eclipse</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/.dbus/">.dbus</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/.config/">.config</a>
+[05:02:2022 19:21:30 INFO]<a href="/dir/data/home/mrb3271/.cache/">.cache</a>
+[05:02:2022 19:21:30 INFO]Sending message to client.
+[05:02:2022 19:21:30 INFO]Closing connection to client.
+[05:02:2022 19:21:30 INFO]Getting connection to client.
+[05:02:2022 19:21:34 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:02:2022 19:21:34 ERROR]Force exiting the program.
