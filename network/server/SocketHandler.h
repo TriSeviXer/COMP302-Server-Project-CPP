@@ -11,6 +11,9 @@
 //POSIX Libraries
 #include "netinet/in.h"	//For retrieving socket addresses.
 
+//Standard C++ Libararies
+#include <string>	//For handling strings.
+
 //Macros
 #define SOCK_CLIENT 0		//Create a client socket.
 #define SOCK_SERVER_TCP 1	//Create a server socket with TCP.
@@ -22,6 +25,11 @@ typedef struct socketInfo {
 } socketInfo;
 
 class SocketHandler {
+
+	private:
+		int sockfd;
+		int clientfd;
+		socketInfo clientInfo;
 
 	//Constructors and Destructors.
 	public:
@@ -39,7 +47,7 @@ class SocketHandler {
 		 * @param int is the number of connections for the socket.
 		 * @return int is the socket descriptor.
 		 */
-		int createServerSocket(int domain, int type, int port, int backlog);
+		void createServerSocket(int domain, int type, int port, int backlog);
 
 		/**
 		 * Creates a client socket.
@@ -47,13 +55,36 @@ class SocketHandler {
 		 * @param socketInfo is a structure for sending info about the client to.
 		 * @return int is the client descriptor.
 		 */
-		int createClientSocket(int sockfd, socketInfo *info);
+		void createClientSocket();
+
 
 		/**
-		 * Cloeses a socket.
-		 * @return int is the file descriptor.
+		 * Closes the server socket.
 		 */
-		void closeSocket(int fileDescriptor);
+		void closeServerSocket();
+
+		/**
+		 * Closes the client socket.
+		 */
+		void closeClientSocket();
+
+		/**
+		 * Gets a message from the client.
+		 * @param std::string is the message from the client.
+		 */
+		std::string receiveMessage();
+
+		/**
+		 * Sends a message from to the client.
+		 * @param std::string is the message from the client.
+		 */
+		void sendMessage(std::string message);
+
+		/**
+		 * Retreives the client information.
+		 * @return socketInfo is the information for the client socket.
+		 */
+		socketInfo getClientInfo();
 
 	//Utilities
 	private:
@@ -63,6 +94,12 @@ class SocketHandler {
 		 * @return struct sockaddr_in is the address.
 		 */
 		struct sockaddr_in createAddress();
+
+		/**
+		 * Creates poll requests.
+		 */
+		void pollRequest();
+
 };
 
 #endif /* SOCKETHANDLER_H_ */

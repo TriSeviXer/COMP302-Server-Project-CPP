@@ -15,6 +15,10 @@
 #include <memory>	//For memory management.
 #include <string>	//For handling strings.
 
+//Macros
+#define SIG_ERROR -1		//For checking POSIX errors.
+#define SERVER_SUCCESS 0	//For checking comparisons.
+
 class Server {
 	//Variables and constants.
 	private:
@@ -61,32 +65,12 @@ class Server {
 	private:
 
 		/**
-		 * Creates poll requests.
-		 * @param clientfd is the client being polled.
-		 */
-		void pollRequest(int clientfd);
-
-		/**
 		 * Processes a client message.
 		 * @param socketInfo is the structure for client information.
 		 * @param std::string is the message from the client.
 		 * @return std::string message return from the server.
 		 */
 		std::string processMessage(socketInfo clientInfo, std::string message);
-
-		/**
-		 * Gets a message from the client.
-		 * @param int is the client descriptor.
-		 * @param std::string is the message from the client.
-		 */
-		std::string receiveMessage(int clientfd);
-
-		/**
-		 * Sends a message from to the client.
-		 * @param int is the client descriptor.
-		 * @param std::string is the message from the client.
-		 */
-		void sendMessage(int clientfd, std::string message);
 
 };
 

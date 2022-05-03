@@ -35,7 +35,8 @@ DirectoryPage::DirectoryPage(std::string serverName, std::string url) {
 
 	//Checks if the directory was scanned.
 	if(-1 == numDirectories){
-		throw("Could not scan directory.");
+		std::logic_error e("Could not scan directory.");
+		throw(e);
 	}
 
 	//Sets the meta data.
@@ -69,6 +70,7 @@ DirectoryPage::DirectoryPage(std::string serverName, std::string url) {
 			if(DT_DIR == nameList[numDirectories]->d_type){
 				item.insert(0, "<a href=\"" + url);
 				item.append("/\">" + std::string(nameList[numDirectories]->d_name) + "</a>");
+				Logger::logInfo(item);
 			}
 
 			column.push_back(item);

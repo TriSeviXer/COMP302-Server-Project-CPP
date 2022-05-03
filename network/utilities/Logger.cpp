@@ -171,7 +171,7 @@ void Logger::logError(std::exception *exception, std::string message){
 	return;
 }
 
-void Logger::logError(int err, std::exception exception, std::string message){
+void Logger::logError(int err, std::exception *exception, std::string message){
 
 	//Creates a stream and get the current time.
 	std::stringstream stream;
@@ -181,7 +181,7 @@ void Logger::logError(int err, std::exception exception, std::string message){
 	markSection(stream, section);
 
 	//Constrcuts a log message.
-	stream << std::strerror(err) << ". " << exception.what() << ". " << message;
+	stream << std::strerror(err) << ". " << exception->what() << ". " << message;
 
 	//Sends the stream to the console.
 	std::cerr << stream.str() << std::endl;

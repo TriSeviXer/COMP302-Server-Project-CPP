@@ -40,12 +40,14 @@ void Signal::addSignal(void signalFunction(int)){
 		//Sets the handler of the signal action.
 		signalAction.sa_handler = signalFunction;
 		if(SIG_ERROR == sigemptyset(&signalAction.sa_mask)){
-			throw("Could not clear the signal set.");
+			std::logic_error e("Could not clear the signal set.");
+			throw(e);
 		}
 
 		//Checks if the signal function was assigned.
 		if(SIG_ERROR == sigaction(SIGINT, &signalAction, NULL)){
-			throw("Could not create a signal action.");
+			std::logic_error e("Could not create a signal action.");
+			throw(e);
 		}
 
 	} catch(const char *message){

@@ -32,10 +32,6 @@
 //Standard C Libraries
 #include <cstring>	//For handling memset.
 
-//Macros
-#define SIG_ERROR -1		//For checking POSIX errors.
-#define SERVER_SUCCESS 0	//For checking comparisons.
-
 Server::Server() : serverName("Server"), domain(AF_INET), type(SOCK_STREAM), portNumber(2000), backlog(5) {
 
 }
@@ -55,11 +51,11 @@ void Server::run(){
 
 	//Create a socket handler.
 	Logger::logInfo("Initializing socket handler.");
-	std::shared_ptr<SocketHandler> socketHandler(new SocketHandler());
+	std::unique_ptr<SocketHandler> socketHandler(new SocketHandler());
 
 	//Open server socket.
 	Logger::logInfo("Opening server socket.");
-	int sockfd = socketHandler->createServerSocket(domain, type, portNumber, backlog);
+	socketHandler->createServerSocket(domain, type, portNumber, backlog);
 
 	//Add signals.
 	Logger::logInfo("Creating signals.");
@@ -72,29 +68,35 @@ void Server::run(){
 
 		//Receive client connection.
 		Logger::logInfo("Getting connection to client.");
-		int clientfd = socketHandler->createClientSocket(sockfd, &clientInfo);
+		socketHandler->createClientSocket();
 
-		//Receive client message.
-		Logger::logInfo("Getting client message...");
-		this->pollRequest(clientfd);
-		std::string clientMessage = this->receiveMessage(clientfd);
+		try{
+			//Receive client message.
+			Logger::logInfo("Getting client message...");
+			std::string clientMessage = socketHandler->receiveMessage();
 
-		//Handle client message.
-		Logger::logInfo("Handling request.");
-		std::string serverMessage = this->processMessage(clientInfo, clientMessage);
+			//Handle client message.
+			Logger::logInfo("Handling request.");
+			std::string serverMessage = this->processMessage(socketHandler->getClientInfo(), clientMessage);
 
-		//Send message back to client.
-		Logger::logInfo("Sending message to client.");
-		this->sendMessage(clientfd, serverMessage);
+			//Send message back to client.
+			Logger::logInfo("Sending message to client.");
+			socketHandler->sendMessage(serverMessage);
 
-		//Close the client when finished.
-		Logger::logInfo("Closing connection to client.");
-		socketHandler->closeSocket(clientfd);
+			//Close the client when finished.
+			Logger::logInfo("Closing connection to client.");
+			socketHandler->closeClientSocket();
+
+		} catch(std::exception &e){
+			Logger::logWarn("There was a problem processing the client request.");
+			Logger::logWarn(e.what());
+		}
+
 	}
 
 	//Close the server when finished.
 	Logger::logInfo("Closing server socket.");
-	socketHandler->closeSocket(sockfd);
+	socketHandler->closeServerSocket();
 
 }
 
@@ -111,18 +113,6 @@ Server* Server::setPort(int portNumber){
 Server* Server::setBacklog(int backlog){
 	this->backlog = backlog;
 	return this;
-}
-
-void Server::pollRequest(int clientfd){
-	struct pollfd pollList[1];
-	pollList[0].fd = clientfd;
-	pollList[0].events = POLLIN;
-
-	if(SIG_ERROR == poll(pollList, 1, 10000)){
-		Logger::logError("Poll has timed out.");
-	}
-
-	return;
 }
 
 std::string Server::processMessage(socketInfo clientInfo, std::string message){
@@ -168,9 +158,9 @@ std::string Server::processMessage(socketInfo clientInfo, std::string message){
 		//Returns a blank string if the request was invalid.
 		return "";
 
-	} catch(const char *message){
+	} catch(std::exception &e){
 
-		Logger::logWarn(message);
+		Logger::logWarn(e.what());
 		Logger::logWarn("Unknown problem sending a page. Sending 404 error page instead.");
 
 		std::shared_ptr<ErrorPage> page(new ErrorPage(serverName));
@@ -178,30 +168,4 @@ std::string Server::processMessage(socketInfo clientInfo, std::string message){
 
 	}
 
-}
-
-std::string Server::receiveMessage(int clientfd){
-
-	//For returning the request.
-	std::string request;
-
-	//Create a buffer for receiving segments of a client message.
-	char buffer[256];
-	memset(buffer, 0, sizeof(buffer));
-
-	while(0 < read(clientfd, buffer, sizeof(buffer) - 1)){
-
-		//Parses the buffer into the request.
-		request += std::string(buffer);
-
-	}
-
-	return request;
-
-}
-
-void Server::sendMessage(int clientfd, std::string message){
-	if(-1 == write(clientfd, message.c_str(), message.size())){
-		throw("Could not write bytes.");
-	}
 }

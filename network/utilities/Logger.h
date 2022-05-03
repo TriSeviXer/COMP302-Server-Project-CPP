@@ -94,7 +94,7 @@ class Logger {
 		 * @param std::exception exception is an exception for logging.
 		 * @param std::string is the message for logging.
 		 */
-		static void logError(int err, std::exception exception, std::string message);
+		static void logError(int err, std::exception *exception, std::string message);
 
 		/**
 		 * Closes the log file.
