@@ -31,15 +31,8 @@ int main(int argc, char **argv) {
 		//Close the log when finished.
 		Logger::closeLog();
 
-	} catch(const char *message){
-		Logger::logError("The program ran into a problem.");
-		Logger::logError(errno, message);
-		Logger::logError("Force exiting the program.");
-		Logger::closeLog();
-		return -1;
-
-	} catch(std::logic_error &e){
-		Logger::logError(&e, "The program ran into a problem.");
+	} catch(std::exception &e){
+		Logger::logError(errno, &e, "The program ran into a problem.");
 		Logger::logError("Force exiting the program.");
 		Logger::closeLog();
 		return -1;
