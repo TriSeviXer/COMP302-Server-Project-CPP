@@ -30,10 +30,18 @@
 
 #define HTML_CONTENT_TEXT "text/html"				//Content-type text.
 
+//Macros for page styles.
+#define CSS_TABLE "table, th, td { border: 1px solid black; }"	//Style for tables.
+
 //Macros for page types.
 #define PAGE_404 -1	//For 404 error pages.
 #define PAGE_STA 0	//For status pages.
 #define PAGE_DIR 1	//For directory pages.
+#define PAGE_PRO 2	//For proc pages.
+
+//Macros for success and errors
+#define PAGE_SUCCESS 0	//Handles successes.
+#define PAGE_ERROR -1	//Handles errors.
 
 class WebPage {
 

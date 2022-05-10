@@ -20,45 +20,85 @@
 #include <iostream>	//For handling input and output.
 #include <vector>	//For the vector data structure.
 #include <string>	//For handling strings.
+#include <thread>	//For multi threading.
+#include <atomic>	//For atomic variables.
+#include <mutex>	//For mutexes.
 
 //Standard C Libraries
 #include <ctime>	//For handling timespec.
 
-DirectoryPage::DirectoryPage(std::string serverName, std::string url) {
-	struct dirent **nameList;
-	int numDirectories = 0;
+DirectoryPage::DirectoryPage(std::string serverName, std::string url) : url(url){
+	//For getting the directories.
+	struct dirent **directoryList;
+	std::atomic<int> directoryCount(0);
 
-	std::string path = this->getAbsolutePath(url);
+	//Get the absolute path.
+	this->path = this->getAbsolutePath(url);
+	Logger::logInfo("Absolute Path: " + this->path);
 
 	//Scans the directory.
-	numDirectories = scandir(path.c_str(), &nameList, NULL, alphasort);
+	directoryCount = this->scanDirectories(&directoryList, this->path);
 
-	//Checks if the directory was scanned.
-	if(-1 == numDirectories){
-		std::logic_error e("Could not scan directory.");
-		throw(e);
-	}
+	Logger::logInfo("Number of Directories: " + std::to_string(directoryCount));
 
 	//Sets the meta data.
 	this->setStatus(HTML_STATUS_200);
 	this->setServer(serverName);
 	this->setContent(HTML_CONTENT_TEXT);
-	this->setStyle("table, th, td { border: 1px solid black; }");
+	this->setStyle(CSS_TABLE);
 
 	//Sets the title and header of the page.
 	this->setTitle("Server Directories");
 	this->addHeader1("Server Directories");
 
 	//Vectors for table displaying directory information.
-	std::vector<std::string> header = {"File", "Bytes", "Last Updated"};
+	std::vector<std::string> header = {"File", "Bytes", "Last Modified"};
 	std::vector<std::vector<std::string>> contents;
+
+	int threadCount = 0;
+
+	do {
+
+		//Creates threads to help collect directory information.
+		Logger::logInfo("Creating Directory thread: " + std::to_string(threadCount));
+		std::thread dirThread(&DirectoryPage::getDirectories, this, std::ref(directoryCount), std::ref(directoryList), std::ref(contents));
+		threads.push_back(std::move(dirThread));
+		threadCount++;
+
+	} while(threadCount < 2); // More than 2 threads creates a segmentation fault.
+
+	//Joins threads after completion.
+	for(auto &dirThread : threads){
+		Logger::logInfo("Joining thread...");
+		dirThread.join();
+	}
+
+	//Creates a table for the directory contents.
+	Logger::logInfo("Creating table.");
+	this->addTable(header, contents);
+	free(directoryList);
+
+}
+
+DirectoryPage::~DirectoryPage() {
+
+}
+
+std::string DirectoryPage::getAbsolutePath(std::string path){
+	int postion = path.find('/', 1);
+	path.replace(0, postion, "");
+	return path;
+}
+
+void DirectoryPage::getDirectories(std::atomic<int> &directoryCount, struct dirent **directoryList, std::vector<std::vector<std::string>> &contents){
 
 	//Struct for file information.
 	struct stat stats;
 
 	//Fetch all the directories for the user.
-	while(numDirectories--){
-		std::string item = nameList[numDirectories]->d_name;
+	while(directoryCount--){
+
+		std::string item = directoryList[directoryCount]->d_name;
 
 		//Creates a vector to hold multiple columns for a row.
 		std::vector<std::string> column;
@@ -67,17 +107,16 @@ DirectoryPage::DirectoryPage(std::string serverName, std::string url) {
 		if(item != "." && item != ".."){
 
 			//Creates a link for a directory.
-			if(DT_DIR == nameList[numDirectories]->d_type){
+			if(DT_DIR == directoryList[directoryCount]->d_type){
 				item.insert(0, "<a href=\"" + url);
-				item.append("/\">" + std::string(nameList[numDirectories]->d_name) + "</a>");
-				Logger::logInfo(item);
+				item.append("/\">" + std::string(directoryList[directoryCount]->d_name) + "</a>");
 			}
 
 			column.push_back(item);
 
 			//Collects the infomration for a file.
-			if(-1 == stat((path + nameList[numDirectories]->d_name).c_str(), &stats)){
-				Logger::logWarn("Unable to collect file information for '" + std::string(nameList[numDirectories]->d_name) + "'.");
+			if(-1 == stat((path + directoryList[directoryCount]->d_name).c_str(), &stats)){
+				Logger::logWarn("Unable to collect file information for '" + std::string(directoryList[directoryCount]->d_name) + "'.");
 				column.push_back("Unavailable");
 				column.push_back("Unavailable");
 
@@ -89,28 +128,31 @@ DirectoryPage::DirectoryPage(std::string serverName, std::string url) {
 		}
 
 		//Pushes the column to a row.
-		contents.push_back(column);
+		this->pushTo(&contents, column);
 
-		free(nameList[numDirectories]);
-
-		if(1 > numDirectories){
+		if(1 > directoryCount){
 			break;
 		}
 
 	}
+}
 
-	this->addTable(header, contents);
-	free(nameList);
+void DirectoryPage::pushTo(std::vector<std::vector<std::string>> *contents, std::vector<std::string> column){
+	std::lock_guard<std::mutex> contentLock(flag);
+	contents->push_back(column);
 
 }
 
-DirectoryPage::~DirectoryPage() {
+int DirectoryPage::scanDirectories(struct dirent ***directoryList, std::string path){
+	//Scans the directory.
+	int numberOfDirectories = scandir(path.c_str(), directoryList, NULL, alphasort);
 
-}
+	//Checks if the directory was scanned.
+	if(-1 == numberOfDirectories){
+		std::logic_error e("Could not scan directory.");
+		throw(e);
+	}
 
-std::string DirectoryPage::getAbsolutePath(std::string path){
-	int postion = path.find('/', 1);
-	path.replace(0, postion, "");
-	Logger::logInfo(path);
-	return path;
+	return numberOfDirectories;
+
 }

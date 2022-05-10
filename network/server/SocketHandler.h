@@ -13,6 +13,7 @@
 
 //Standard C++ Libararies
 #include <string>	//For handling strings.
+#include <memory>	//For handling prointers
 
 //Macros
 #define SOCK_CLIENT 0		//Create a client socket.
@@ -27,9 +28,8 @@ typedef struct socketInfo {
 class SocketHandler {
 
 	private:
-		int sockfd;
-		int clientfd;
-		socketInfo clientInfo;
+		int socketfd;
+		socketInfo sockInfo;
 
 	//Constructors and Destructors.
 	public:
@@ -45,7 +45,6 @@ class SocketHandler {
 		 * @param int is the protocol used.
 		 * @param int is the port number.
 		 * @param int is the number of connections for the socket.
-		 * @return int is the socket descriptor.
 		 */
 		void createServerSocket(int domain, int type, int port, int backlog);
 
@@ -53,20 +52,15 @@ class SocketHandler {
 		 * Creates a client socket.
 		 * @param int is the server socket descriptor.
 		 * @param socketInfo is a structure for sending info about the client to.
-		 * @return int is the client descriptor.
+		 * @return std::shared_ptr<SocketHandler> is the client socket.
 		 */
-		void createClientSocket();
+		std::shared_ptr<SocketHandler> createClientSocket();
 
 
 		/**
 		 * Closes the server socket.
 		 */
-		void closeServerSocket();
-
-		/**
-		 * Closes the client socket.
-		 */
-		void closeClientSocket();
+		void closeSocket();
 
 		/**
 		 * Gets a message from the client.
@@ -84,7 +78,7 @@ class SocketHandler {
 		 * Retreives the client information.
 		 * @return socketInfo is the information for the client socket.
 		 */
-		socketInfo getClientInfo();
+		socketInfo getSocketInfo();
 
 	//Utilities
 	private:
@@ -97,8 +91,9 @@ class SocketHandler {
 
 		/**
 		 * Creates poll requests.
+		 * @param int is the socket descriptor for polling.
 		 */
-		void pollRequest();
+		void pollRequest(int socketfd);
 
 };
 

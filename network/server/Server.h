@@ -12,8 +12,10 @@
 #include "SocketHandler.h"	//For socketInfo structure.
 
 //Standard C++ Libraries
+#include <thread>	//For handling threads.
 #include <memory>	//For memory management.
 #include <string>	//For handling strings.
+#include <vector>	//For vector data structure.
 
 //Macros
 #define SIG_ERROR -1		//For checking POSIX errors.
@@ -22,6 +24,7 @@
 class Server {
 	//Variables and constants.
 	private:
+		std::vector<std::thread> threads;
 		std::string serverName;
 		int domain;
 		int type;
@@ -63,6 +66,8 @@ class Server {
 		Server* setBacklog(int backlog);
 
 	private:
+
+		void processClient(std::shared_ptr<SocketHandler> socketHandler);
 
 		/**
 		 * Processes a client message.

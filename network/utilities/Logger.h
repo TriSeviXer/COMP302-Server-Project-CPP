@@ -11,6 +11,7 @@
 //Standard C++ Libraries
 #include <fstream>	//For handling file input and output.
 #include <string>	//For handling strings.
+#include <atomic>	//For atomic variables.
 
 //Macros
 #define PATH_LOGS "logs/"	//Default log folder.

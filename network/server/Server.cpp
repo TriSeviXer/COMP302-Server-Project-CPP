@@ -18,15 +18,11 @@
 #include "../web/DirectoryPage.h"	//For directories pages.
 
 //POSIX Libraries
-#include "netinet/in.h"		//For retrieving ip addresses.
-#include "sys/socket.h"		//For the listener.
 #include "unistd.h"			//For reading and writeing server messages.
-#include "fcntl.h"			//For nonblocking.
-#include "poll.h"			//For polling messages.
-#include "dirent.h"
 
 //Standard C++ Libraries
 #include <memory>	//For memory handling.
+#include <thread>	//For multi threading.
 #include <string>	//For handling strings.
 
 //Standard C Libraries
@@ -49,13 +45,13 @@ void Server::run(){
 	Logger::logInfo("Port Number: " + std::to_string(this->portNumber));
 	Logger::endSection();
 
-	//Create a socket handler.
-	Logger::logInfo("Initializing socket handler.");
-	std::unique_ptr<SocketHandler> socketHandler(new SocketHandler());
+	//Creates a socket handler.
+	Logger::logInfo("Createing a socket handler");
+	std::unique_ptr<SocketHandler> serverSocket(new SocketHandler);
 
 	//Open server socket.
 	Logger::logInfo("Opening server socket.");
-	socketHandler->createServerSocket(domain, type, portNumber, backlog);
+	serverSocket->createServerSocket(domain, type, portNumber, backlog);
 
 	//Add signals.
 	Logger::logInfo("Creating signals.");
@@ -63,40 +59,19 @@ void Server::run(){
 
 	while(Signal::getIsRunning()){
 
-		//Create struct for collecting socket info.
-		socketInfo clientInfo;
-
 		//Receive client connection.
 		Logger::logInfo("Getting connection to client.");
-		socketHandler->createClientSocket();
+		std::shared_ptr<SocketHandler> clientSocket = serverSocket->createClientSocket();
 
-		try{
-			//Receive client message.
-			Logger::logInfo("Getting client message...");
-			std::string clientMessage = socketHandler->receiveMessage();
-
-			//Handle client message.
-			Logger::logInfo("Handling request.");
-			std::string serverMessage = this->processMessage(socketHandler->getClientInfo(), clientMessage);
-
-			//Send message back to client.
-			Logger::logInfo("Sending message to client.");
-			socketHandler->sendMessage(serverMessage);
-
-			//Close the client when finished.
-			Logger::logInfo("Closing connection to client.");
-			socketHandler->closeClientSocket();
-
-		} catch(std::exception &e){
-			Logger::logWarn("There was a problem processing the client request.");
-			Logger::logWarn(e.what());
-		}
+		Logger::logInfo("Sending connection to thread.");
+		std::thread clientThread(&Server::processClient, this, std::move(clientSocket));
+		clientThread.detach();
 
 	}
 
 	//Close the server when finished.
 	Logger::logInfo("Closing server socket.");
-	socketHandler->closeServerSocket();
+	serverSocket->closeSocket();
 
 }
 
@@ -113,6 +88,33 @@ Server* Server::setPort(int portNumber){
 Server* Server::setBacklog(int backlog){
 	this->backlog = backlog;
 	return this;
+}
+
+void Server::processClient(std::shared_ptr<SocketHandler> socketHandler){
+	try{
+
+		//std::this_thread::sleep_for(std::chrono::seconds(15));
+
+		//Receive client message.
+		Logger::logInfo("Getting client message...");
+		std::string clientMessage = socketHandler->receiveMessage();
+
+		//Handle client message.
+		Logger::logInfo("Handling request.");
+		std::string serverMessage = this->processMessage(socketHandler->getSocketInfo(), clientMessage);
+
+		//Send message back to client.
+		Logger::logInfo("Sending message to client.");
+		socketHandler->sendMessage(serverMessage);
+
+		//Close the client when finished.
+		Logger::logInfo("Closing connection to client.");
+		socketHandler->closeSocket();
+
+	} catch(std::exception &e){
+		Logger::logWarn("There was a problem processing the client request.");
+		Logger::logWarn(e.what());
+	}
 }
 
 std::string Server::processMessage(socketInfo clientInfo, std::string message){
@@ -136,19 +138,25 @@ std::string Server::processMessage(socketInfo clientInfo, std::string message){
 			if(SERVER_SUCCESS == url.compare("/status") || SERVER_SUCCESS == url.compare("/status/")){
 				//Returns a status page.
 				Logger::logInfo("Sending server status to client.");
-				std::shared_ptr<WebPage> page = WebPage::createPage(PAGE_STA, clientInfo, serverName, url);
+				auto page = WebPage::createPage(PAGE_STA, clientInfo, serverName, url);
 				return page->getWebPage();
 
 			} else if(SERVER_SUCCESS == url.compare(0, 5, "/dir/")){
 				//Returns a directories page.
 				Logger::logInfo("Sending server directory to client.");
-				std::shared_ptr<WebPage> page = WebPage::createPage(PAGE_DIR, clientInfo, serverName, url);
+				auto page = WebPage::createPage(PAGE_DIR, clientInfo, serverName, url);
+				return page->getWebPage();
+
+			} else if(SERVER_SUCCESS == url.compare(0, 6, "/proc/")){
+				//Returns a proc page.
+				Logger::logInfo("Sending server proc page to client");
+				auto page = WebPage::createPage(PAGE_PRO, clientInfo, serverName, url);
 				return page->getWebPage();
 
 			} else {
 				//Returns a 404 error page.
 				Logger::logInfo("Could not find page requested by client. Sending 404 error to client.");
-				std::shared_ptr<WebPage> page = WebPage::createPage(PAGE_404, clientInfo, serverName, url);
+				auto page = WebPage::createPage(PAGE_404, clientInfo, serverName, url);
 				return page->getWebPage();
 
 			}

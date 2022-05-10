@@ -12,6 +12,7 @@
 #include "ErrorPage.h"		//For error page.
 #include "StatusPage.h"		//For status page.
 #include "DirectoryPage.h"	//For directory page.
+#include "ProcPage.h"		//For proc page.
 
 //Standard C++ Libraries
 #include <vector>	//For vector data structure.
@@ -40,6 +41,10 @@ std::shared_ptr<WebPage> WebPage::createPage(int type, socketInfo info, std::str
 
 		case PAGE_DIR:
 			page.reset(new DirectoryPage(serverName, path));
+			return page;
+
+		case PAGE_PRO:
+			page.reset(new ProcPage(serverName, path));
 			return page;
 
 		default:

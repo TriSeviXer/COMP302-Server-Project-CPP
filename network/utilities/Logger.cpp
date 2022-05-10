@@ -16,6 +16,9 @@
 #include <sstream>	//For handling string streams.
 #include <fstream>	//For handling file input and output.
 #include <iostream>	//For handling input and output.
+#include <atomic>	//For atomi variables.
+
+//Standard C Libraries
 #include <cerrno>	//For handling errnos.
 #include <cstring>	//For handling c strings.
 
@@ -24,7 +27,7 @@
 #define TYPE_INF "INFO"		//Log type info.
 #define TYPE_WAR "WARN"		//Log type warning.
 
-#define markSection(stream, section) if(isSection) stream << "[" << section << "]";		//Checks if section is being marked.
+#define markSection(stream, section) if(isSection) stream << "[" << std::string(section) << "]";		//Checks if section is being marked.
 #define sendLog(file, stream) if(file.is_open()) file << stream.str() << std::endl;		//Sends the stream to a file.
 
 //Variables and constants.

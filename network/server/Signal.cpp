@@ -2,7 +2,7 @@
  * Signal.cpp
  *
  *  Created on: Apr 19, 2022
- *      Author: mrb3271
+ *      Author: Michael Bloom & Andrew Juhola
  */
 
 #include "Signal.h"
@@ -50,7 +50,7 @@ void Signal::addSignal(void signalFunction(int)){
 			throw(e);
 		}
 
-	} catch(const char *message){
-		Logger::logError(message);
+	} catch(std::exception &e){
+		Logger::logError(&e, "Signal Error.");
 	}
 }

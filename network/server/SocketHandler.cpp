@@ -27,7 +27,7 @@
 //Macros
 #define SOCKET_ERROR -1	//For handling POSIX errors.
 
-SocketHandler::SocketHandler() {
+SocketHandler::SocketHandler() : socketfd(-1) {
 
 }
 
@@ -37,7 +37,7 @@ SocketHandler::~SocketHandler() {
 
 void SocketHandler::createServerSocket(int domain, int type, int port, int backlog){
 	//Declare an address struct for the socket.
-	struct sockaddr_in address = this->createAddress();
+	struct sockaddr_in address = SocketHandler::createAddress();
 
 	//Assign attributes to the address.
 	address.sin_family = domain;
@@ -45,75 +45,75 @@ void SocketHandler::createServerSocket(int domain, int type, int port, int backl
 	address.sin_port = htons(port);
 
 	//Create the socket and return the descriptor.
-	this->sockfd = socket(domain, type, 0);
+	this->socketfd = socket(domain, type, 0);
 
 	//Check the file descriptor.
-	if(SOCKET_ERROR == this->sockfd){
+	if(SOCKET_ERROR == this->socketfd){
 		std::logic_error e("Could not create client descriptor.");
 		throw(e);
 	}
 
 	//Bind the socket.
-	if(SOCKET_ERROR == bind(this->sockfd, (struct sockaddr *) &address, sizeof(address))){
+	if(SOCKET_ERROR == bind(this->socketfd, (struct sockaddr *) &address, sizeof(address))){
 		std::logic_error e("Could not bind socket to address.");
 		throw(e);
 	}
 
 	//Add a listener to the socket.
-	if(SOCKET_ERROR == listen(this->sockfd, backlog)){
+	if(SOCKET_ERROR == listen(this->socketfd, backlog)){
 		std::logic_error e("Could not create listener.");
 		throw(e);
 	}
 
 	//Log socket information.
 	Logger::logSection("Socket Information");
-	Logger::logInfo("Descriptor: " + std::to_string(this->sockfd));
+	Logger::logInfo("Descriptor: " + std::to_string(this->socketfd));
 	Logger::logInfo("Address: " + std::to_string(address.sin_addr.s_addr));
 	Logger::logInfo("Port: " + std::to_string(port));
 	Logger::endSection();
 
 }
 
-void SocketHandler::createClientSocket(){
+std::shared_ptr<SocketHandler> SocketHandler::createClientSocket(){
 	//Declare an address struct for the socket.
 	struct sockaddr_in address = this->createAddress();
 	socklen_t length = sizeof(address);
 
 	//Create the socket and return the descriptor.
-	this->clientfd = accept(this->sockfd, (struct sockaddr*) &address, &length);
+	int clientfd = accept(this->socketfd, (struct sockaddr*) &address, &length);
 
 	//Check the file descriptor.
-	if(SOCKET_ERROR == this->clientfd){
+	if(SOCKET_ERROR == clientfd){
 		std::runtime_error e("Could not create client descriptor.");
 		throw(e);
 	}
 
 	//Set the non-blocking.
-	if(SOCKET_ERROR == fcntl(this->clientfd, F_SETFL, O_NONBLOCK)){
+	if(SOCKET_ERROR == fcntl(clientfd, F_SETFL, O_NONBLOCK)){
 		std::logic_error e("Could not block.");
 		throw(e);
 	}
 
-	this->pollRequest();
+	this->pollRequest(clientfd);
 
-	this->clientInfo.ip = address.sin_addr.s_addr;
-	this->clientInfo.port = address.sin_port;
+	this->sockInfo.ip = address.sin_addr.s_addr;
+	this->sockInfo.port = address.sin_port;
 
 	//Log client information.
 	Logger::logSection("Client Information");
-	Logger::logInfo("Descriptor: " + std::to_string(clientfd));
-	Logger::logInfo("IP: " + std::to_string(this->clientInfo.ip));
-	Logger::logInfo("Port: " + std::to_string(this->clientInfo.port));
+	Logger::logInfo("Descriptor: " + std::to_string(this->socketfd));
+	Logger::logInfo("IP: " + std::to_string(this->sockInfo.ip));
+	Logger::logInfo("Port: " + std::to_string(this->sockInfo.port));
 	Logger::endSection();
 
+	std::shared_ptr<SocketHandler> client(new SocketHandler);
+	client->socketfd = clientfd;
+	return client;
+
 }
 
-void SocketHandler::closeServerSocket(){
-	close(this->sockfd);
-}
-
-void SocketHandler::closeClientSocket(){
-	close(this->clientfd);
+void SocketHandler::closeSocket(){
+	close(this->socketfd);
 }
 
 std::string SocketHandler::receiveMessage(){
@@ -124,7 +124,7 @@ std::string SocketHandler::receiveMessage(){
 	char buffer[256];
 	memset(buffer, 0, sizeof(buffer));
 
-	while(0 < read(this->clientfd, buffer, sizeof(buffer) - 1)){
+	while(0 < read(this->socketfd, buffer, sizeof(buffer) - 1)){
 
 		//Parses the buffer into the reqeust.
 		request += std::string(buffer);
@@ -136,14 +136,14 @@ std::string SocketHandler::receiveMessage(){
 }
 
 void SocketHandler::sendMessage(std::string message){
-	if(-1 == write(this->clientfd, message.c_str(), message.size())){
+	if(-1 == write(this->socketfd, message.c_str(), message.size())){
 		std::logic_error e("Could not write btyes.");
 		throw(e);
 	}
 }
 
-socketInfo SocketHandler::getClientInfo(){
-	return this->clientInfo;
+socketInfo SocketHandler::getSocketInfo(){
+	return this->sockInfo;
 }
 
 struct sockaddr_in SocketHandler::createAddress(){
@@ -152,9 +152,9 @@ struct sockaddr_in SocketHandler::createAddress(){
 	return address;
 }
 
-void SocketHandler::pollRequest(){
+void SocketHandler::pollRequest(int socketfd){
 	struct pollfd pollList[1];
-	pollList[0].fd = this->clientfd;
+	pollList[0].fd = socketfd;
 	pollList[0].events = POLLIN;
 
 	if(SOCKET_ERROR == poll(pollList, 1, 10000)){
