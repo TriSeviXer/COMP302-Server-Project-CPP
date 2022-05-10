@@ -18,14 +18,15 @@
 
 int main(int argc, char **argv) {
 	try{
+
 		//Bind a file to the log.
 		Logger::bindLog();
 
 		//Create an argument handler for handling arguments given to the program.
-		std::shared_ptr<ArgHandler> argHandler(new ArgHandler(argc, argv));
+		std::unique_ptr<ArgHandler> argHandler(new ArgHandler(argc, argv));
 
 		//Create the actual server.
-		std::shared_ptr<Server> server(new Server());
+		std::unique_ptr<Server> server(new Server());
 		server->setName(argHandler->nextString())->setPort(argHandler->nextInt())->setBacklog(argHandler->nextInt())->run();
 
 		//Close the log when finished.
