@@ -61,7 +61,7 @@ main-build: COMP302-Group-Project-CPP
 COMP302-Group-Project-CPP: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++  -o "COMP302-Group-Project-CPP" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++  -o "COMP302-Group-Project-CPP" $(OBJS) $(USER_OBJS) $(LIBS) -pthread
 	@echo 'Finished building target: $@'
 	@echo ' '
 

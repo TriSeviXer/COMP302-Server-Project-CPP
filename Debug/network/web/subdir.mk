@@ -6,18 +6,21 @@
 CPP_SRCS += \
 ../network/web/DirectoryPage.cpp \
 ../network/web/ErrorPage.cpp \
+../network/web/ProcPage.cpp \
 ../network/web/StatusPage.cpp \
 ../network/web/WebPage.cpp 
 
 OBJS += \
 ./network/web/DirectoryPage.o \
 ./network/web/ErrorPage.o \
+./network/web/ProcPage.o \
 ./network/web/StatusPage.o \
 ./network/web/WebPage.o 
 
 CPP_DEPS += \
 ./network/web/DirectoryPage.d \
 ./network/web/ErrorPage.d \
+./network/web/ProcPage.d \
 ./network/web/StatusPage.d \
 ./network/web/WebPage.d 
 
