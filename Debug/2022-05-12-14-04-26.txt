@@ -1,0 +1,91 @@
+[05:12:2022 14:04:26 INFO]Running server.
+[05:12:2022 14:04:26 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 14:04:26 INFO][Server Properties]Port Number: 2000
+[05:12:2022 14:04:26 INFO]Createing a socket handler
+[05:12:2022 14:04:26 INFO]Opening server socket.
+[05:12:2022 14:04:26 INFO][Socket Information]Descriptor: 4
+[05:12:2022 14:04:26 INFO][Socket Information]Address: 0
+[05:12:2022 14:04:26 INFO][Socket Information]Port: 2000
+[05:12:2022 14:04:26 INFO]Creating signals.
+[05:12:2022 14:04:26 INFO]Getting connection to client.
+[05:12:2022 14:04:31 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:04:31 INFO][Client Information]IP: 16777343
+[05:12:2022 14:04:31 INFO][Client Information]Port: 5322
+[05:12:2022 14:04:31 INFO]Sending connection to thread.
+[05:12:2022 14:04:31 INFO]Getting connection to client.
+[05:12:2022 14:04:31 INFO]Getting client message...
+[05:12:2022 14:04:31 INFO]Handling request.
+[05:12:2022 14:04:31 INFO][User Message]Request: GET
+[05:12:2022 14:04:31 INFO][User Message]Url: /dir/
+[05:12:2022 14:04:31 INFO]Sending server directory to client.
+[05:12:2022 14:04:31 INFO]Absolute Path: /
+[05:12:2022 14:04:31 INFO]Number of Directories: 28
+[05:12:2022 14:04:31 INFO]Creating Directory thread: 0
+[05:12:2022 14:04:31 INFO]Creating Directory thread: 1
+[05:12:2022 14:04:31 INFO]Joining thread...
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'usr'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'tmp'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'sys'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'swapfile'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'srv'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'snap'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'sbin'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'run'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'root'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'proc'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'opt'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'mnt'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'media'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'lost+found'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'libx32'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'lib64'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'lib32'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'lib'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'home'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'etc'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'dev'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'data'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'cdrom'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'boot'.
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'bin'.
+[05:12:2022 14:04:31 INFO]Joining thread...
+[05:12:2022 14:04:31 WARN]Unable to collect file information for 'usr'.
+[05:12:2022 14:04:31 INFO]Creating table.
+[05:12:2022 14:04:31 INFO]Sending message to client.
+[05:12:2022 14:04:31 INFO]Closing connection to client.
+[05:12:2022 14:04:31 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:04:31 INFO][Client Information]IP: 16777343
+[05:12:2022 14:04:31 INFO][Client Information]Port: 6346
+[05:12:2022 14:04:31 INFO]Sending connection to thread.
+[05:12:2022 14:04:31 INFO]Getting connection to client.
+[05:12:2022 14:04:31 INFO]Getting client message...
+[05:12:2022 14:04:31 INFO]Handling request.
+[05:12:2022 14:04:31 INFO][User Message]Request: GET
+[05:12:2022 14:04:31 INFO][User Message]Url: /favicon.ico
+[05:12:2022 14:04:31 INFO]Could not find page requested by client. Sending 404 error to client.
+[05:12:2022 14:04:31 INFO]Sending message to client.
+[05:12:2022 14:04:31 INFO]Closing connection to client.
+[05:12:2022 14:04:38 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:04:38 INFO][Client Information]IP: 16777343
+[05:12:2022 14:04:38 INFO][Client Information]Port: 6858
+[05:12:2022 14:04:38 INFO]Sending connection to thread.
+[05:12:2022 14:04:38 INFO]Getting connection to client.
+[05:12:2022 14:04:38 INFO]Getting client message...
+[05:12:2022 14:04:38 INFO]Handling request.
+[05:12:2022 14:04:38 INFO][User Message]Request: 
+[05:12:2022 14:04:38 INFO][User Message]Url: 
+[05:12:2022 14:04:38 INFO]Sending message to client.
+[05:12:2022 14:04:38 INFO]Closing connection to client.
+[05:12:2022 14:04:43 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:04:43 INFO][Client Information]IP: 16777343
+[05:12:2022 14:04:43 INFO][Client Information]Port: 7370
+[05:12:2022 14:04:43 INFO]Sending connection to thread.
+[05:12:2022 14:04:43 INFO]Getting connection to client.
+[05:12:2022 14:04:43 INFO]Getting client message...
+[05:12:2022 14:04:43 INFO]Handling request.
+[05:12:2022 14:04:43 INFO][User Message]Request: 
+[05:12:2022 14:04:43 INFO][User Message]Url: 
+[05:12:2022 14:04:43 INFO]Sending message to client.
+[05:12:2022 14:04:43 INFO]Closing connection to client.
+[05:12:2022 14:05:02 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:12:2022 14:05:02 ERROR]Force exiting the program.

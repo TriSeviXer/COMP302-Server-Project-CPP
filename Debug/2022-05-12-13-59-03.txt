@@ -1,0 +1,42 @@
+[05:12:2022 13:59:03 INFO]Running server.
+[05:12:2022 13:59:03 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 13:59:03 INFO][Server Properties]Port Number: 2001
+[05:12:2022 13:59:03 INFO]Createing a socket handler
+[05:12:2022 13:59:03 INFO]Opening server socket.
+[05:12:2022 13:59:03 INFO][Socket Information]Descriptor: 4
+[05:12:2022 13:59:03 INFO][Socket Information]Address: 0
+[05:12:2022 13:59:03 INFO][Socket Information]Port: 2001
+[05:12:2022 13:59:03 INFO]Creating signals.
+[05:12:2022 13:59:03 INFO]Getting connection to client.
+[05:12:2022 13:59:05 INFO][Client Information]Descriptor: 4
+[05:12:2022 13:59:05 INFO][Client Information]IP: 16777343
+[05:12:2022 13:59:05 INFO][Client Information]Port: 58059
+[05:12:2022 13:59:05 INFO]Sending connection to thread.
+[05:12:2022 13:59:05 INFO]Getting connection to client.
+[05:12:2022 13:59:05 INFO]Getting client message...
+[05:12:2022 13:59:05 INFO]Handling request.
+[05:12:2022 13:59:05 INFO][User Message]Request: GET
+[05:12:2022 13:59:05 INFO][User Message]Url: /dir/
+[05:12:2022 13:59:05 INFO]Sending server directory to client.
+[05:12:2022 13:59:05 INFO]Absolute Path: /
+[05:12:2022 13:59:05 INFO]Number of Directories: 28
+[05:12:2022 13:59:05 INFO]Creating Directory thread: 0
+[05:12:2022 13:59:05 INFO]Creating Directory thread: 1
+[05:12:2022 13:59:05 INFO]Joining thread...
+[05:12:2022 13:59:05 INFO]Joining thread...
+[05:12:2022 13:59:05 INFO]Creating table.
+[05:12:2022 13:59:05 INFO]Sending message to client.
+[05:12:2022 13:59:05 INFO]Closing connection to client.
+[05:12:2022 13:59:11 INFO][Client Information]Descriptor: 4
+[05:12:2022 13:59:11 INFO][Client Information]IP: 16777343
+[05:12:2022 13:59:11 INFO][Client Information]Port: 58571
+[05:12:2022 13:59:11 INFO]Sending connection to thread.
+[05:12:2022 13:59:11 INFO]Getting connection to client.
+[05:12:2022 13:59:11 INFO]Getting client message...
+[05:12:2022 13:59:11 INFO]Handling request.
+[05:12:2022 13:59:11 INFO][User Message]Request: 
+[05:12:2022 13:59:11 INFO][User Message]Url: 
+[05:12:2022 13:59:11 INFO]Sending message to client.
+[05:12:2022 13:59:11 INFO]Closing connection to client.
+[05:12:2022 13:59:58 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:12:2022 13:59:58 ERROR]Force exiting the program.

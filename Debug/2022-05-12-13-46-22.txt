@@ -1,0 +1,12 @@
+[05:12:2022 13:46:22 INFO]Running server.
+[05:12:2022 13:46:22 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 13:46:22 INFO][Server Properties]Port Number: 2001
+[05:12:2022 13:46:22 INFO]Createing a socket handler
+[05:12:2022 13:46:22 INFO]Opening server socket.
+[05:12:2022 13:46:22 INFO][Socket Information]Descriptor: 4
+[05:12:2022 13:46:22 INFO][Socket Information]Address: 0
+[05:12:2022 13:46:22 INFO][Socket Information]Port: 2001
+[05:12:2022 13:46:22 INFO]Creating signals.
+[05:12:2022 13:46:22 INFO]Getting connection to client.
+[05:12:2022 13:46:23 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:12:2022 13:46:23 ERROR]Force exiting the program.

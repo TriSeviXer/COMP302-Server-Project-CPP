@@ -1,0 +1,64 @@
+[05:12:2022 14:05:06 INFO]Running server.
+[05:12:2022 14:05:06 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 14:05:06 INFO][Server Properties]Port Number: 2001
+[05:12:2022 14:05:06 INFO]Createing a socket handler
+[05:12:2022 14:05:06 INFO]Opening server socket.
+[05:12:2022 14:05:06 INFO][Socket Information]Descriptor: 4
+[05:12:2022 14:05:06 INFO][Socket Information]Address: 0
+[05:12:2022 14:05:06 INFO][Socket Information]Port: 2001
+[05:12:2022 14:05:06 INFO]Creating signals.
+[05:12:2022 14:05:06 INFO]Getting connection to client.
+[05:12:2022 14:05:11 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:05:11 INFO][Client Information]IP: 16777343
+[05:12:2022 14:05:11 INFO][Client Information]Port: 59083
+[05:12:2022 14:05:11 INFO]Sending connection to thread.
+[05:12:2022 14:05:11 INFO]Getting connection to client.
+[05:12:2022 14:05:11 INFO]Getting client message...
+[05:12:2022 14:05:11 INFO]Handling request.
+[05:12:2022 14:05:11 INFO][User Message]Request: GET
+[05:12:2022 14:05:11 INFO][User Message]Url: /dir/
+[05:12:2022 14:05:11 INFO]Sending server directory to client.
+[05:12:2022 14:05:11 INFO]Absolute Path: /
+[05:12:2022 14:05:11 INFO]Number of Directories: 28
+[05:12:2022 14:05:11 INFO]Creating Directory thread: 0
+[05:12:2022 14:05:11 INFO]Creating Directory thread: 1
+[05:12:2022 14:05:11 INFO]Joining thread...
+[05:12:2022 14:05:11 INFO]Joining thread...
+[05:12:2022 14:05:11 INFO]Creating table.
+[05:12:2022 14:05:11 INFO]Sending message to client.
+[05:12:2022 14:05:11 INFO]Closing connection to client.
+[05:12:2022 14:05:18 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:05:18 INFO][Client Information]IP: 16777343
+[05:12:2022 14:05:18 INFO][Client Information]Port: 59595
+[05:12:2022 14:05:18 INFO]Sending connection to thread.
+[05:12:2022 14:05:18 INFO]Getting connection to client.
+[05:12:2022 14:05:18 INFO]Getting client message...
+[05:12:2022 14:05:18 INFO]Handling request.
+[05:12:2022 14:05:18 INFO][User Message]Request: 
+[05:12:2022 14:05:18 INFO][User Message]Url: 
+[05:12:2022 14:05:18 INFO]Sending message to client.
+[05:12:2022 14:05:18 INFO]Closing connection to client.
+[05:12:2022 14:05:23 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:05:23 INFO][Client Information]IP: 16777343
+[05:12:2022 14:05:23 INFO][Client Information]Port: 60107
+[05:12:2022 14:05:23 INFO]Sending connection to thread.
+[05:12:2022 14:05:23 INFO]Getting connection to client.
+[05:12:2022 14:05:23 INFO]Getting client message...
+[05:12:2022 14:05:23 INFO]Handling request.
+[05:12:2022 14:05:23 INFO][User Message]Request: 
+[05:12:2022 14:05:23 INFO][User Message]Url: 
+[05:12:2022 14:05:23 INFO]Sending message to client.
+[05:12:2022 14:05:23 INFO]Closing connection to client.
+[05:12:2022 14:05:28 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:05:28 INFO][Client Information]IP: 16777343
+[05:12:2022 14:05:28 INFO][Client Information]Port: 60619
+[05:12:2022 14:05:28 INFO]Sending connection to thread.
+[05:12:2022 14:05:28 INFO]Getting connection to client.
+[05:12:2022 14:05:28 INFO]Getting client message...
+[05:12:2022 14:05:28 INFO]Handling request.
+[05:12:2022 14:05:28 INFO][User Message]Request: 
+[05:12:2022 14:05:28 INFO][User Message]Url: 
+[05:12:2022 14:05:28 INFO]Sending message to client.
+[05:12:2022 14:05:28 INFO]Closing connection to client.
+[05:12:2022 14:05:32 ERROR]Interrupted system call. Poll has timed out.. The program ran into a problem.
+[05:12:2022 14:05:32 ERROR]Force exiting the program.

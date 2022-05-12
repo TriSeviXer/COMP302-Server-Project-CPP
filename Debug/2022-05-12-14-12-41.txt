@@ -1,0 +1,191 @@
+[05:12:2022 14:12:41 INFO]Running server.
+[05:12:2022 14:12:41 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 14:12:41 INFO][Server Properties]Port Number: 2000
+[05:12:2022 14:12:41 INFO]Createing a socket handler
+[05:12:2022 14:12:41 INFO]Opening server socket.
+[05:12:2022 14:12:41 INFO][Socket Information]Descriptor: 4
+[05:12:2022 14:12:41 INFO][Socket Information]Address: 0
+[05:12:2022 14:12:41 INFO][Socket Information]Port: 2000
+[05:12:2022 14:12:41 INFO]Creating signals.
+[05:12:2022 14:12:41 INFO]Getting connection to client.
+[05:12:2022 14:12:45 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:12:45 INFO][Client Information]IP: 16777343
+[05:12:2022 14:12:45 INFO][Client Information]Port: 11466
+[05:12:2022 14:12:45 INFO]Sending connection to thread.
+[05:12:2022 14:12:45 INFO]Getting connection to client.
+[05:12:2022 14:12:45 INFO]Getting client message...
+[05:12:2022 14:12:45 INFO]Handling request.
+[05:12:2022 14:12:45 INFO][User Message]Request: GET
+[05:12:2022 14:12:45 INFO][User Message]Url: /dir/var
+[05:12:2022 14:12:45 INFO]Sending server directory to client.
+[05:12:2022 14:12:45 INFO]Absolute Path: /var
+[05:12:2022 14:12:45 INFO]Number of Directories: 19
+[05:12:2022 14:12:45 INFO]Creating Directory thread: 0
+[05:12:2022 14:12:45 INFO]Creating Directory thread: 1
+[05:12:2022 14:12:45 INFO]Joining thread...
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'www'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'vmware'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'tmp'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'spool'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'snap'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'run'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'opt'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'metrics'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'mail'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'www'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'www'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'log'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'lock'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'local'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'lib'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'crash'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'cache'.
+[05:12:2022 14:12:45 WARN]Unable to collect file information for 'backups'.
+[05:12:2022 14:12:45 INFO]Joining thread...
+[05:12:2022 14:12:45 INFO]Creating table.
+[05:12:2022 14:12:45 INFO]Sending message to client.
+[05:12:2022 14:12:45 INFO]Closing connection to client.
+[05:12:2022 14:12:45 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:12:45 INFO][Client Information]IP: 16777343
+[05:12:2022 14:12:45 INFO][Client Information]Port: 11978
+[05:12:2022 14:12:45 INFO]Sending connection to thread.
+[05:12:2022 14:12:45 INFO]Getting connection to client.
+[05:12:2022 14:12:45 INFO]Getting client message...
+[05:12:2022 14:12:45 INFO]Handling request.
+[05:12:2022 14:12:45 INFO][User Message]Request: GET
+[05:12:2022 14:12:45 INFO][User Message]Url: /favicon.ico
+[05:12:2022 14:12:45 INFO]Could not find page requested by client. Sending 404 error to client.
+[05:12:2022 14:12:45 INFO]Sending message to client.
+[05:12:2022 14:12:45 INFO]Closing connection to client.
+[05:12:2022 14:12:48 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:12:48 INFO][Client Information]IP: 16777343
+[05:12:2022 14:12:48 INFO][Client Information]Port: 12490
+[05:12:2022 14:12:48 INFO]Sending connection to thread.
+[05:12:2022 14:12:48 INFO]Getting connection to client.
+[05:12:2022 14:12:48 INFO]Getting client message...
+[05:12:2022 14:12:48 INFO]Handling request.
+[05:12:2022 14:12:48 INFO][User Message]Request: GET
+[05:12:2022 14:12:48 INFO][User Message]Url: /dir/
+[05:12:2022 14:12:48 INFO]Sending server directory to client.
+[05:12:2022 14:12:48 INFO]Absolute Path: /
+[05:12:2022 14:12:48 INFO]Number of Directories: 28
+[05:12:2022 14:12:48 INFO]Creating Directory thread: 0
+[05:12:2022 14:12:48 INFO]Creating Directory thread: 1
+[05:12:2022 14:12:48 INFO]Joining thread...
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'var'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'tmp'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'sys'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'swapfile'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'srv'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'snap'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'sbin'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'run'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'root'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'proc'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'opt'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'mnt'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'media'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'lost+found'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'libx32'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'lib64'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'lib32'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'lib'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'home'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'etc'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'dev'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'data'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'cdrom'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'boot'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for 'bin'.
+[05:12:2022 14:12:48 WARN]Unable to collect file information for '.'.
+[05:12:2022 14:12:48 INFO]Joining thread...
+[05:12:2022 14:12:48 INFO]Creating table.
+[05:12:2022 14:12:48 INFO]Sending message to client.
+[05:12:2022 14:12:48 INFO]Closing connection to client.
+[05:12:2022 14:12:48 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:12:48 INFO][Client Information]IP: 16777343
+[05:12:2022 14:12:48 INFO][Client Information]Port: 13002
+[05:12:2022 14:12:48 INFO]Sending connection to thread.
+[05:12:2022 14:12:48 INFO]Getting connection to client.
+[05:12:2022 14:12:48 INFO]Getting client message...
+[05:12:2022 14:12:48 INFO]Handling request.
+[05:12:2022 14:12:48 INFO][User Message]Request: GET
+[05:12:2022 14:12:48 INFO][User Message]Url: /favicon.ico
+[05:12:2022 14:12:48 INFO]Could not find page requested by client. Sending 404 error to client.
+[05:12:2022 14:12:48 INFO]Sending message to client.
+[05:12:2022 14:12:48 INFO]Closing connection to client.
+[05:12:2022 14:12:55 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:12:55 INFO][Client Information]IP: 16777343
+[05:12:2022 14:12:55 INFO][Client Information]Port: 13514
+[05:12:2022 14:12:55 INFO]Sending connection to thread.
+[05:12:2022 14:12:55 INFO]Getting connection to client.
+[05:12:2022 14:12:55 INFO]Getting client message...
+[05:12:2022 14:12:55 INFO]Handling request.
+[05:12:2022 14:12:55 INFO][User Message]Request: 
+[05:12:2022 14:12:55 INFO][User Message]Url: 
+[05:12:2022 14:12:55 INFO]Sending message to client.
+[05:12:2022 14:12:55 INFO]Closing connection to client.
+[05:12:2022 14:12:55 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:12:55 INFO][Client Information]IP: 16777343
+[05:12:2022 14:12:55 INFO][Client Information]Port: 14026
+[05:12:2022 14:12:55 INFO]Sending connection to thread.
+[05:12:2022 14:12:55 INFO]Getting connection to client.
+[05:12:2022 14:12:55 INFO]Getting client message...
+[05:12:2022 14:12:55 INFO]Handling request.
+[05:12:2022 14:12:55 INFO][User Message]Request: GET
+[05:12:2022 14:12:55 INFO][User Message]Url: /dir//var
+[05:12:2022 14:12:55 INFO]Sending server directory to client.
+[05:12:2022 14:12:55 INFO]Absolute Path: //var
+[05:12:2022 14:12:55 INFO]Number of Directories: 19
+[05:12:2022 14:12:55 INFO]Creating Directory thread: 0
+[05:12:2022 14:12:55 INFO]Creating Directory thread: 1
+[05:12:2022 14:12:55 INFO]Joining thread...
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'yp'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'www'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'vmware'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'tmp'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'spool'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'snap'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'run'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'opt'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'metrics'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'mail'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'log'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'lock'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'local'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'lib'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'crash'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'cache'.
+[05:12:2022 14:12:55 WARN]Unable to collect file information for 'backups'.
+[05:12:2022 14:12:55 INFO]Joining thread...
+[05:12:2022 14:12:55 INFO]Creating table.
+[05:12:2022 14:12:55 INFO]Sending message to client.
+[05:12:2022 14:12:55 INFO]Closing connection to client.
+[05:12:2022 14:12:58 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:12:58 INFO][Client Information]IP: 16777343
+[05:12:2022 14:12:58 INFO][Client Information]Port: 14538
+[05:12:2022 14:12:58 INFO]Sending connection to thread.
+[05:12:2022 14:12:58 INFO]Getting connection to client.
+[05:12:2022 14:12:58 INFO]Getting client message...
+[05:12:2022 14:12:58 INFO]Handling request.
+[05:12:2022 14:12:58 INFO][User Message]Request: GET
+[05:12:2022 14:12:58 INFO][User Message]Url: /dir//var/yp/www
+[05:12:2022 14:12:58 INFO]Sending server directory to client.
+[05:12:2022 14:12:58 INFO]Absolute Path: //var/yp/www
+[05:12:2022 14:12:58 WARN]Could not scan directory.
+[05:12:2022 14:12:58 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:12:2022 14:12:58 INFO]Sending message to client.
+[05:12:2022 14:12:58 INFO]Closing connection to client.
+[05:12:2022 14:13:06 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:13:06 INFO][Client Information]IP: 16777343
+[05:12:2022 14:13:06 INFO][Client Information]Port: 15050
+[05:12:2022 14:13:06 INFO]Sending connection to thread.
+[05:12:2022 14:13:06 INFO]Getting connection to client.
+[05:12:2022 14:13:06 INFO]Getting client message...
+[05:12:2022 14:13:06 INFO]Handling request.
+[05:12:2022 14:13:06 INFO][User Message]Request: 
+[05:12:2022 14:13:06 INFO][User Message]Url: 
+[05:12:2022 14:13:06 INFO]Sending message to client.
+[05:12:2022 14:13:06 INFO]Closing connection to client.
+[05:12:2022 14:13:19 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:12:2022 14:13:19 ERROR]Force exiting the program.

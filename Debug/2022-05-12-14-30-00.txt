@@ -1,0 +1,1257 @@
+[05:12:2022 14:30:00 INFO]Running server.
+[05:12:2022 14:30:00 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 14:30:00 INFO][Server Properties]Port Number: 2001
+[05:12:2022 14:30:00 INFO]Createing a socket handler
+[05:12:2022 14:30:00 INFO]Opening server socket.
+[05:12:2022 14:30:00 INFO][Socket Information]Descriptor: 4
+[05:12:2022 14:30:00 INFO][Socket Information]Address: 0
+[05:12:2022 14:30:00 INFO][Socket Information]Port: 2001
+[05:12:2022 14:30:00 INFO]Creating signals.
+[05:12:2022 14:30:00 INFO]Getting connection to client.
+[05:12:2022 14:30:04 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:30:04 INFO][Client Information]IP: 16777343
+[05:12:2022 14:30:04 INFO][Client Information]Port: 16588
+[05:12:2022 14:30:04 INFO]Sending connection to thread.
+[05:12:2022 14:30:04 INFO]Getting connection to client.
+[05:12:2022 14:30:04 INFO]Getting client message...
+[05:12:2022 14:30:04 INFO]Handling request.
+[05:12:2022 14:30:04 INFO][User Message]Request: GET
+[05:12:2022 14:30:04 INFO][User Message]Url: /dir/
+[05:12:2022 14:30:04 INFO]Sending server directory to client.
+[05:12:2022 14:30:04 INFO]Absolute Path: /
+[05:12:2022 14:30:04 INFO]Number of Directories: 28
+[05:12:2022 14:30:04 INFO]Creating Directory thread: 0
+[05:12:2022 14:30:04 INFO]Creating Directory thread: 1
+[05:12:2022 14:30:04 INFO]Joining thread...
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]/
+[05:12:2022 14:30:04 INFO]Joining thread...
+[05:12:2022 14:30:04 INFO]Creating table.
+[05:12:2022 14:30:04 INFO]Sending message to client.
+[05:12:2022 14:30:04 INFO]Closing connection to client.
+[05:12:2022 14:30:08 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:30:08 INFO][Client Information]IP: 16777343
+[05:12:2022 14:30:08 INFO][Client Information]Port: 17100
+[05:12:2022 14:30:08 INFO]Sending connection to thread.
+[05:12:2022 14:30:08 INFO]Getting connection to client.
+[05:12:2022 14:30:08 INFO]Getting client message...
+[05:12:2022 14:30:08 INFO]Handling request.
+[05:12:2022 14:30:08 INFO][User Message]Request: GET
+[05:12:2022 14:30:08 INFO][User Message]Url: /dir/tmp
+[05:12:2022 14:30:08 INFO]Sending server directory to client.
+[05:12:2022 14:30:08 INFO]Absolute Path: /tmp
+[05:12:2022 14:30:08 INFO]Number of Directories: 28
+[05:12:2022 14:30:08 INFO]Creating Directory thread: 0
+[05:12:2022 14:30:08 INFO]Creating Directory thread: 1
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 INFO]Joining thread...
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'vvcProxy'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'vmware-root_704-2990744159'.
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'vmware-root_704-2990744159'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'vmware-mrb3271'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'tracker-extract-files.125'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'tracker-extract-files.1047'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-upower.service-Su6bgh'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'vmware-mrb3271'.
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-systemd-timesyncd.service-7yqe9h'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-systemd-logind.service-VQQ5uf'.
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-systemd-logind.service-VQQ5uf'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-colord.service-DgxqHh'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-colord.service-DgxqHh'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'ssh-vosbcR1qhNfk'.
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'ssh-vosbcR1qhNfk'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'hsperfdata_mrb3271'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'config-err-zB2N9s'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'VMwareDnD'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for 'Temp-0ed69a14-f122-4355-b8f3-da71fd241fa0'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for '.font-unix'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for '.XIM-unix'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for '.X11-unix'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for '.font-unix'.
+[05:12:2022 14:30:08 WARN]Unable to collect file information for '.X100-lock'.
+[05:12:2022 14:30:08 WARN]Unable to collect file information for '.X100-lock'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for '.ICE-unix'.
+[05:12:2022 14:30:08 INFO]/tmp
+[05:12:2022 14:30:08 WARN]Unable to collect file information for '.'.
+[05:12:2022 14:30:08 INFO]Joining thread...
+[05:12:2022 14:30:08 INFO]Creating table.
+[05:12:2022 14:30:08 INFO]Sending message to client.
+[05:12:2022 14:30:08 INFO]Closing connection to client.
+[05:12:2022 14:30:11 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:30:11 INFO][Client Information]IP: 16777343
+[05:12:2022 14:30:11 INFO][Client Information]Port: 18124
+[05:12:2022 14:30:11 INFO]Sending connection to thread.
+[05:12:2022 14:30:11 INFO]Getting connection to client.
+[05:12:2022 14:30:11 INFO]Getting client message...
+[05:12:2022 14:30:11 INFO]Handling request.
+[05:12:2022 14:30:11 INFO][User Message]Request: GET
+[05:12:2022 14:30:11 INFO][User Message]Url: /dir/tmp/vmwblast
+[05:12:2022 14:30:11 INFO]Sending server directory to client.
+[05:12:2022 14:30:11 INFO]Absolute Path: /tmp/vmwblast
+[05:12:2022 14:30:11 WARN]Could not scan directory.
+[05:12:2022 14:30:11 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:12:2022 14:30:11 INFO]Sending message to client.
+[05:12:2022 14:30:11 INFO]Closing connection to client.
+[05:12:2022 14:30:14 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:30:14 INFO][Client Information]IP: 16777343
+[05:12:2022 14:30:14 INFO][Client Information]Port: 18636
+[05:12:2022 14:30:14 INFO]Sending connection to thread.
+[05:12:2022 14:30:14 INFO]Getting connection to client.
+[05:12:2022 14:30:14 INFO]Getting client message...
+[05:12:2022 14:30:14 INFO]Handling request.
+[05:12:2022 14:30:14 INFO][User Message]Request: GET
+[05:12:2022 14:30:14 INFO][User Message]Url: /dir/tmp/vvcProxy
+[05:12:2022 14:30:14 INFO]Sending server directory to client.
+[05:12:2022 14:30:14 INFO]Absolute Path: /tmp/vvcProxy
+[05:12:2022 14:30:14 WARN]Could not scan directory.
+[05:12:2022 14:30:14 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:12:2022 14:30:14 INFO]Sending message to client.
+[05:12:2022 14:30:14 INFO]Closing connection to client.
+[05:12:2022 14:30:17 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:30:17 INFO][Client Information]IP: 16777343
+[05:12:2022 14:30:17 INFO][Client Information]Port: 19148
+[05:12:2022 14:30:17 INFO]Sending connection to thread.
+[05:12:2022 14:30:17 INFO]Getting connection to client.
+[05:12:2022 14:30:17 INFO]Getting client message...
+[05:12:2022 14:30:17 INFO]Handling request.
+[05:12:2022 14:30:17 INFO][User Message]Request: GET
+[05:12:2022 14:30:17 INFO][User Message]Url: /dir/etc
+[05:12:2022 14:30:17 INFO]Sending server directory to client.
+[05:12:2022 14:30:17 INFO]Absolute Path: /etc
+[05:12:2022 14:30:17 INFO]Number of Directories: 248
+[05:12:2022 14:30:17 INFO]Creating Directory thread: 0
+[05:12:2022 14:30:17 INFO]Creating Directory thread: 1
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'zsh_command_not_found'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ypserv.securenets'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ypserv.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'yp.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'xml'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'xdg'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'xattr.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'wpa_supplicant'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'wgetrc'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'warnquota.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'vulkan'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'vtrgb'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'vmware-tools'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'vmware'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'vim'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'usb_modeswitch.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'usb_modeswitch.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'update-notifier'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'update-motd.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'update-manager'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ufw'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'udisks2'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'udev'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]Joining thread...
+[05:12:2022 14:30:17 INFO]Joining thread...
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ucf.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ubuntu-advantage'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'tmpfiles.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'timezone'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'thunderbird'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'thermald'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'terminfo'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'systemd'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'sysctl.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'sysctl.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'sudoers.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'sudoers'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'subuid-'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'subuid'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'subgid-'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'subgid'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ssl'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ssh'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'speech-dispatcher'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'snmp'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'skel'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'shells'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'shadow-'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'shadow'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'sgml'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'services'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'sensors3.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'sensors.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'selinux'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'security'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'sane.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rygel.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rsyslog.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rsyslog.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rpc'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rmt'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'resolv.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'request-key.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'request-key.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rcS.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rc6.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rc5.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rc4.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rc3.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rc2.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rc1.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'rc0.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'quotatab'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'quotagrpadmins'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'python3.8'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'python3'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'pulse'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'protocols'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'profile.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'profile'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ppp'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'popularity-contest.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'polkit-1'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'pnm2ppa.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'pm'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'pki'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'php'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'perl'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'pcmcia'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'passwd-'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'passwd'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'papersize'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'pam.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'pam.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'os-release'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'opt'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'openvpn'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'nsswitch.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'nscd.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'nginx'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'newt'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'networks'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'networkd-dispatcher'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'network'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'netplan'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'netgroup'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'netconfig'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'nanorc'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'mysql'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'mtools.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'mtab'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'modules-load.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'modules'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'mke2fs.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'mime.types'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'mke2fs.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'mailcap.order'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'mailcap'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'mailcap.order'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'magic'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'machine-id'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'magic'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'lsb-release'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'logrotate.d'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'lsb-release'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'login.defs'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'logcheck'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'login.defs'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'locale.gen'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'locale.alias'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'locale.gen'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'libpaper.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'libnl-3'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'libpaper.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'libaudit.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'libao.conf'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'libaudit.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ldap'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ld.so.conf.d'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ldap'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ld.so.cache'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'kerneloops.conf'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ld.so.cache'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'kernel'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'java-11-openjdk'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'kernel'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'issue'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'iproute2'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'issue'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'inputrc'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'initramfs-tools'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'inputrc'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'init'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ifplugd'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'init'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'hp'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'hosts.deny'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'hp'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'hosts'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'hostname'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'hosts'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'host.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'hdparm.conf'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'host.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'gtk-2.0'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'gss'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'gtk-2.0'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'gshadow'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'grub.d'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'gshadow'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'group'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'groff'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'group'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'glvnd'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ghostscript'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'glvnd'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'gdm3'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'gdb'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'gdm3'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'gai.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'fwupd'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'gai.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'fstab'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'fprintd.conf'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'fstab'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'firefox'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ethertypes'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'firefox'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'environment'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'emacs'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'environment'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'dpkg'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'dictionaries-common'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'dpkg'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'depmod.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'deluser.conf'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'depmod.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'default'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'debian_version'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'debconf.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'dconf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'dbus-1'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'cupshelpers'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'cups'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'crontab'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'cron.weekly'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'cron.monthly'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'cron.hourly'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'cron.daily'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'cron.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'cracklib'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'console-setup'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'chatscripts'.
+[05:12:2022 14:30:17 WARN]Unabl[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'calendar'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'calendar'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ca-certificates.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ca-certificates'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'ca-certificates.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'brltty'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'brlapi.key'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'brltty'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'binfmt.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'binfmt.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'bash_completion.d'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'bash_completion'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'bash.bashrc'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'bindresvport.blacklist'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'at.deny'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'apt'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'at.deny'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'apport'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'apparmor.d'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'apport'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'apm'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'apg.conf'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'apm'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'anacrontab'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'alternatives'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'anacrontab'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'adduser.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'acpi'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'adduser.conf'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'UPower'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'PackageKit'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for 'UPower'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for '.pwd.lock'.
+[05:12:2022 14:30:17 INFO]/etc
+[05:12:2022 14:30:17 WARN]Unable to collect file information for '.java'.
+[05:12:2022 14:30:17 WARN]Unable to collect file information for '.pwd.lock'.
+[05:12:2022 14:30:17 INFO]Joining thread...
+[05:12:2022 14:30:17 INFO]Creating table.
+[05:12:2022 14:30:17 INFO]Sending message to client.
+[05:12:2022 14:30:17 INFO]Closing connection to client.
+[05:12:2022 14:30:19 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:30:19 INFO][Client Information]IP: 16777343
+[05:12:2022 14:30:19 INFO][Client Information]Port: 19660
+[05:12:2022 14:30:19 INFO]Sending connection to thread.
+[05:12:2022 14:30:19 INFO]Getting connection to client.
+[05:12:2022 14:30:19 INFO]Getting client message...
+[05:12:2022 14:30:19 INFO]Handling request.
+[05:12:2022 14:30:19 INFO][User Message]Request: GET
+[05:12:2022 14:30:19 INFO][User Message]Url: /dir/etc/xml
+[05:12:2022 14:30:19 INFO]Sending server directory to client.
+[05:12:2022 14:30:19 INFO]Absolute Path: /etc/xml
+[05:12:2022 14:30:19 INFO]Number of Directories: 10
+[05:12:2022 14:30:19 INFO]Creating Directory thread: 0
+[05:12:2022 14:30:19 INFO]Creating Directory thread: 1
+[05:12:2022 14:30:19 INFO]Joining thread...
+[05:12:2022 14:30:19 INFO]/etc/xml
+[05:12:2022 14:30:19 WARN]Unable to collect file information for 'xml-core.xml.old'.
+[05:12:2022 14:30:19 INFO]/etc/xml
+[05:12:2022 14:30:19 WARN]Unable to collect file information for 'xml-core.xml'.
+[05:12:2022 14:30:19 INFO]/etc/xml
+[05:12:2022 14:30:19 WARN]Unable to collect file information for 'sgml-data.xml.old'.
+[05:12:2022 14:30:19 INFO]/etc/xml
+[05:12:2022 14:30:19 WARN]Unable to collect file information for 'sgml-data.xml'.
+[05:12:2022 14:30:19 INFO]/etc/xml
+[05:12:2022 14:30:19 WARN]Unable to collect file information for 'docbook-xml.xml.old'.
+[05:12:2022 14:30:19 INFO]/etc/xml
+[05:12:2022 14:30:19 WARN]Unable to collect file information for 'docbook-xml.xml'.
+[05:12:2022 14:30:19 INFO]/etc/xml
+[05:12:2022 14:30:19 WARN]Unable to collect file information for 'catalog.old'.
+[05:12:2022 14:30:19 INFO]/etc/xml
+[05:12:2022 14:30:19 WARN]Unable to collect file information for 'catalog'.
+[05:12:2022 14:30:19 INFO]Joining thread...
+[05:12:2022 14:30:19 INFO]Creating table.
+[05:12:2022 14:30:19 INFO]Sending message to client.
+[05:12:2022 14:30:19 INFO]Closing connection to client.
+[05:12:2022 14:30:33 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:30:33 INFO][Client Information]IP: 16777343
+[05:12:2022 14:30:33 INFO][Client Information]Port: 20172
+[05:12:2022 14:30:33 INFO]Sending connection to thread.
+[05:12:2022 14:30:33 INFO]Getting connection to client.
+[05:12:2022 14:30:33 INFO]Getting client message...
+[05:12:2022 14:30:33 INFO]Handling request.
+[05:12:2022 14:30:33 INFO][User Message]Request: 
+[05:12:2022 14:30:33 INFO][User Message]Url: 
+[05:12:2022 14:30:33 INFO]Sending message to client.
+[05:12:2022 14:30:33 INFO]Closing connection to client.
+[05:12:2022 14:30:39 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:30:39 INFO][Client Information]IP: 16777343
+[05:12:2022 14:30:39 INFO][Client Information]Port: 20684
+[05:12:2022 14:30:39 INFO]Sending connection to thread.
+[05:12:2022 14:30:39 INFO]Getting connection to client.
+[05:12:2022 14:30:39 INFO]Getting client message...
+[05:12:2022 14:30:39 INFO]Handling request.
+[05:12:2022 14:30:39 INFO][User Message]Request: 
+[05:12:2022 14:30:39 INFO][User Message]Url: 
+[05:12:2022 14:30:39 INFO]Sending message to client.
+[05:12:2022 14:30:39 INFO]Closing connection to client.
+[05:12:2022 14:32:32 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:32:32 INFO][Client Information]IP: 16777343
+[05:12:2022 14:32:32 INFO][Client Information]Port: 21196
+[05:12:2022 14:32:32 INFO]Sending connection to thread.
+[05:12:2022 14:32:32 INFO]Getting connection to client.
+[05:12:2022 14:32:32 INFO]Getting client message...
+[05:12:2022 14:32:32 INFO]Handling request.
+[05:12:2022 14:32:32 INFO][User Message]Request: GET
+[05:12:2022 14:32:32 INFO][User Message]Url: /dir/etc
+[05:12:2022 14:32:32 INFO]Sending server directory to client.
+[05:12:2022 14:32:32 INFO]Absolute Path: /etc
+[05:12:2022 14:32:32 INFO]Number of Directories: 248
+[05:12:2022 14:32:32 INFO]Creating Directory thread: 0
+[05:12:2022 14:32:32 INFO]Creating Directory thread: 1
+[05:12:2022 14:32:32 INFO]Joining thread...
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ypserv.securenets'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ypserv.securenets'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ypserv.securenets'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'yp.conf'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'yp.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'xdg'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'xdg'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'wpa_supplicant'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'wpa_supplicant'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'wpa_supplicant'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'warnquota.conf'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'warnquota.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'vtrgb'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'vtrgb'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'vmware'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'vmware'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'usb_modeswitch.d'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'usb_modeswitch.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'update-notifier'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'update-notifier'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'update-manager'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'update-manager'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'update-manager'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'udisks2'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'udev'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ucf.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ubuntu-advantage'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'tmpfiles.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'timezone'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'thunderbird'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'thermald'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'terminfo'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'systemd'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'sysctl.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'sysctl.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'sudoers.d'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'udisks2'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'udisks2'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'subuid-'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'subuid-'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'subgid-'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'subgid-'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ssl'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ssl'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'speech-dispatcher'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'speech-dispatcher'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'skel'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'skel'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'skel'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'shadow-'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'shadow-'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'shadow'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'shadow'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'services'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'services'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'sensors.d'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'sensors.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'security'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'security'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rygel.conf'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rygel.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rsyslog.conf'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rsyslog.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rmt'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rmt'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'resolv.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'request-key.d'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'request-key.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rcS.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rc6.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rc5.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rc3.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rc2.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rc1.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rc0.d'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'rc0.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'quotatab'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'quotagrpadmins'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'python3.8'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'python3'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'pulse'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'protocols'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'profile.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'profile'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ppp'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'popularity-contest.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'polkit-1'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'pnm2ppa.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'pm'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'pki'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'php'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'perl'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'pcmcia'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'passwd-'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'passwd'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'papersize'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'pam.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'pam.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'quotatab'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'os-release'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'opt'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'nsswitch.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'nscd.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'nginx'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'newt'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'networks'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'newt'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'network'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'networkd-dispatcher'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'netgroup'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'netconfig'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'netgroup'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'nanorc'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'mysql'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'mtab'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'modules-load.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'modules'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'modprobe.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'mke2fs.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'mime.types'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'manpath.config'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'manpath.config'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'mailcap.order'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'mailcap.order'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'mailcap'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'magic.mime'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'machine-id'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ltrace.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'lsb-release'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'logrotate.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'logrotate.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'login.defs'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'logcheck'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'localtime'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'locale.gen'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'locale.alias'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'libreoffice'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'libpaper.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'libnl-3'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'libblockdev'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'libaudit.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'libao.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'legal'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ldap'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ld.so.conf.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ld.so.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ld.so.cache'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'kerneloops.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'kernel-img.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'libpaper.d'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'kernel'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'kernel'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'issue.net'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'issue'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'iproute2'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'insserv.conf.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'inputrc'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'initramfs-tools'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'init.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'init'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ifplugd'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'issue.net'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'idmapd.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'hosts.deny'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'hosts.allow'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'hosts'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'hosts'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'hostid'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'hostid'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'hdparm.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'gtk-3.0'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'gtk-2.0'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'gss'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'gshadow-'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'gshadow'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'grub.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'group-'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'group'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'groff'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'gnome'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'glvnd'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ghostscript'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'geoclue'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'gdm3'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'gdb'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'gamemode.ini'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'gai.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'fwupd'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'fuse.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'fstab'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'fprintd.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'hdparm.conf'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'fonts'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'fonts'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ethertypes'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'firefox'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'environment.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'environment'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'environment'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'emacs'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'dpkg'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'dictionaries-common'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'dhcp'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'depmod.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'deluser.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'dpkg'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'default'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'debian_version'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'debconf.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'dconf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'dbus-1'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'cupshelpers'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'cups'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'default'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'crontab'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'cron.monthly'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'cron.monthly'.
+2:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'cron.hourly'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'cron.daily'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'cron.daily'.
+ information for 'cron.hourly'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'cracklib'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'console-setup'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'chatscripts'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'calendar'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ca-certificates.conf.dpkg-old'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ca-certificates.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'ca-certificates'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'brltty.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'brltty'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'brlapi.key'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'cracklib'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'bluetooth'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'bindresvport.blacklist'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'bash_completion.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'bash_completion'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'bash.bashrc'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'avahi'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'at.deny'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'apt'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'appstream.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'apport'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'apparmor.d'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'apparmor'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'apm'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'apg.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'apache2'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'anacrontab'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'alternatives'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'alsa'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'adduser.conf'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'acpi'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'X11'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'UPower'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'PackageKit'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'NetworkManager'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for '.pwd.lock'.
+[05:12:2022 14:32:32 INFO]/etc
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'bindresvport.blacklist'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for 'bindresvport.blacklist'.
+[05:12:2022 14:32:32 WARN]Unable to collect file information for '.java'.
+[05:12:2022 14:32:32 INFO]Joining thread...
+[05:12:2022 14:32:32 INFO]Creating table.
+[05:12:2022 14:32:32 INFO]Sending message to client.
+[05:12:2022 14:32:32 INFO]Closing connection to client.
+[05:12:2022 14:32:35 ERROR]Interrupted system call. Poll has timed out.. The program ran into a problem.
+[05:12:2022 14:32:35 ERROR]Force exiting the program.

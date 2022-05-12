@@ -1,0 +1,81 @@
+[05:12:2022 14:00:01 INFO]Running server.
+[05:12:2022 14:00:01 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 14:00:01 INFO][Server Properties]Port Number: 2000
+[05:12:2022 14:00:01 INFO]Createing a socket handler
+[05:12:2022 14:00:01 INFO]Opening server socket.
+[05:12:2022 14:00:01 INFO][Socket Information]Descriptor: 4
+[05:12:2022 14:00:01 INFO][Socket Information]Address: 0
+[05:12:2022 14:00:01 INFO][Socket Information]Port: 2000
+[05:12:2022 14:00:01 INFO]Creating signals.
+[05:12:2022 14:00:01 INFO]Getting connection to client.
+[05:12:2022 14:00:06 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:00:06 INFO][Client Information]IP: 16777343
+[05:12:2022 14:00:06 INFO][Client Information]Port: 57033
+[05:12:2022 14:00:06 INFO]Sending connection to thread.
+[05:12:2022 14:00:06 INFO]Getting connection to client.
+[05:12:2022 14:00:06 INFO]Getting client message...
+[05:12:2022 14:00:06 INFO]Handling request.
+[05:12:2022 14:00:06 INFO][User Message]Request: GET
+[05:12:2022 14:00:06 INFO][User Message]Url: /dir/
+[05:12:2022 14:00:06 INFO]Sending server directory to client.
+[05:12:2022 14:00:06 INFO]Absolute Path: /
+[05:12:2022 14:00:06 INFO]Number of Directories: 28
+[05:12:2022 14:00:06 INFO]Creating Directory thread: 0
+[05:12:2022 14:00:06 INFO]Creating Directory thread: 1
+[05:12:2022 14:00:06 INFO]Joining thread...
+[05:12:2022 14:00:06 INFO]Joining thread...
+[05:12:2022 14:00:06 INFO]Creating table.
+[05:12:2022 14:00:06 INFO]Sending message to client.
+[05:12:2022 14:00:06 INFO]Closing connection to client.
+[05:12:2022 14:00:10 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:00:10 INFO][Client Information]IP: 16777343
+[05:12:2022 14:00:10 INFO][Client Information]Port: 57545
+[05:12:2022 14:00:10 INFO]Sending connection to thread.
+[05:12:2022 14:00:10 INFO]Getting connection to client.
+[05:12:2022 14:00:10 INFO]Getting client message...
+[05:12:2022 14:00:10 INFO]Handling request.
+[05:12:2022 14:00:10 INFO][User Message]Request: GET
+[05:12:2022 14:00:10 INFO][User Message]Url: /dir/
+[05:12:2022 14:00:10 INFO]Sending server directory to client.
+[05:12:2022 14:00:10 INFO]Absolute Path: /
+[05:12:2022 14:00:10 INFO]Number of Directories: 28
+[05:12:2022 14:00:10 INFO]Creating Directory thread: 0
+[05:12:2022 14:00:10 INFO]Creating Directory thread: 1
+[05:12:2022 14:00:10 INFO]Joining thread...
+[05:12:2022 14:00:10 INFO]Joining thread...
+[05:12:2022 14:00:10 INFO]Creating table.
+[05:12:2022 14:00:10 INFO]Sending message to client.
+[05:12:2022 14:00:10 INFO]Closing connection to client.
+[05:12:2022 14:00:10 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:00:10 INFO][Client Information]IP: 16777343
+[05:12:2022 14:00:10 INFO][Client Information]Port: 58057
+[05:12:2022 14:00:10 INFO]Sending connection to thread.
+[05:12:2022 14:00:10 INFO]Getting connection to client.
+[05:12:2022 14:00:10 INFO]Getting client message...
+[05:12:2022 14:00:10 INFO]Handling request.
+[05:12:2022 14:00:10 INFO][User Message]Request: GET
+[05:12:2022 14:00:10 INFO][User Message]Url: /favicon.ico
+[05:12:2022 14:00:10 INFO]Could not find page requested by client. Sending 404 error to client.
+[05:12:2022 14:00:10 INFO]Sending message to client.
+[05:12:2022 14:00:10 INFO]Closing connection to client.
+[05:12:2022 14:00:13 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:00:13 INFO][Client Information]IP: 16777343
+[05:12:2022 14:00:13 INFO][Client Information]Port: 58569
+[05:12:2022 14:00:13 INFO]Sending connection to thread.
+[05:12:2022 14:00:13 INFO]Getting connection to client.
+[05:12:2022 14:00:13 INFO]Getting client message...
+[05:12:2022 14:00:13 INFO]Handling request.
+[05:12:2022 14:00:13 INFO][User Message]Request: GET
+[05:12:2022 14:00:13 INFO][User Message]Url: /dir/
+[05:12:2022 14:00:13 INFO]Sending server directory to client.
+[05:12:2022 14:00:13 INFO]Absolute Path: /
+[05:12:2022 14:00:13 INFO]Number of Directories: 28
+[05:12:2022 14:00:13 INFO]Creating Directory thread: 0
+[05:12:2022 14:00:13 INFO]Creating Directory thread: 1
+[05:12:2022 14:00:13 INFO]Joining thread...
+[05:12:2022 14:00:13 INFO]Joining thread...
+[05:12:2022 14:00:13 INFO]Creating table.
+[05:12:2022 14:00:13 INFO]Sending message to client.
+[05:12:2022 14:00:13 INFO]Closing connection to client.
+[05:12:2022 14:00:16 ERROR]Interrupted system call. Poll has timed out.. The program ran into a problem.
+[05:12:2022 14:00:16 ERROR]Force exiting the program.

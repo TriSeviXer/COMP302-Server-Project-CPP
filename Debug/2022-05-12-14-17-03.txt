@@ -1,0 +1,27 @@
+[05:12:2022 14:17:03 INFO]Running server.
+[05:12:2022 14:17:03 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 14:17:03 INFO][Server Properties]Port Number: 2001
+[05:12:2022 14:17:03 INFO]Createing a socket handler
+[05:12:2022 14:17:03 INFO]Opening server socket.
+[05:12:2022 14:17:03 INFO][Socket Information]Descriptor: 4
+[05:12:2022 14:17:03 INFO][Socket Information]Address: 0
+[05:12:2022 14:17:03 INFO][Socket Information]Port: 2001
+[05:12:2022 14:17:03 INFO]Creating signals.
+[05:12:2022 14:17:03 INFO]Getting connection to client.
+[05:12:2022 14:17:07 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:17:07 INFO][Client Information]IP: 16777343
+[05:12:2022 14:17:07 INFO][Client Information]Port: 10956
+[05:12:2022 14:17:07 INFO]Sending connection to thread.
+[05:12:2022 14:17:07 INFO]Getting connection to client.
+[05:12:2022 14:17:07 INFO]Getting client message...
+[05:12:2022 14:17:07 INFO]Handling request.
+[05:12:2022 14:17:07 INFO][User Message]Request: GET
+[05:12:2022 14:17:07 INFO][User Message]Url: /dir/
+[05:12:2022 14:17:07 INFO]Sending server directory to client.
+[05:12:2022 14:17:07 INFO]Absolute Path: 
+[05:12:2022 14:17:07 WARN]Could not scan directory.
+[05:12:2022 14:17:07 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:12:2022 14:17:07 INFO]Sending message to client.
+[05:12:2022 14:17:07 INFO]Closing connection to client.
+[05:12:2022 14:17:10 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:12:2022 14:17:10 ERROR]Force exiting the program.

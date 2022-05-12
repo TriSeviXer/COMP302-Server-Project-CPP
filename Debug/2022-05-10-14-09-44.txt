@@ -1,0 +1,147 @@
+[05:10:2022 14:09:44 INFO]Running server.
+[05:10:2022 14:09:44 INFO][Server Properties]Server Name: MBAJ
+[05:10:2022 14:09:44 INFO][Server Properties]Port Number: 2001
+[05:10:2022 14:09:44 INFO]Createing a socket handler
+[05:10:2022 14:09:44 INFO]Opening server socket.
+[05:10:2022 14:09:44 INFO][Socket Information]Descriptor: 4
+[05:10:2022 14:09:44 INFO][Socket Information]Address: 0
+[05:10:2022 14:09:44 INFO][Socket Information]Port: 2001
+[05:10:2022 14:09:44 INFO]Creating signals.
+[05:10:2022 14:09:44 INFO]Getting connection to client.
+[05:10:2022 14:09:50 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:09:50 INFO][Client Information]IP: 16777343
+[05:10:2022 14:09:50 INFO][Client Information]Port: 55521
+[05:10:2022 14:09:50 INFO]Sending connection to thread.
+[05:10:2022 14:09:50 INFO]Getting connection to client.
+[05:10:2022 14:09:50 INFO]Getting client message...
+[05:10:2022 14:09:50 INFO]Handling request.
+[05:10:2022 14:09:50 INFO][User Message]Request: GET
+[05:10:2022 14:09:50 INFO][User Message]Url: /dir
+[05:10:2022 14:09:50 INFO]Could not find page requested by client. Sending 404 error to client.
+[05:10:2022 14:09:50 INFO]Sending message to client.
+[05:10:2022 14:09:50 INFO]Closing connection to client.
+[05:10:2022 14:09:50 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:09:50 INFO][Client Information]IP: 16777343
+[05:10:2022 14:09:50 INFO][Client Information]Port: 56033
+[05:10:2022 14:09:50 INFO]Sending connection to thread.
+[05:10:2022 14:09:50 INFO]Getting connection to client.
+[05:10:2022 14:09:50 INFO]Getting client message...
+[05:10:2022 14:09:50 INFO]Handling request.
+[05:10:2022 14:09:50 INFO][User Message]Request: GET
+[05:10:2022 14:09:50 INFO][User Message]Url: /favicon.ico
+[05:10:2022 14:09:50 INFO]Could not find page requested by client. Sending 404 error to client.
+[05:10:2022 14:09:50 INFO]Sending message to client.
+[05:10:2022 14:09:50 INFO]Closing connection to client.
+[05:10:2022 14:09:55 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:09:55 INFO][Client Information]IP: 16777343
+[05:10:2022 14:09:55 INFO][Client Information]Port: 56545
+[05:10:2022 14:09:55 INFO]Sending connection to thread.
+[05:10:2022 14:09:55 INFO]Getting connection to client.
+[05:10:2022 14:09:55 INFO]Getting client message...
+[05:10:2022 14:09:55 INFO]Handling request.
+[05:10:2022 14:09:55 INFO][User Message]Request: GET
+[05:10:2022 14:09:55 INFO][User Message]Url: /dir/
+[05:10:2022 14:09:55 INFO]Sending server directory to client.
+[05:10:2022 14:09:55 INFO]Absolute Path: /
+[05:10:2022 14:09:55 INFO]Number of Directories: 28
+[05:10:2022 14:09:55 INFO]Creating Directory thread: 0
+[05:10:2022 14:09:55 INFO]Creating Directory thread: 1
+[05:10:2022 14:09:55 INFO]Joining thread...
+[05:10:2022 14:09:55 INFO]Joining thread...
+[05:10:2022 14:09:55 INFO]Creating table.
+[05:10:2022 14:09:55 INFO]Sending message to client.
+[05:10:2022 14:09:55 INFO]Closing connection to client.
+[05:10:2022 14:10:02 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:10:02 INFO][Client Information]IP: 16777343
+[05:10:2022 14:10:02 INFO][Client Information]Port: 57057
+[05:10:2022 14:10:02 INFO]Sending connection to thread.
+[05:10:2022 14:10:02 INFO]Getting connection to client.
+[05:10:2022 14:10:02 INFO]Getting client message...
+[05:10:2022 14:10:02 INFO]Handling request.
+[05:10:2022 14:10:02 INFO][User Message]Request: 
+[05:10:2022 14:10:02 INFO][User Message]Url: 
+[05:10:2022 14:10:02 INFO]Sending message to client.
+[05:10:2022 14:10:02 INFO]Closing connection to client.
+[05:10:2022 14:10:08 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:10:08 INFO][Client Information]IP: 16777343
+[05:10:2022 14:10:08 INFO][Client Information]Port: 57569
+[05:10:2022 14:10:08 INFO]Sending connection to thread.
+[05:10:2022 14:10:08 INFO]Getting connection to client.
+[05:10:2022 14:10:08 INFO]Getting client message...
+[05:10:2022 14:10:08 INFO]Handling request.
+[05:10:2022 14:10:08 INFO][User Message]Request: 
+[05:10:2022 14:10:08 INFO][User Message]Url: 
+[05:10:2022 14:10:08 INFO]Sending message to client.
+[05:10:2022 14:10:08 INFO]Closing connection to client.
+[05:10:2022 14:10:13 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:10:13 INFO][Client Information]IP: 16777343
+[05:10:2022 14:10:13 INFO][Client Information]Port: 58081
+[05:10:2022 14:10:13 INFO]Sending connection to thread.
+[05:10:2022 14:10:13 INFO]Getting connection to client.
+[05:10:2022 14:10:13 INFO]Getting client message...
+[05:10:2022 14:10:13 INFO]Handling request.
+[05:10:2022 14:10:13 INFO][User Message]Request: GET
+[05:10:2022 14:10:13 INFO][User Message]Url: /dir/lost+found/
+[05:10:2022 14:10:13 INFO]Sending server directory to client.
+[05:10:2022 14:10:13 INFO]Absolute Path: /lost+found/
+[05:10:2022 14:10:13 WARN]Could not scan directory.
+[05:10:2022 14:10:13 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:10:2022 14:10:13 INFO]Sending message to client.
+[05:10:2022 14:10:13 INFO]Closing connection to client.
+[05:10:2022 14:10:17 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:10:17 INFO][Client Information]IP: 16777343
+[05:10:2022 14:10:17 INFO][Client Information]Port: 58593
+[05:10:2022 14:10:17 INFO]Sending connection to thread.
+[05:10:2022 14:10:17 INFO]Getting connection to client.
+[05:10:2022 14:10:17 INFO]Getting client message...
+[05:10:2022 14:10:17 INFO]Handling request.
+[05:10:2022 14:10:17 INFO][User Message]Request: GET
+[05:10:2022 14:10:17 INFO][User Message]Url: /dir/sys/
+[05:10:2022 14:10:17 INFO]Sending server directory to client.
+[05:10:2022 14:10:17 INFO]Absolute Path: /sys/
+[05:10:2022 14:10:17 INFO]Number of Directories: 13
+[05:10:2022 14:10:17 INFO]Creating Directory thread: 0
+[05:10:2022 14:10:17 INFO]Creating Directory thread: 1
+[05:10:2022 14:10:17 INFO]Joining thread...
+[05:10:2022 14:10:17 INFO]Joining thread...
+[05:10:2022 14:10:17 INFO]Creating table.
+[05:10:2022 14:10:17 INFO]Sending message to client.
+[05:10:2022 14:10:17 INFO]Closing connection to client.
+[05:10:2022 14:10:18 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:10:18 INFO][Client Information]IP: 16777343
+[05:10:2022 14:10:18 INFO][Client Information]Port: 59105
+[05:10:2022 14:10:18 INFO]Sending connection to thread.
+[05:10:2022 14:10:18 INFO]Getting connection to client.
+[05:10:2022 14:10:18 INFO]Getting client message...
+[05:10:2022 14:10:18 INFO]Handling request.
+[05:10:2022 14:10:18 INFO][User Message]Request: GET
+[05:10:2022 14:10:18 INFO][User Message]Url: /dir/sys/dev/
+[05:10:2022 14:10:18 INFO]Sending server directory to client.
+[05:10:2022 14:10:18 INFO]Absolute Path: /sys/dev/
+[05:10:2022 14:10:18 INFO]Number of Directories: 4
+[05:10:2022 14:10:18 INFO]Creating Directory thread: 0
+[05:10:2022 14:10:18 INFO]Creating Directory thread: 1
+[05:10:2022 14:10:18 INFO]Joining thread...
+[05:10:2022 14:10:18 INFO]Joining thread...
+[05:10:2022 14:10:18 INFO]Creating table.
+[05:10:2022 14:10:18 INFO]Sending message to client.
+[05:10:2022 14:10:18 INFO]Closing connection to client.
+[05:10:2022 14:10:20 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:10:20 INFO][Client Information]IP: 16777343
+[05:10:2022 14:10:20 INFO][Client Information]Port: 59617
+[05:10:2022 14:10:20 INFO]Sending connection to thread.
+[05:10:2022 14:10:20 INFO]Getting connection to client.
+[05:10:2022 14:10:20 INFO]Getting client message...
+[05:10:2022 14:10:20 INFO]Handling request.
+[05:10:2022 14:10:20 INFO][User Message]Request: GET
+[05:10:2022 14:10:20 INFO][User Message]Url: /dir/sys/dev/block/
+[05:10:2022 14:10:20 INFO]Sending server directory to client.
+[05:10:2022 14:10:20 INFO]Absolute Path: /sys/dev/block/
+[05:10:2022 14:10:20 INFO]Number of Directories: 25
+[05:10:2022 14:10:20 INFO]Creating Directory thread: 0
+[05:10:2022 14:10:20 INFO]Creating Directory thread: 1
+[05:10:2022 14:10:20 INFO]Joining thread...
+[05:10:2022 14:10:20 INFO]Joining thread...
+[05:10:2022 14:10:20 INFO]Creating table.
+[05:10:2022 14:10:20 INFO]Sending message to client.
+[05:10:2022 14:10:20 INFO]Closing connection to client.

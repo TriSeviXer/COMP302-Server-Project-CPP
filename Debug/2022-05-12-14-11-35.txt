@@ -1,0 +1,156 @@
+[05:12:2022 14:11:35 INFO]Running server.
+[05:12:2022 14:11:35 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 14:11:35 INFO][Server Properties]Port Number: 2001
+[05:12:2022 14:11:35 INFO]Createing a socket handler
+[05:12:2022 14:11:35 INFO]Opening server socket.
+[05:12:2022 14:11:35 INFO][Socket Information]Descriptor: 4
+[05:12:2022 14:11:35 INFO][Socket Information]Address: 0
+[05:12:2022 14:11:35 INFO][Socket Information]Port: 2001
+[05:12:2022 14:11:35 INFO]Creating signals.
+[05:12:2022 14:11:35 INFO]Getting connection to client.
+[05:12:2022 14:11:39 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:11:39 INFO][Client Information]IP: 16777343
+[05:12:2022 14:11:39 INFO][Client Information]Port: 63691
+[05:12:2022 14:11:39 INFO]Sending connection to thread.
+[05:12:2022 14:11:39 INFO]Getting connection to client.
+[05:12:2022 14:11:39 INFO]Getting client message...
+[05:12:2022 14:11:39 INFO]Handling request.
+[05:12:2022 14:11:39 INFO][User Message]Request: GET
+[05:12:2022 14:11:39 INFO][User Message]Url: /dir/
+[05:12:2022 14:11:39 INFO]Sending server directory to client.
+[05:12:2022 14:11:39 INFO]Absolute Path: /
+[05:12:2022 14:11:39 INFO]Number of Directories: 28
+[05:12:2022 14:11:39 INFO]Creating Directory thread: 0
+[05:12:2022 14:11:39 INFO]Creating Directory thread: 1
+[05:12:2022 14:11:39 INFO]Joining thread...
+[05:12:2022 14:11:39 INFO]Joining thread...
+[05:12:2022 14:11:39 INFO]Creating table.
+[05:12:2022 14:11:39 INFO]Sending message to client.
+[05:12:2022 14:11:39 INFO]Closing connection to client.
+[05:12:2022 14:11:39 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:11:39 INFO][Client Information]IP: 16777343
+[05:12:2022 14:11:39 INFO][Client Information]Port: 64203
+[05:12:2022 14:11:39 INFO]Sending connection to thread.
+[05:12:2022 14:11:39 INFO]Getting connection to client.
+[05:12:2022 14:11:39 INFO]Getting client message...
+[05:12:2022 14:11:39 INFO]Handling request.
+[05:12:2022 14:11:39 INFO][User Message]Request: GET
+[05:12:2022 14:11:39 INFO][User Message]Url: /favicon.ico
+[05:12:2022 14:11:39 INFO]Could not find page requested by client. Sending 404 error to client.
+[05:12:2022 14:11:39 INFO]Sending message to client.
+[05:12:2022 14:11:39 INFO]Closing connection to client.
+[05:12:2022 14:11:42 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:11:42 INFO][Client Information]IP: 16777343
+[05:12:2022 14:11:42 INFO][Client Information]Port: 64715
+[05:12:2022 14:11:42 INFO]Sending connection to thread.
+[05:12:2022 14:11:42 INFO]Getting connection to client.
+[05:12:2022 14:11:42 INFO]Getting client message...
+[05:12:2022 14:11:42 INFO]Handling request.
+[05:12:2022 14:11:42 INFO][User Message]Request: GET
+[05:12:2022 14:11:42 INFO][User Message]Url: /dir/lost+found
+[05:12:2022 14:11:42 INFO]Sending server directory to client.
+[05:12:2022 14:11:42 INFO]Absolute Path: /lost+found
+[05:12:2022 14:11:42 WARN]Could not scan directory.
+[05:12:2022 14:11:42 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:12:2022 14:11:42 INFO]Sending message to client.
+[05:12:2022 14:11:42 INFO]Closing connection to client.
+[05:12:2022 14:11:52 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:11:52 INFO][Client Information]IP: 16777343
+[05:12:2022 14:11:52 INFO][Client Information]Port: 65227
+[05:12:2022 14:11:52 INFO]Sending connection to thread.
+[05:12:2022 14:11:52 INFO]Getting connection to client.
+[05:12:2022 14:11:52 INFO]Getting client message...
+[05:12:2022 14:11:52 INFO]Handling request.
+[05:12:2022 14:11:52 INFO][User Message]Request: GET
+[05:12:2022 14:11:52 INFO][User Message]Url: /dir/tmp
+[05:12:2022 14:11:52 INFO]Sending server directory to client.
+[05:12:2022 14:11:52 INFO]Absolute Path: /tmp
+[05:12:2022 14:11:52 INFO]Number of Directories: 28
+[05:12:2022 14:11:52 INFO]Creating Directory thread: 0
+[05:12:2022 14:11:52 INFO]Creating Directory thread: 1
+[05:12:2022 14:11:52 INFO]Joining thread...
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'vmwblast'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'vmwblast'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'vmware-root_704-2990744159'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'vmware-root'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'vmware-mrb3271'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'tracker-extract-files.125'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'tracker-extract-files.1047'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-systemd-timesyncd.service-7yqe9h'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-systemd-timesyncd.service-7yqe9h'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-systemd-resolved.service-0SqZTg'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-switcheroo-control.service-YFsK0g'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-switcheroo-control.service-YFsK0g'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-switcheroo-control.service-YFsK0g'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-ModemManager.service-vwsa1g'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'systemd-private-bae3f2284e084c30868242d7e7c66943-ModemManager.service-vwsa1g'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'hsperfdata_root'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'hsperfdata_root'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'hsperfdata_root'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'config-err-zB2N9s'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'config-err-zB2N9s'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'Temp-0ed69a14-f122-4355-b8f3-da71fd241fa0'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for 'Temp-0ed69a14-f122-4355-b8f3-da71fd241fa0'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for '.font-unix'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for '.X11-unix'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for '.X11-unix'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for '.Test-unix'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for '.Test-unix'.
+[05:12:2022 14:11:52 WARN]Unable to collect file information for '.ICE-unix'.
+[05:12:2022 14:11:52 INFO]Joining thread...
+[05:12:2022 14:11:52 INFO]Creating table.
+[05:12:2022 14:11:52 INFO]Sending message to client.
+[05:12:2022 14:11:52 INFO]Closing connection to client.
+[05:12:2022 14:11:57 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:11:57 INFO][Client Information]IP: 16777343
+[05:12:2022 14:11:57 INFO][Client Information]Port: 204
+[05:12:2022 14:11:57 INFO]Sending connection to thread.
+[05:12:2022 14:11:57 INFO]Getting connection to client.
+[05:12:2022 14:11:57 INFO]Getting client message...
+[05:12:2022 14:11:57 INFO]Handling request.
+[05:12:2022 14:11:57 INFO][User Message]Request: GET
+[05:12:2022 14:11:57 INFO][User Message]Url: /dir/var
+[05:12:2022 14:11:57 INFO]Sending server directory to client.
+[05:12:2022 14:11:57 INFO]Absolute Path: /var
+[05:12:2022 14:11:57 INFO]Number of Directories: 19
+[05:12:2022 14:11:57 INFO]Creating Directory thread: 0
+[05:12:2022 14:11:57 INFO]Creating Directory thread: 1
+[05:12:2022 14:11:57 INFO]Joining thread...
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'yp'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'www'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'vmware'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'tmp'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'spool'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'snap'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'run'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'opt'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'metrics'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'mail'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'log'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'lock'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'local'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'lib'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'crash'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'cache'.
+[05:12:2022 14:11:57 WARN]Unable to collect file information for 'backups'.
+[05:12:2022 14:11:57 INFO]Joining thread...
+[05:12:2022 14:11:57 INFO]Creating table.
+[05:12:2022 14:11:57 INFO]Sending message to client.
+[05:12:2022 14:11:57 INFO]Closing connection to client.
+[05:12:2022 14:12:01 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:12:01 INFO][Client Information]IP: 16777343
+[05:12:2022 14:12:01 INFO][Client Information]Port: 716
+[05:12:2022 14:12:01 INFO]Sending connection to thread.
+[05:12:2022 14:12:01 INFO]Getting connection to client.
+[05:12:2022 14:12:01 INFO]Getting client message...
+[05:12:2022 14:12:01 INFO]Handling request.
+[05:12:2022 14:12:01 INFO][User Message]Request: GET
+[05:12:2022 14:12:01 INFO][User Message]Url: /dir/www
+[05:12:2022 14:12:01 INFO]Sending server directory to client.
+[05:12:2022 14:12:01 INFO]Absolute Path: /www
+[05:12:2022 14:12:01 WARN]Could not scan directory.
+[05:12:2022 14:12:01 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:12:2022 14:12:01 INFO]Sending message to client.
+[05:12:2022 14:12:01 INFO]Closing connection to client.
+[05:12:2022 14:12:30 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:12:2022 14:12:30 ERROR]Force exiting the program.

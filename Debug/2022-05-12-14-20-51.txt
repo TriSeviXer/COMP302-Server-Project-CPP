@@ -1,0 +1,90 @@
+[05:12:2022 14:20:51 INFO]Running server.
+[05:12:2022 14:20:51 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 14:20:51 INFO][Server Properties]Port Number: 2000
+[05:12:2022 14:20:51 INFO]Createing a socket handler
+[05:12:2022 14:20:51 INFO]Opening server socket.
+[05:12:2022 14:20:51 INFO][Socket Information]Descriptor: 4
+[05:12:2022 14:20:51 INFO][Socket Information]Address: 0
+[05:12:2022 14:20:51 INFO][Socket Information]Port: 2000
+[05:12:2022 14:20:51 INFO]Creating signals.
+[05:12:2022 14:20:51 INFO]Getting connection to client.
+[05:12:2022 14:20:57 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:20:57 INFO][Client Information]IP: 16777343
+[05:12:2022 14:20:57 INFO][Client Information]Port: 19658
+[05:12:2022 14:20:57 INFO]Sending connection to thread.
+[05:12:2022 14:20:57 INFO]Getting connection to client.
+[05:12:2022 14:20:57 INFO]Getting client message...
+[05:12:2022 14:20:57 INFO]Handling request.
+[05:12:2022 14:20:57 INFO][User Message]Request: GET
+[05:12:2022 14:20:57 INFO][User Message]Url: /dir/
+[05:12:2022 14:20:57 INFO]Sending server directory to client.
+[05:12:2022 14:20:57 INFO]Absolute Path: /
+[05:12:2022 14:20:57 INFO]Number of Directories: 28
+[05:12:2022 14:20:57 INFO]Creating Directory thread: 0
+[05:12:2022 14:20:57 INFO]Creating Directory thread: 1
+[05:12:2022 14:20:57 INFO]Joining thread...
+[05:12:2022 14:20:57 INFO]//usr
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//var
+[05:12:2022 14:20:57 INFO]//tmp
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//sys
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//srv
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//snap
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//run
+[05:12:2022 14:20:57 INFO]//root
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//proc
+[05:12:2022 14:20:57 INFO]//proc
+[05:12:2022 14:20:57 INFO]//opt
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//mnt
+[05:12:2022 14:20:57 INFO]//mnt
+[05:12:2022 14:20:57 INFO]//media
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//lost+found
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//home
+[05:12:2022 14:20:57 INFO]//etc
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//dev
+[05:12:2022 14:20:57 INFO]//data
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//cdrom
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]//boot
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]/
+[05:12:2022 14:20:57 INFO]Joining thread...
+[05:12:2022 14:20:57 INFO]Creating table.
+[05:12:2022 14:20:57 INFO]Sending message to client.
+[05:12:2022 14:20:57 INFO]Closing connection to client.
+[05:12:2022 14:21:06 INFO][Client Information]Descriptor: 4
+[05:12:2022 14:21:06 INFO][Client Information]IP: 16777343
+[05:12:2022 14:21:06 INFO][Client Information]Port: 20170
+[05:12:2022 14:21:06 INFO]Sending connection to thread.
+[05:12:2022 14:21:06 INFO]Getting connection to client.
+[05:12:2022 14:21:06 INFO]Getting client message...
+[05:12:2022 14:21:06 INFO]Handling request.
+[05:12:2022 14:21:06 INFO][User Message]Request: 
+[05:12:2022 14:21:06 INFO][User Message]Url: 
+[05:12:2022 14:21:06 INFO]Sending message to client.
+[05:12:2022 14:21:06 INFO]Closing connection to client.
+[05:12:2022 14:25:28 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:12:2022 14:25:28 ERROR]Force exiting the program.

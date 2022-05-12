@@ -1,0 +1,127 @@
+[05:11:2022 17:58:05 INFO]Running server.
+[05:11:2022 17:58:05 INFO][Server Properties]Server Name: MBAJ
+[05:11:2022 17:58:05 INFO][Server Properties]Port Number: 2001
+[05:11:2022 17:58:05 INFO]Createing a socket handler
+[05:11:2022 17:58:05 INFO]Opening server socket.
+[05:11:2022 17:58:05 INFO][Socket Information]Descriptor: 4
+[05:11:2022 17:58:05 INFO][Socket Information]Address: 0
+[05:11:2022 17:58:05 INFO][Socket Information]Port: 2001
+[05:11:2022 17:58:05 INFO]Creating signals.
+[05:11:2022 17:58:05 INFO]Getting connection to client.
+[05:11:2022 17:58:09 INFO][Client Information]Descriptor: 4
+[05:11:2022 17:58:09 INFO][Client Information]IP: 16777343
+[05:11:2022 17:58:09 INFO][Client Information]Port: 11487
+[05:11:2022 17:58:09 INFO]Sending connection to thread.
+[05:11:2022 17:58:09 INFO]Getting connection to client.
+[05:11:2022 17:58:09 INFO]Getting client message...
+[05:11:2022 17:58:09 INFO]Handling request.
+[05:11:2022 17:58:09 INFO][User Message]Request: GET
+[05:11:2022 17:58:09 INFO][User Message]Url: /dir/
+[05:11:2022 17:58:09 INFO]Sending server directory to client.
+[05:11:2022 17:58:09 INFO]Absolute Path: /
+[05:11:2022 17:58:09 INFO]Number of Directories: 28
+[05:11:2022 17:58:09 INFO]Creating Directory thread: 0
+[05:11:2022 17:58:09 INFO]Creating Directory thread: 1
+[05:11:2022 17:58:09 INFO]Joining thread...
+[05:11:2022 17:58:09 INFO]Joining thread...
+[05:11:2022 17:58:09 INFO]Creating table.
+[05:11:2022 17:58:09 INFO]Sending message to client.
+[05:11:2022 17:58:09 INFO]Closing connection to client.
+[05:11:2022 17:58:11 INFO][Client Information]Descriptor: 4
+[05:11:2022 17:58:11 INFO][Client Information]IP: 16777343
+[05:11:2022 17:58:11 INFO][Client Information]Port: 11999
+[05:11:2022 17:58:11 INFO]Sending connection to thread.
+[05:11:2022 17:58:11 INFO]Getting connection to client.
+[05:11:2022 17:58:11 INFO]Getting client message...
+[05:11:2022 17:58:11 INFO]Handling request.
+[05:11:2022 17:58:11 INFO][User Message]Request: GET
+[05:11:2022 17:58:11 INFO][User Message]Url: /dir/var
+[05:11:2022 17:58:11 INFO]Sending server directory to client.
+[05:11:2022 17:58:11 INFO]Absolute Path: /var
+[05:11:2022 17:58:11 INFO]Number of Directories: 19
+[05:11:2022 17:58:11 INFO]Creating Directory thread: 0
+[05:11:2022 17:58:11 INFO]Creating Directory thread: 1
+[05:11:2022 17:58:11 INFO]Joining thread...
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'yp'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'www'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'vmware'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'tmp'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'spool'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'snap'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'opt'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'opt'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'metrics'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'log'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'lock'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'local'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'lib'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'crash'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'cache'.
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'backups'.
+[05:11:2022 17:58:11 INFO]Joining thread...
+[05:11:2022 17:58:11 WARN]Unable to collect file information for 'mail'.
+[05:11:2022 17:58:11 INFO]Creating table.
+[05:11:2022 17:58:11 INFO]Sending message to client.
+[05:11:2022 17:58:11 INFO]Closing connection to client.
+[05:11:2022 17:58:24 INFO][Client Information]Descriptor: 4
+[05:11:2022 17:58:24 INFO][Client Information]IP: 16777343
+[05:11:2022 17:58:24 INFO][Client Information]Port: 12511
+[05:11:2022 17:58:24 INFO]Sending connection to thread.
+[05:11:2022 17:58:24 INFO]Getting connection to client.
+[05:11:2022 17:58:24 INFO]Getting client message...
+[05:11:2022 17:58:24 INFO]Handling request.
+[05:11:2022 17:58:24 INFO][User Message]Request: GET
+[05:11:2022 17:58:24 INFO][User Message]Url: /dir/varvmware
+[05:11:2022 17:58:24 INFO]Sending server directory to client.
+[05:11:2022 17:58:24 INFO]Absolute Path: /varvmware
+[05:11:2022 17:58:24 WARN]Could not scan directory.
+[05:11:2022 17:58:24 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:11:2022 17:58:24 INFO]Sending message to client.
+[05:11:2022 17:58:24 INFO]Closing connection to client.
+[05:11:2022 17:58:29 INFO][Client Information]Descriptor: 4
+[05:11:2022 17:58:29 INFO][Client Information]IP: 16777343
+[05:11:2022 17:58:29 INFO][Client Information]Port: 13023
+[05:11:2022 17:58:29 INFO]Sending connection to thread.
+[05:11:2022 17:58:29 INFO]Getting connection to client.
+[05:11:2022 17:58:29 INFO]Getting client message...
+[05:11:2022 17:58:29 INFO]Handling request.
+[05:11:2022 17:58:29 INFO][User Message]Request: GET
+[05:11:2022 17:58:29 INFO][User Message]Url: /dir/sys
+[05:11:2022 17:58:29 INFO]Sending server directory to client.
+[05:11:2022 17:58:29 INFO]Absolute Path: /sys
+[05:11:2022 17:58:29 INFO]Number of Directories: 13
+[05:11:2022 17:58:29 INFO]Creating Directory thread: 0
+[05:11:2022 17:58:29 INFO]Creating Directory thread: 1
+[05:11:2022 17:58:29 INFO]Joining thread...
+[05:11:2022 17:58:29 WARN]Unable to collect file information for 'power'.
+[05:11:2022 17:58:29 WARN]Unable to collect file information for 'module'.
+[05:11:2022 17:58:29 WARN]Unable to collect file information for 'kernel'.
+[05:11:2022 17:58:29 WARN]Unable to collect file information for 'hypervisor'.
+[05:11:2022 17:58:29 WARN]Unable to collect file information for 'fs'.
+[05:11:2022 17:58:29 WARN]Unable to collect file information for 'firmware'.
+[05:11:2022 17:58:29 WARN]Unable to collect file information for 'devices'.
+[05:11:2022 17:58:29 WARN]Unable to collect file information for 'dev'.
+[05:11:2022 17:58:29 WARN]Unable to collect file information for 'class'.
+[05:11:2022 17:58:29 WARN]Unable to collect file information for 'bus'.
+[05:11:2022 17:58:29 WARN]Unable to collect file information for 'block'.
+[05:11:2022 17:58:29 INFO]Joining thread...
+[05:11:2022 17:58:29 INFO]Creating table.
+[05:11:2022 17:58:29 INFO]Sending message to client.
+[05:11:2022 17:58:29 INFO]Closing connection to client.
+[05:11:2022 17:58:30 INFO][Client Information]Descriptor: 4
+[05:11:2022 17:58:30 INFO][Client Information]IP: 16777343
+[05:11:2022 17:58:30 INFO][Client Information]Port: 13535
+[05:11:2022 17:58:30 INFO]Sending connection to thread.
+[05:11:2022 17:58:30 INFO]Getting connection to client.
+[05:11:2022 17:58:30 INFO]Getting client message...
+[05:11:2022 17:58:30 INFO]Handling request.
+[05:11:2022 17:58:30 INFO][User Message]Request: GET
+[05:11:2022 17:58:30 INFO][User Message]Url: /dir/syshypervisor
+[05:11:2022 17:58:30 INFO]Sending server directory to client.
+[05:11:2022 17:58:30 INFO]Absolute Path: /syshypervisor
+[05:11:2022 17:58:30 WARN]Could not scan directory.
+[05:11:2022 17:58:30 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:11:2022 17:58:30 INFO]Sending message to client.
+[05:11:2022 17:58:30 INFO]Closing connection to client.
+[05:11:2022 17:58:35 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:11:2022 17:58:35 ERROR]Force exiting the program.

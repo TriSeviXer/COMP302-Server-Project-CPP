@@ -1,0 +1,65 @@
+[05:12:2022 13:47:11 INFO]Running server.
+[05:12:2022 13:47:11 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 13:47:11 INFO][Server Properties]Port Number: 2000
+[05:12:2022 13:47:11 INFO]Createing a socket handler
+[05:12:2022 13:47:11 INFO]Opening server socket.
+[05:12:2022 13:47:11 INFO][Socket Information]Descriptor: 4
+[05:12:2022 13:47:11 INFO][Socket Information]Address: 0
+[05:12:2022 13:47:11 INFO][Socket Information]Port: 2000
+[05:12:2022 13:47:11 INFO]Creating signals.
+[05:12:2022 13:47:11 INFO]Getting connection to client.
+[05:12:2022 13:47:17 INFO][Client Information]Descriptor: 4
+[05:12:2022 13:47:17 INFO][Client Information]IP: 16777343
+[05:12:2022 13:47:17 INFO][Client Information]Port: 52425
+[05:12:2022 13:47:17 INFO]Sending connection to thread.
+[05:12:2022 13:47:17 INFO]Getting connection to client.
+[05:12:2022 13:47:17 INFO]Getting client message...
+[05:12:2022 13:47:17 INFO]Handling request.
+[05:12:2022 13:47:17 INFO][User Message]Request: GET
+[05:12:2022 13:47:17 INFO][User Message]Url: /dir/
+[05:12:2022 13:47:17 INFO]Sending server directory to client.
+[05:12:2022 13:47:17 INFO]Absolute Path: /
+[05:12:2022 13:47:17 INFO]Number of Directories: 28
+[05:12:2022 13:47:17 INFO]Creating Directory thread: 0
+[05:12:2022 13:47:17 INFO]Creating Directory thread: 1
+[05:12:2022 13:47:17 INFO]Joining thread...
+[05:12:2022 13:47:17 INFO]Joining thread...
+[05:12:2022 13:47:17 INFO]Creating table.
+[05:12:2022 13:47:17 INFO]Sending message to client.
+[05:12:2022 13:47:17 INFO]Closing connection to client.
+[05:12:2022 13:47:18 INFO][Client Information]Descriptor: 4
+[05:12:2022 13:47:18 INFO][Client Information]IP: 16777343
+[05:12:2022 13:47:18 INFO][Client Information]Port: 52937
+[05:12:2022 13:47:18 INFO]Sending connection to thread.
+[05:12:2022 13:47:18 INFO]Getting connection to client.
+[05:12:2022 13:47:18 INFO]Getting client message...
+[05:12:2022 13:47:18 INFO]Handling request.
+[05:12:2022 13:47:18 INFO][User Message]Request: GET
+[05:12:2022 13:47:18 INFO][User Message]Url: /favicon.ico
+[05:12:2022 13:47:18 INFO]Could not find page requested by client. Sending 404 error to client.
+[05:12:2022 13:47:18 INFO]Sending message to client.
+[05:12:2022 13:47:18 INFO]Closing connection to client.
+[05:12:2022 13:47:23 INFO][Client Information]Descriptor: 4
+[05:12:2022 13:47:23 INFO][Client Information]IP: 16777343
+[05:12:2022 13:47:23 INFO][Client Information]Port: 53449
+[05:12:2022 13:47:23 INFO]Sending connection to thread.
+[05:12:2022 13:47:23 INFO]Getting connection to client.
+[05:12:2022 13:47:23 INFO]Getting client message...
+[05:12:2022 13:47:23 INFO]Handling request.
+[05:12:2022 13:47:23 INFO][User Message]Request: 
+[05:12:2022 13:47:23 INFO][User Message]Url: 
+[05:12:2022 13:47:23 INFO]Sending message to client.
+[05:12:2022 13:47:23 INFO]Closing connection to client.
+[05:12:2022 13:47:29 INFO][Client Information]Descriptor: 4
+[05:12:2022 13:47:29 INFO][Client Information]IP: 16777343
+[05:12:2022 13:47:29 INFO][Client Information]Port: 53961
+[05:12:2022 13:47:29 INFO]Sending connection to thread.
+[05:12:2022 13:47:29 INFO]Getting connection to client.
+[05:12:2022 13:47:29 INFO]Getting client message...
+[05:12:2022 13:47:29 INFO]Handling request.
+[05:12:2022 13:47:29 INFO][User Message]Request: 
+[05:12:2022 13:47:29 INFO][User Message]Url: 
+[05:12:2022 13:47:29 INFO]Sending message to client.
+[05:12:2022 13:47:29 INFO]Closing connection to client.
+[05:12:2022 13:48:14 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:12:2022 13:48:14 ERROR]Force exiting the program.

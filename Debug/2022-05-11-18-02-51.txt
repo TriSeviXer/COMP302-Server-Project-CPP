@@ -1,0 +1,46 @@
+[05:11:2022 18:02:51 INFO]Running server.
+[05:11:2022 18:02:51 INFO][Server Properties]Server Name: MBAJ
+[05:11:2022 18:02:51 INFO][Server Properties]Port Number: 2000
+[05:11:2022 18:02:51 INFO]Createing a socket handler
+[05:11:2022 18:02:51 INFO]Opening server socket.
+[05:11:2022 18:02:51 INFO][Socket Information]Descriptor: 4
+[05:11:2022 18:02:51 INFO][Socket Information]Address: 0
+[05:11:2022 18:02:51 INFO][Socket Information]Port: 2000
+[05:11:2022 18:02:51 INFO]Creating signals.
+[05:11:2022 18:02:51 INFO]Getting connection to client.
+[05:11:2022 18:02:59 INFO][Client Information]Descriptor: 4
+[05:11:2022 18:02:59 INFO][Client Information]IP: 16777343
+[05:11:2022 18:02:59 INFO][Client Information]Port: 64131
+[05:11:2022 18:02:59 INFO]Sending connection to thread.
+[05:11:2022 18:02:59 INFO]Getting connection to client.
+[05:11:2022 18:02:59 INFO]Getting client message...
+[05:11:2022 18:02:59 INFO]Handling request.
+[05:11:2022 18:02:59 INFO][User Message]Request: GET
+[05:11:2022 18:02:59 INFO][User Message]Url: /dir/
+[05:11:2022 18:02:59 INFO]Sending server directory to client.
+[05:11:2022 18:02:59 INFO]Absolute Path: /
+[05:11:2022 18:02:59 INFO]Number of Directories: 28
+[05:11:2022 18:02:59 INFO]Creating Directory thread: 0
+[05:11:2022 18:02:59 INFO]Creating Directory thread: 1
+[05:11:2022 18:02:59 INFO]Joining thread...
+[05:11:2022 18:02:59 INFO]Joining thread...
+[05:11:2022 18:02:59 INFO]Creating table.
+[05:11:2022 18:02:59 INFO]Sending message to client.
+[05:11:2022 18:02:59 INFO]Closing connection to client.
+[05:11:2022 18:03:02 INFO][Client Information]Descriptor: 4
+[05:11:2022 18:03:02 INFO][Client Information]IP: 16777343
+[05:11:2022 18:03:02 INFO][Client Information]Port: 64643
+[05:11:2022 18:03:02 INFO]Sending connection to thread.
+[05:11:2022 18:03:02 INFO]Getting connection to client.
+[05:11:2022 18:03:02 INFO]Getting client message...
+[05:11:2022 18:03:02 INFO]Handling request.
+[05:11:2022 18:03:02 INFO][User Message]Request: GET
+[05:11:2022 18:03:02 INFO][User Message]Url: /dir/dir//usr/
+[05:11:2022 18:03:02 INFO]Sending server directory to client.
+[05:11:2022 18:03:02 INFO]Absolute Path: /dir//usr/
+[05:11:2022 18:03:02 WARN]Could not scan directory.
+[05:11:2022 18:03:02 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:11:2022 18:03:02 INFO]Sending message to client.
+[05:11:2022 18:03:02 INFO]Closing connection to client.
+[05:11:2022 18:04:24 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:11:2022 18:04:24 ERROR]Force exiting the program.

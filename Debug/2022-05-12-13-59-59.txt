@@ -1,0 +1,7 @@
+[05:12:2022 13:59:59 INFO]Running server.
+[05:12:2022 13:59:59 INFO][Server Properties]Server Name: MBAJ
+[05:12:2022 13:59:59 INFO][Server Properties]Port Number: 2001
+[05:12:2022 13:59:59 INFO]Createing a socket handler
+[05:12:2022 13:59:59 INFO]Opening server socket.
+[05:12:2022 13:59:59 ERROR]Address already in use. Could not bind socket to address.. The program ran into a problem.
+[05:12:2022 13:59:59 ERROR]Force exiting the program.

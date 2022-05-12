@@ -1,0 +1,94 @@
+[05:10:2022 14:00:49 INFO]Running server.
+[05:10:2022 14:00:49 INFO][Server Properties]Server Name: MBAJ
+[05:10:2022 14:00:49 INFO][Server Properties]Port Number: 2001
+[05:10:2022 14:00:49 INFO]Createing a socket handler
+[05:10:2022 14:00:49 INFO]Opening server socket.
+[05:10:2022 14:00:49 INFO][Socket Information]Descriptor: 4
+[05:10:2022 14:00:49 INFO][Socket Information]Address: 0
+[05:10:2022 14:00:49 INFO][Socket Information]Port: 2001
+[05:10:2022 14:00:49 INFO]Creating signals.
+[05:10:2022 14:00:49 INFO]Getting connection to client.
+[05:10:2022 14:01:03 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:01:03 INFO][Client Information]IP: 16777343
+[05:10:2022 14:01:03 INFO][Client Information]Port: 51937
+[05:10:2022 14:01:03 INFO]Sending connection to thread.
+[05:10:2022 14:01:03 INFO]Getting connection to client.
+[05:10:2022 14:01:03 INFO]Getting client message...
+[05:10:2022 14:01:03 INFO]Handling request.
+[05:10:2022 14:01:03 INFO][User Message]Request: GET
+[05:10:2022 14:01:03 INFO][User Message]Url: /
+[05:10:2022 14:01:03 INFO]Could not find page requested by client. Sending 404 error to client.
+[05:10:2022 14:01:03 INFO]Sending message to client.
+[05:10:2022 14:01:03 INFO]Closing connection to client.
+[05:10:2022 14:01:06 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:01:06 INFO][Client Information]IP: 16777343
+[05:10:2022 14:01:06 INFO][Client Information]Port: 52449
+[05:10:2022 14:01:06 INFO]Sending connection to thread.
+[05:10:2022 14:01:06 INFO]Getting connection to client.
+[05:10:2022 14:01:06 INFO]Getting client message...
+[05:10:2022 14:01:06 INFO]Handling request.
+[05:10:2022 14:01:06 INFO][User Message]Request: GET
+[05:10:2022 14:01:06 INFO][User Message]Url: /status
+[05:10:2022 14:01:06 INFO]Sending server status to client.
+[05:10:2022 14:01:06 INFO]Sending message to client.
+[05:10:2022 14:01:06 INFO]Closing connection to client.
+[05:10:2022 14:01:12 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:01:12 INFO][Client Information]IP: 16777343
+[05:10:2022 14:01:12 INFO][Client Information]Port: 52961
+[05:10:2022 14:01:12 INFO]Sending connection to thread.
+[05:10:2022 14:01:12 INFO]Getting connection to client.
+[05:10:2022 14:01:12 INFO]Getting client message...
+[05:10:2022 14:01:12 INFO]Handling request.
+[05:10:2022 14:01:12 INFO][User Message]Request: GET
+[05:10:2022 14:01:12 INFO][User Message]Url: /status/
+[05:10:2022 14:01:12 INFO]Sending server status to client.
+[05:10:2022 14:01:12 INFO]Sending message to client.
+[05:10:2022 14:01:12 INFO]Closing connection to client.
+[05:10:2022 14:01:52 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:01:52 INFO][Client Information]IP: 16777343
+[05:10:2022 14:01:52 INFO][Client Information]Port: 53473
+[05:10:2022 14:01:52 INFO]Sending connection to thread.
+[05:10:2022 14:01:52 INFO]Getting connection to client.
+[05:10:2022 14:01:52 INFO]Getting client message...
+[05:10:2022 14:01:52 INFO]Handling request.
+[05:10:2022 14:01:52 INFO][User Message]Request: GET
+[05:10:2022 14:01:52 INFO][User Message]Url: /dir
+[05:10:2022 14:01:52 INFO]Could not find page requested by client. Sending 404 error to client.
+[05:10:2022 14:01:52 INFO]Sending message to client.
+[05:10:2022 14:01:52 INFO]Closing connection to client.
+[05:10:2022 14:01:55 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:01:55 INFO][Client Information]IP: 16777343
+[05:10:2022 14:01:55 INFO][Client Information]Port: 53985
+[05:10:2022 14:01:55 INFO]Sending connection to thread.
+[05:10:2022 14:01:55 INFO]Getting connection to client.
+[05:10:2022 14:01:55 INFO]Getting client message...
+[05:10:2022 14:01:55 INFO]Handling request.
+[05:10:2022 14:01:55 INFO][User Message]Request: GET
+[05:10:2022 14:01:55 INFO][User Message]Url: /dir/
+[05:10:2022 14:01:55 INFO]Sending server directory to client.
+[05:10:2022 14:01:55 INFO]Absolute Path: /
+[05:10:2022 14:01:55 INFO]Number of Directories: 28
+[05:10:2022 14:01:55 INFO]Creating Directory thread: 0
+[05:10:2022 14:01:55 INFO]Creating Directory thread: 1
+[05:10:2022 14:01:55 INFO]Joining thread...
+[05:10:2022 14:01:55 INFO]Joining thread...
+[05:10:2022 14:01:55 INFO]Creating table.
+[05:10:2022 14:01:55 INFO]Sending message to client.
+[05:10:2022 14:01:55 INFO]Closing connection to client.
+[05:10:2022 14:01:58 INFO][Client Information]Descriptor: 4
+[05:10:2022 14:01:58 INFO][Client Information]IP: 16777343
+[05:10:2022 14:01:58 INFO][Client Information]Port: 54497
+[05:10:2022 14:01:58 INFO]Sending connection to thread.
+[05:10:2022 14:01:58 INFO]Getting connection to client.
+[05:10:2022 14:01:58 INFO]Getting client message...
+[05:10:2022 14:01:58 INFO]Handling request.
+[05:10:2022 14:01:58 INFO][User Message]Request: GET
+[05:10:2022 14:01:58 INFO][User Message]Url: /dir/lost+found/
+[05:10:2022 14:01:58 INFO]Sending server directory to client.
+[05:10:2022 14:01:58 INFO]Absolute Path: /lost+found/
+[05:10:2022 14:01:58 WARN]Could not scan directory.
+[05:10:2022 14:01:58 WARN]Unknown problem sending a page. Sending 404 error page instead.
+[05:10:2022 14:01:58 INFO]Sending message to client.
+[05:10:2022 14:01:58 INFO]Closing connection to client.
+[05:10:2022 14:03:21 ERROR]Interrupted system call. Could not create client descriptor.. The program ran into a problem.
+[05:10:2022 14:03:21 ERROR]Force exiting the program.
