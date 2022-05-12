@@ -108,14 +108,27 @@ void DirectoryPage::getDirectories(std::atomic<int> &directoryCount, struct dire
 
 			//Creates a link for a directory.
 			if(DT_DIR == directoryList[directoryCount]->d_type){
-				item.insert(0, "<a href=\"" + url);
-				item.append("/\">" + std::string(directoryList[directoryCount]->d_name) + "</a>");
+
+				//Creates an address for a hyperlink.
+				std::string address("/dir" + path);
+
+				//Checks for a slash at the end of the url.
+				if(PAGE_SUCCESS != path.compare(path.length() - 1, 1, "/")){
+					item = '/' + item;
+				}
+
+				//Adds the item to the end of the address.
+				address += item;
+
+				//Creates the address.
+				item = "<a href=\"" + address + "\">" + std::string(directoryList[directoryCount]->d_name) + "</a>";
+
 			}
 
 			column.push_back(item);
 
 			//Collects the infomration for a file.
-			if(-1 == stat((path + directoryList[directoryCount]->d_name).c_str(), &stats)){
+			if(PAGE_ERROR == stat((path + "/" + directoryList[directoryCount]->d_name).c_str(), &stats)){
 				Logger::logWarn("Unable to collect file information for '" + std::string(directoryList[directoryCount]->d_name) + "'.");
 				column.push_back("Unavailable");
 				column.push_back("Unavailable");

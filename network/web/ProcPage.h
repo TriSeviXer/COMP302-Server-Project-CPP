@@ -24,6 +24,11 @@ class ProcPage: public WebPage {
 		virtual ~ProcPage();
 
 	public:
+
+		/**
+		 * Retrieves the contents of a file.
+		 * @param std::vecotr<std::vector<std::string>> is the table to send the contents to.
+		 */
 		void getFileContents(std::vector<std::vector<std::string>> *contents);
 };
 
